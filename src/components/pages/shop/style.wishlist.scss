@@ -1,0 +1,19 @@
+
+.table {
+	td {
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+	}
+}
+.btn-order{
+	font-size:20px;
+}
+.thumb-img {
+	width:70px;
+}
+@media all and (max-width: 768px) {
+    .thumb-img {
+        margin: auto;
+    }
+}
+
