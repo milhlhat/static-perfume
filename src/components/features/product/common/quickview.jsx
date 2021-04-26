@@ -143,18 +143,18 @@ function QuickView ( props ) {
 
                         <div className="product-real-detail">
                             <h2 className="product-title" dangerouslySetInnerHTML={ safeContent( productDetail.name ) }></h2>
-                            <div className="ratings-container">
+                            {/* <div className="ratings-container">
                                 <div className="ratings">
                                     <div className="ratings-val" style={ { width: ratings + '%' } }></div>
                                 </div>
                                 <span className="ratings-text">({ productDetail.reviews } Reviews )</span>
-                            </div>
+                            </div> */}
 
-                            <h3 className="product-price">${ productDetail.price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</h3>
+                            <h3 className="product-price">${ productDetail.variants[0].price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</h3>
 
                             <p className="product-txt">{ productDetail.shortDesc }</p>
 
-                            { productDetail.variants ?
+                            {/* { productDetail.variants ?
                                 ( productDetail.variants[ 0 ].image || productDetail.variants[ 0 ].model ) ?
                                     <div className="details-filter-row product-nav product-nav-thumbs">
                                         { productDetail.variants.map( ( vari, index ) => {
@@ -183,10 +183,10 @@ function QuickView ( props ) {
                                             </button>
                                         ) }
                                     </div> : ''
-                            }
+                            } */}
 
                             <div className="details-filter-row details-row-size">
-                                <label htmlFor="qty">Qty:</label>
+                                <label htmlFor="qty">Số lượng:</label>
                                 <div className="product-details-quantity">
                                     <input type="number" id="qty-quickview" className="form-control" defaultValue={ 0 === productDetail.stock ? 0 : 1 } min="1" max={ productDetail.stock } step="1" data-decimals="0" required />
                                 </div>
@@ -196,11 +196,11 @@ function QuickView ( props ) {
                                 <div className="details-action-wrapper">
                                     <div className="col-sm-6 pl-0">
                                         <button className="btn-product btn-cart w-100" onClick={ addToCartHandler } style={ { minHeight: isIEBrowser() ? '44px' : 'auto' } }>
-                                            <span>add to cart</span>
+                                            <span>Thêm vào giỏ hàng</span>
                                         </button>
                                     </div>
 
-                                    <div className="col-sm-6">
+                                    {/* <div className="col-sm-6">
                                         <button className={ `btn-product btn-wishlist ${props.wishlist ? 'added-to-wishlist' : ''}` }
                                             onClick={ toggleWishlistHandler }
                                             title={ props.wishlist ? "Remove from wishlist" : "Add to wishlist" }
@@ -208,7 +208,7 @@ function QuickView ( props ) {
                                         >
                                             <span>{ props.wishlist ? "remove from wishlist" : "add to wishlist" }</span>
                                         </button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 

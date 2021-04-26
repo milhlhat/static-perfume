@@ -45,39 +45,27 @@
         "default": [
             {
                 "name": "brand",
-                "image": "assets/images/brands/1.png"
+                "image": "assets/images/brands/chanel.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/2.png"
+                "image": "assets/images/brands/dior.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/3.png"
+                "image": "assets/images/brands/ck.webp"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/4.png"
+                "image": "assets/images/brands/burberry.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/5.png"
+                "image": "assets/images/brands/mancera.jpg"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/6.png"
-            },
-            {
-                "name": "brand",
-                "image": "assets/images/brands/7.png"
-            },
-            {
-                "name": "brand",
-                "image": "assets/images/brands/8.png"
-            },
-            {
-                "name": "brand",
-                "image": "assets/images/brands/9.png"
+                "image": "assets/images/brands/dg.jpeg"
             }
         ]
     },
@@ -228,10 +216,10 @@
     ],
     "introBanners": [
         {
-            "image": "/assets/images/home/sliders/slide-1.png",
-            "title": "<h3>WOMEN'S</h3>",
-            "content": "<h3>RUNNING &<br />TRAINING SHIRTS</h3>",
-            "price": "<h3>SAVE UP TO 30%</h3>"
+            "image": "/assets/images/home/sliders/slide-1.jpeg",
+            "title": "<h3>Chiết suất</h3>",
+            "content": "<h3>Nước hoa<br />chính hãng</h3>",
+            "price": "<h3>tiết kiệm tới 90%</h3>"
         },
         {
             "image": "/assets/images/home/sliders/slide-2.jpg",

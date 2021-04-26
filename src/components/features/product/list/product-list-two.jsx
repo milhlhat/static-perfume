@@ -16,7 +16,7 @@ function ProductListTwo( props ) {
     const [ loading, setLoading ] = useState( false );
 
     const classList = { "boxed": "col-6 col-md-4 col-lg-4 col-xl-3", "fullwidth": "col-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2" };
-    products = getVisibleProducts( products.slice( 20, 35 ), filters );
+    products = getVisibleProducts( products.slice( 0, 15 ), filters );
 
     function showSideBar() {
         document.querySelector( 'body' ).classList.add( 'sidebar-filter-active' );
@@ -53,9 +53,9 @@ function ProductListTwo( props ) {
     }, [] )
 
     useEffect( () => {
-        products = getVisibleProducts( props.products.slice( 20, 35 ), filters );
+        products = getVisibleProducts( props.products.slice(0, 15), filters );
         console.log(props.products);
-        if ( products.length > 8 ) {
+        if ( products.length > 10 ) {
             setHasMore( true );
         } else {
             setHasMore( false );
@@ -77,12 +77,12 @@ function ProductListTwo( props ) {
 
                 <div className="toolbox-right">
                     <div className="toolbox-sort">
-                        <label htmlFor="sortby">Sort by:</label>
+                        <label htmlFor="sortby">sắp xếp:</label>
                         <div className="select-custom">
                             <select name="sortby" id="sortby" defaultValue={ filters.sortBy } className="form-control" onChange={ changeFilter }>
-                                <option value="popularity">Most Popular</option>
-                                <option value="rating">Most Rated</option>
-                                <option value="date">Date</option>
+                                <option value="popularity">Phổ biến nhất</option>
+                                <option value="rating">Liên quan nhất</option>
+                                <option value="date">Ngày</option>
                             </select>
                         </div>
                     </div>

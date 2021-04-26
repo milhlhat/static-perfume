@@ -64,17 +64,17 @@ function ProductTwo ( props ) {
                 </figure>
 
                 <div className="product-body product-action-inner">
-                    <button
+                    {/* <button
                         className={ `btn-product btn-wishlist ${isWishlist ? 'added-to-wishlist' : 'remove-from-wishlist'}` }
                         onClick={ wishlistHandler }
                         title={ isWishlist ? "Go to wishlist" : "Add to wishlist" }
                     >
                         <span>{ isWishlist ? "go to wishlist" : "add to wishlist" }</span>
-                    </button>
+                    </button> */}
 
                     <div className="product-cat">
                         <span className="mr-0">
-                            <Link to="#">{ product.category[ 0 ] }</Link>
+                            <Link to="#">{ product.brand }</Link>
                         </span>
                     </div>
 
@@ -90,21 +90,21 @@ function ProductTwo ( props ) {
 
                             0 < product.discount ?
                                 <div className="product-price">
-                                    <span className="new-price">${ product.salePrice.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
-                                    <span className="old-price">${ product.price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
+                                    <span className="new-price">${ product.variants[0].price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
+                                    <span className="old-price">${ product.variants[0].oldPrice.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
                                 </div> :
 
                                 <div className="product-price">${ product.price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</div>
                     }
 
-                    <div className="ratings-container">
+                    {/* <div className="ratings-container">
                         <div className="ratings">
                             <div className="ratings-val" style={ { width: product.ratings * 20 + '%' } }></div>
                         </div>
                         <span className="ratings-text">({ product.reviews } Reviews )</span>
-                    </div>
+                    </div> */}
 
-                    {
+                    {/* {
                         product.variants ?
                             product.variants[ 0 ].model ?
                                 <div className="product-nav product-nav-thumbs">
@@ -122,7 +122,7 @@ function ProductTwo ( props ) {
                                     ) }
                                 </div>
                             : ''
-                    }
+                    } */}
                 </div>
             </div> : ''
     );
