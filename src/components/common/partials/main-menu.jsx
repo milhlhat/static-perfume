@@ -31,7 +31,8 @@ export default function MainMenu ( props ) {
                     <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Sản phẩm</Link>
                 </li>
                 <li className={ path.indexOf( "product/" ) > -1 ? 'active' : '' }>
-                   Thương Hiệu
+                <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Thương Hiệu</Link>
+                   
 
                     <div className="megamenu megamenu-sm">
                         <div className="row no-gutters">

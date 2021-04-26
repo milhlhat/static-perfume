@@ -66,12 +66,12 @@ function ProductListTwo( props ) {
         <>
             <div className="toolbox">
                 <div className="toolbox-left">
-                    <button className="sidebar-toggler" onClick={ showSideBar } style={ { padding: "0" } }><i className="icon-bars"></i>Filters</button>
+                    <button className="sidebar-toggler" onClick={ showSideBar } style={ { padding: "0" } }><i className="icon-bars"></i>Lọc</button>
                 </div>
 
                 <div className="toolbox-center">
                     <div className="toolbox-info">
-                        Showing <span>{ Math.min( loadedCount, products.length ) } of { products.length }</span> Products
+                        Hiển thị <span>{ Math.min( loadedCount, products.length ) } trong { products.length }</span> tổng sản phẩm
                     </div>
                 </div>
 
@@ -109,7 +109,7 @@ function ProductListTwo( props ) {
             <div className="load-more-container text-center">
                 {
                     hasMore ?
-                        <button className="btn btn-outline-darker btn-load-more" onClick={ loadMore }><span>More Products </span>
+                        <button className="btn btn-outline-darker btn-load-more" onClick={ loadMore }><span>Xem thêm </span>
                             { loading ?
                                 <i className="icon-refresh load-more-rotating"></i> :
                                 <i className="icon-refresh"></i>

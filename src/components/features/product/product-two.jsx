@@ -31,8 +31,8 @@ function ProductTwo ( props ) {
                 <figure className="product-media">
                     { product.new ? <span className="product-label label-new">New</span> : '' }
                     { product.top ? <span className="product-label label-top">Top</span> : '' }
-                    { product.discount ? <span className="product-label label-sale">{ product.discount }% off</span> : '' }
-                    { 0 === product.stock ? <span className="product-label label-out">Out Of Stock</span> : '' }
+                    { product.discount ? <span className="product-label label-sale">{ product.discount }% giảm</span> : '' }
+                    { 0 === product.stock ? <span className="product-label label-out">Hết hàng</span> : '' }
 
                     <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
                         <LazyLoadImage
@@ -54,11 +54,11 @@ function ProductTwo ( props ) {
 
                     <div className="product-action action-icon-top">
                         <button className="btn-product btn-cart" onClick={ addToCartHandler }>
-                            <span>add to cart</span>
+                            <span>thêm vào giỏ hàng</span>
                         </button>
 
                         <button className="btn-product btn-quickview" title="Quick view" onClick={ quickViewHandler }>
-                            <span>quick view</span>
+                            <span>Xem nhanh</span>
                         </button>
                     </div>
                 </figure>
@@ -85,7 +85,7 @@ function ProductTwo ( props ) {
                     {
                         0 === product.stock ?
                             <div className="product-price">
-                                <span className="out-price">${ product.price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
+                                <span className="out-price">${ product.variants[0].price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</span>
                             </div> :
 
                             0 < product.discount ?

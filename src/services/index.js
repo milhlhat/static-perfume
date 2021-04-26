@@ -7,10 +7,9 @@ import { findIndex } from '../utils';
  * @param {Object} param1
  * @return {Array} filtered products 
  */
- export const getVisibleProducts = ( products, { sortBy, category, variants, brand, color, rating, value } ) => {
+ export const getVisibleProducts = ( products, { sortBy, category, variants, brand } ) => {
     return products.filter( item => {
-        let catResult = false, brandResult = false, colorResult = false, valResult = false, ratingResult = false;
-
+        let catResult = false, brandResult = false;
         if ( category && category.length > 0 ) {
             for ( let i = 0; i < category.length; i++ ) {
                 if ( -1 !== findIndex( item.category, cat => cat === category[ i ] ) || ( category[ i ] === "Sale" && item.discount > 0 ) || ( category[ i ] === 'All' ) )
@@ -29,36 +28,16 @@ import { findIndex } from '../utils';
             brandResult = true;
         }
 
-        if ( color && color.length > 0 ) {
-            for ( let i = 0; i < color.length; i++ ) {
-                if ( -1 !== findIndex( item.variants, cl => cl.color === color[ i ] ) )
-                    colorResult = true;
-            }
-        } else {
-            colorResult = true;
-        }
-
-        if ( rating && rating.length > 0 ) {
-            for ( let i = 0; i < rating.length; i++ ) {
-                if ( item.ratings === rating[ i ] )
-                    ratingResult = true;
-            }
-        } else {
-            ratingResult = true;
-        }
+      
 
         let price = item.discount ? item.salePrice : item.price;
 
-        if ( value && value.min <= price && price <= value.max ) {
-            valResult = true;
-        }
-
         // return catResult && sizeResult && brandResult && colorResult && valResult && ratingResult;
-        return true;
+        return catResult && brandResult;
 
     } ).sort( ( product1, product2 ) => {
-        let price1 = product1.discount > 0 ? product1.salePrice : product1.price;
-        let price2 = product2.discount > 0 ? product2.salePrice : product2.price;
+        let price1 = product1.discount > 0 ? product1.variants[0].price : product1.variants[0].oldPrice;
+        let price2 = product2.discount > 0 ? product2.variants[0].price : product2.variants[0].oldPrice;
 
         if ( 'popularity' === sortBy ) {
             return product2.id < product1.id ? -1 : 1;
