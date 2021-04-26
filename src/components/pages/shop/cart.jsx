@@ -20,7 +20,7 @@ function Cart(props) {
 	useEffect(() => {
 		quantityInputs();
 		initCartData();
-	}, [ ]);
+	}, []);
 
 	function onChangeShipping(val) {
 		setShipping(val);
@@ -64,8 +64,8 @@ function Cart(props) {
 	}
 
 	function removeFromCartDetail(id, size) {
-		let listTemp = [...cartDetail];
-		listTemp.filter((item) => item.product.id !== id && item.size !== size);
+		let listTemp = [...cartDetail].filter((item) => item.product.id !== id || item.size !== size);
+		setCartDetail(listTemp);
 	}
 
 	return (

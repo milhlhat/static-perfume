@@ -527,16 +527,16 @@ export const findIndex = function ( array, cb ) {
     return -1;
 }
 
-export const findProductByIdAndSize = function(array, id, size){
+export const findProductInCartByIdAndSize = function(array, id, size){
     if(array){
         for( var i = 0; i < array.length; i++ ){
             if( array[ i ].id == id && array[ i ].size == size){
-                return i;
+                return array[ i ];
             } 
         }
        
     }
-     return -1;
+     return false;
 }
 
 /**

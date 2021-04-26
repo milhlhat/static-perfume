@@ -8,12 +8,15 @@ import { safeContent } from '../../../utils';
 
 function CartMenu(props) {
 	const { cartlist, removeFromCart, productList } = props;
-	const [cardDetail, setCartDetail] = useState([]);
-	const [isDeleteItem, setIsDeleteItem] = useState(0);
+	const [cartDetail, setCartDetail] = useState([]);
+	// const [isDeleteItem, setIsDeleteItem] = useState(0);
 
 	useEffect(() => {
 		initCartData();
-	}, []);
+		return () => {
+			setCartDetail([]);
+		};
+	}, [cartlist]);
 
 	function getProductBySize(product, size) {
 		var vari = -1;
@@ -30,124 +33,143 @@ function CartMenu(props) {
 
 	function initCartData() {
 		//  init from list product(id,qty & size)
-		var listTemp = [...cardDetail];
-		for (var i in cartlist) {
-			var item = cartlist[i];
-			for (var j in productList) {
-				var product = productList[j];
+		setCartDetail([]);
+		let listTemp = [...cartDetail];
+		for (let i in cartlist) {
+			let item = cartlist[i];
+			for (let j in productList) {
+				let product = productList[j];
 				if (item.id === product.id) {
-					var variant = getProductBySize(product, item.size);
+					let variant = getProductBySize(product, item.size);
 					listTemp.push({ product: product, price: variant.price, qty: item.qty, size: item.size });
 				}
 			}
 		}
 		setCartDetail(listTemp);
 	}
+
+	function removeFromCartDetail(id, size) {
+		let listTemp = [...cartDetail].filter((item) => item.product.id !== id || item.size !== size);
+		console.log(listTemp);
+		setCartDetail(listTemp);
+		console.log(cartDetail);
+	}
+
+	function findProductById(id) {
+		for (let i = 0; i < productList.length; i++) {
+			let item = productList[i];
+			if (item.id === id) {
+				return item;
+			}
+		}
+		return null;
+	}
+
 	return (
-        <div className="dropdown cart-dropdown">
-        <Link
-        			to={`${process.env.PUBLIC_URL}/shop/cart`}
-        			className="dropdown-toggle"
-        			role="button"
-        			data-toggle="dropdown"
-        			aria-haspopup="true"
-        			aria-expanded="false"
-        			data-display="static"
-        		>
-        			<i className="icon-shopping-cart"></i>
-        			<span className="cart-count">{getCartCount(cartlist)}</span>
-        		</Link>
-                </div>
-	// 	<div className="dropdown cart-dropdown">
-	// 		<Link
-	// 			to={`${process.env.PUBLIC_URL}/shop/cart`}
-	// 			className="dropdown-toggle"
-	// 			role="button"
-	// 			data-toggle="dropdown"
-	// 			aria-haspopup="true"
-	// 			aria-expanded="false"
-	// 			data-display="static"
-	// 		>
-	// 			<i className="icon-shopping-cart"></i>
-	// 			<span className="cart-count">{getCartCount(cartlist)}</span>
-	// 		</Link>
+		// <div className="dropdown cart-dropdown">
+		// <Link
+		// 			to={`${process.env.PUBLIC_URL}/shop/cart`}
+		// 			className="dropdown-toggle"
+		// 			role="button"
+		// 			data-toggle="dropdown"
+		// 			aria-haspopup="true"
+		// 			aria-expanded="false"
+		// 			data-display="static"
+		// 		>
+		// 			<i className="icon-shopping-cart"></i>
+		// 			<span className="cart-count">{getCartCount(cartlist)}</span>
+		// 		</Link>
+		//         </div>
+		<div className="dropdown cart-dropdown">
+			<Link
+				to={`${process.env.PUBLIC_URL}/shop/cart`}
+				className="dropdown-toggle"
+				role="button"
+				data-toggle="dropdown"
+				aria-haspopup="true"
+				aria-expanded="false"
+				data-display="static"
+			>
+				<i className="icon-shopping-cart"></i>
+				<span className="cart-count">{getCartCount(cartlist)}</span>
+			</Link>
 
-	// 		<div className={`dropdown-menu dropdown-menu-right ${cartlist.length === 0 ? 'text-center' : ''}`}>
-	// 			{0 === cardDetail.length ? (
-	// 				<p>No products in the cart.</p>
-	// 			) : (
-	// 				<>
-	// 					<div className="dropdown-cart-products">
-	// 						{cardDetail.map((item, index) => (
-	// 							<div className="product" key={index}>
-	// 								<div className="product-cart-details">
-	// 									<h4 className="product-title">
-	// 										<Link
-	// 											to={`${process.env.PUBLIC_URL}/product/default/` + item.product.id}
-	// 											dangerouslySetInnerHTML={safeContent(item.product.name)}
-	// 										></Link>
-	// 									</h4>
+			<div className={`dropdown-menu dropdown-menu-right ${cartlist.length === 0 ? 'text-center' : ''}`}>
+				{0 === cartlist.length ? (
+					<p>No products in the cart.</p>
+				) : (
+					<>
+						<div className="dropdown-cart-products">
+							{cartlist.map((item, index) => (
+								<div className="product" key={index}>
+									<div className="product-cart-details">
+										<h4 className="product-title">
+											<Link
+												to={`${process.env.PUBLIC_URL}/product/default/` + item.id}
+												dangerouslySetInnerHTML={safeContent(findProductById(item.id).name)}
+											></Link>
+										</h4>
 
-	// 									<span className="cart-product-info">
-	// 										<span className="cart-product-qty">{item.qty}</span>x{' '}
-	// 										{item.price &&
-	// 											item.price.toLocaleString(undefined, {
-	// 												minimumFractionDigits: 2,
-	// 												maximumFractionDigits: 2,
-	// 											})}
-	// 									</span>
-	// 								</div>
+										<span className="cart-product-info">
+											<span className="cart-product-qty">{item.qty}</span>x{' '}
+											{item.price &&
+												item.price.toLocaleString(undefined, {
+													minimumFractionDigits: 2,
+													maximumFractionDigits: 2,
+												})}
+										</span>
+									</div>
 
-	// 								<figure className="product-image-container">
-	// 									<Link
-	// 										to={`${process.env.PUBLIC_URL}/product/default/7`}
-	// 										className="product-image"
-	// 									>
-	// 										<img
-	// 											src={process.env.PUBLIC_URL + '/' + item.product.pictures[0]}
-	// 											data-oi={process.env.PUBLIC_URL + '/' + item.product.pictures[0]}
-	// 											alt="product"
-	// 										/>
-	// 									</Link>
-	// 								</figure>
-	// 								<button
-	// 									className="btn-remove"
-	// 									title="Remove Product"
-	// 									onClick={() => {
-	// 										removeFromCart(item.product.id, item.size)
-											
-	// 									}}
-	// 								>
-	// 									<i className="icon-close"></i>
-	// 								</button>
-	// 							</div>
-	// 						))}
-	// 					</div>
-	// 					{/* <div className="dropdown-cart-total">
-	// 						<span>Total</span>
+									<figure className="product-image-container">
+										<Link
+											to={`${process.env.PUBLIC_URL}/product/default/7`}
+											className="product-image"
+										>
+											<img
+												src={process.env.PUBLIC_URL + '/' + findProductById(item.id).pictures[0]}
+												data-oi={process.env.PUBLIC_URL + '/' + findProductById(item.id).pictures[0]}
+												alt="product"
+											/>
+										</Link>
+									</figure>
+									<button
+										className="btn-remove"
+										title="Remove Product"
+										onClick={() => {
+											removeFromCart(item.id, item.size);
+											removeFromCartDetail(item.id, item.size);
+										}}
+									>
+										<i className="icon-close"></i>
+									</button>
+								</div>
+							))}
+						</div>
+						{/* <div className="dropdown-cart-total">
+							<span>Total</span>
 
-	// 						<span className="cart-total-price">
-	// 							$
-	// 							{total.value.toLocaleString(undefined, {
-	// 								minimumFractionDigits: 2,
-	// 								maximumFractionDigits: 2,
-	// 							})}
-	// 						</span>
-	// 					</div> */}
+							<span className="cart-total-price">
+								$
+								{total.value.toLocaleString(undefined, {
+									minimumFractionDigits: 2,
+									maximumFractionDigits: 2,
+								})}
+							</span>
+						</div> */}
 
-	// 					<div className="dropdown-cart-action">
-	// 						<Link to={`${process.env.PUBLIC_URL}/shop/cart`} className="btn btn-primary">
-	// 							View Cart
-	// 						</Link>
-	// 						<Link to={`${process.env.PUBLIC_URL}/shop/checkout`} className="btn btn-outline-primary-2">
-	// 							<span>Checkout</span>
-	// 							<i className="icon-long-arrow-right"></i>
-	// 						</Link>
-	// 					</div>
-	// 				</>
-	// 			)}
-	// 		</div>
-	// 	</div>
+						<div className="dropdown-cart-action">
+							<Link to={`${process.env.PUBLIC_URL}/shop/cart`} className="btn btn-primary">
+								View Cart
+							</Link>
+							<Link to={`${process.env.PUBLIC_URL}/shop/checkout`} className="btn btn-outline-primary-2">
+								<span>Checkout</span>
+								<i className="icon-long-arrow-right"></i>
+							</Link>
+						</div>
+					</>
+				)}
+			</div>
+		</div>
 	);
 }
 

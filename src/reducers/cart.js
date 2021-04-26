@@ -1,5 +1,5 @@
 import { ADD_TO_CART, REMOVE_FROM_CART, CHANGE_QTY, CHANGE_SHIPPING } from '../constants/action-types';
-import { findProductByIdAndSize, findIndex } from '../utils';
+import { findProductByIdAndSize, findIndex, findProductInCartByIdAndSize } from '../utils';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
@@ -15,29 +15,17 @@ function cartReducer(
 			const productId = action.product.id;
 			const productSize = action.size;
 			// state.cart =[];
-			// if (findIndex(state.cart, (product) => product.id === productId && product.size === productSize) !== -1) {
-			if (findProductByIdAndSize(state.cart, productId, productSize) !== -1) {
-				const cart = state.cart.reduce((cartAcc, product) => {
-					// if (product.size == productSize) {
-					// 	cartAcc.push({
-					// 		...product,
-					// 		qty: parseInt(product.qty) + parseInt(action.qty),
-					// 	});
-					// } else {
-					// 	cartAcc.push({
-					// 		id: productId,
-					// 		qty:  parseInt(action.qty),
-					// 		size: productSize,
-					// 	});
-					// }
-					cartAcc.push({
-						...product,
-						qty: parseInt(product.qty) + parseInt(action.qty),
-					});
-					return cartAcc;
-				}, []);
+			const findProductCart = findProductInCartByIdAndSize(state.cart, productId, productSize);
+			if (findProductCart) {
+				let cartTemp = [...state.cart];
+				for (let i = 0; i < cartTemp.length; i++) {
+					let item = cartTemp[i];
+					if (item.id == findProductCart.id && item.size == findProductCart.size) {
+						cartTemp[i].qty += parseInt(action.qty);
+					}
+				}
 
-				return { ...state, cart };
+				return { ...state, cart: cartTemp };
 			}
 
 			return {
@@ -53,9 +41,10 @@ function cartReducer(
 			};
 
 		case REMOVE_FROM_CART:
+			let cartTemp = [...state.cart].filter((item) => item.id !== action.id || item.size !== action.size);
 			return {
 				...state,
-				cart: state.cart.filter((item) => item.id !== action.productId && item.size !== action.size),
+				cart: cartTemp,
 			};
 
 		case CHANGE_QTY:

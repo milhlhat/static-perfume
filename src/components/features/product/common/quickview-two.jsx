@@ -268,7 +268,7 @@ const mapStateToProps = ( state, ownprops ) => {
 
     return {
         showModal: state.data.quickView,
-        productDetail: state.data.productDetail,
+        productDetail: state.data.products,
         wishlist: wishlist
     };
 }
