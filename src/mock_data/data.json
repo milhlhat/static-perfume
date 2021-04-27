@@ -216,17 +216,12 @@
     ],
     "introBanners": [
         {
-            "image": "/assets/images/home/sliders/slide-1.jpeg",
-            "title": "<h3>Chiết suất</h3>",
-            "content": "<h3>Nước hoa<br />chính hãng</h3>",
-            "price": "<h3>tiết kiệm tới 90%</h3>"
-        },
-        {
-            "image": "/assets/images/home/sliders/slide-2.jpg",
-            "title": "<h3 class='darkWhite'>DEAL OF THE DAY</h3>",
-            "content": "<h3>IT'S TIME TO UPGRADE<br />YOUR HIKING KIT</h3>",
-            "price": "<h3 class='darkWhite'>SAVE UP TO 15%</h3>"
+            "image": "/assets/images/banners/big-banner2.jpg",
+            "title": "<h3 class='text-white'>22 STORE<h3/>",
+            "content": "<h3 class='text-dark'>IT'S TIME TO UPGRADE<br/>YOUR COLLECTION</h3>",
+            "price": "<h3 class='text-danger'>SAVE UP TO 15%</h3>"
         }
+   
     ],
     "banner": [
         {
