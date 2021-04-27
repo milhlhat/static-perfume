@@ -80,9 +80,9 @@ console.log(props);
                         <label htmlFor="sortby">sắp xếp:</label>
                         <div className="select-custom">
                             <select name="sortby" id="sortby" defaultValue={ filters.sortBy } className="form-control" onChange={ changeFilter }>
-                                <option value="popularity">Phổ biến nhất</option>
-                                <option value="rating">Liên quan nhất</option>
-                                <option value="date">Ngày</option>
+                                <option value="newness">mới nhất</option>
+                                <option value="price: low to high">Giá từ thấp đến cao</option>
+                                <option value="price: high to low">Giá từ cao đến thấp</option>
                             </select>
                         </div>
                     </div>

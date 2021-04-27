@@ -55,8 +55,8 @@
         "variants": [
             {
                 "size": 10,
-                "price": 150000,
-                "oldPrice": 170000,
+                "price": 190000,
+                "oldPrice": 210000,
                 "name": "Chiết"
             },
             {
@@ -89,8 +89,8 @@
         "variants": [
             {
                 "size": 10,
-                "price": 150000,
-                "oldPrice": 170000,
+                "price": 160000,
+                "oldPrice": 180000,
                 "name": "Chiết"
             },
             {

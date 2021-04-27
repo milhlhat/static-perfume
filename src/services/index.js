@@ -7,48 +7,53 @@ import { findIndex } from '../utils';
  * @param {Object} param1
  * @return {Array} filtered products
  */
-export const getVisibleProducts = (products, { sortBy, category, variants, brand }) => {
+export const getVisibleProducts = (products, { sortBy, category, brand, gender }) => {
 	return products
 		.filter((item) => {
 			let catResult = false,
-				brandResult = false;
-			if (category && category.length > 0) {
-				for (let i = 0; i < category.length; i++) {
-					if (
-						-1 !== findIndex(item.category, (cat) => cat === category[i]) ||
-						(category[i] === 'Sale' && item.discount > 0) ||
-						category[i] === 'All'
-					)
-						catResult = true;
+				brandResult = false,
+				genderResult = false;
+			// if (category && category.length > 0) {
+			// 	for (let i = 0; i < category.length; i++) {
+			// 		if (
+			// 			-1 !== findIndex(item.category, (cat) => cat === category[i]) ||
+			// 			(category[i] === 'Sale' && item.discount > 0) ||
+			// 			category[i] === 'All'
+			// 		)
+			// 			catResult = true;
+			// 	}
+			// } else {
+			// 	catResult = true;
+			// }
+
+			// if (gender && gender.length > 0) {
+			// 	for (let i = 0; i < gender.length; i++) {
+			// 		if (-1 !== findIndex(item.gender, (br) => br === gender[i])) genderResult = true;
+			// 	}
+			// } else {
+			// 	brandResult = true;
+			// }
+
+			if (gender && gender.length > 0){
+				console.log("filter gioi tinh")
+				for (let i = 0; i < gender.length; i++) {
+					if (-1 !== findIndex(item.gender, (br) => br === gender[i])) genderResult = true;
 				}
-			} else {
-				catResult = true;
+			}else {
+				genderResult = true;
 			}
 
-			if (brand && brand.length > 0) {
-				for (let i = 0; i < brand.length; i++) {
-					if (-1 !== findIndex(item.brands, (br) => br === brand[i])) brandResult = true;
-				}
-			} else {
-				brandResult = true;
-			}
 
 			let price = item.discount ? item.salePrice : item.price;
 
 			// return catResult && sizeResult && brandResult && colorResult && valResult && ratingResult;
-			return catResult && brandResult;
+			return genderResult;
 		})
 		.sort((product1, product2) => {
 			let price1 = product1.discount > 0 ? product1.variants[0].price : product1.variants[0].oldPrice;
 			let price2 = product2.discount > 0 ? product2.variants[0].price : product2.variants[0].oldPrice;
 
-			if ('popularity' === sortBy) {
-				return product2.id < product1.id ? -1 : 1;
-			} else if ('rating' === sortBy) {
-				return product2.ratings > product1.ratings ? 1 : -1;
-			} else if ('date' === sortBy) {
-				return product2.id > product1.id ? -1 : 1;
-			} else if ('newness' === sortBy) {
+			if ('newness' === sortBy) {
 				return product2.id > product1.id ? -1 : 1;
 			} else if ('price: low to high' === sortBy) {
 				return price2 > price1 ? -1 : 1;
@@ -303,3 +308,35 @@ export const search = (products, keyword) => {
 	}
 	return result_search;
 };
+
+export const findByGender = (products, gender) => {
+	let products_filter = []
+	// let gender_chosen = ""
+
+	// switch(gender){
+	// 	case "0":
+	// 		// chon gioi tinh nu
+	// 		gender_chosen = "nữ"
+			
+	// 	case "1":
+	// 		// chon gioi tinh nam
+	// 		gender_chosen = "nam"
+			
+	// 	case "2":
+	// 		// chon gioi tinh unisex
+	// 		gender_chosen = "unisex"
+		
+	// 	default:
+	// 		// return all
+	// 		return products;
+	// 		break;
+	// }
+
+	for(let i in products){
+		let product = products[i];
+		if(product.gender === gender){
+			products_filter.push(product);
+		}
+	}
+	return products_filter;
+}

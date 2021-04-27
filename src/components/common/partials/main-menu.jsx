@@ -67,9 +67,9 @@ export default function MainMenu ( props ) {
                     </div>
                 </li>
                 <li className={ path.indexOf( "pages" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/pages/about` } className="sf-with-ul">Pages</Link>
+                    <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Nam</Link>
 
-                    <ul>
+                    {/* <ul>
                         <li className={ path.indexOf( "pages/about" ) > -1 ? 'active' : '' }>
                             <Link to={ `${process.env.PUBLIC_URL}/pages/about` } className="sf-with-ul">About</Link>
 
@@ -90,12 +90,12 @@ export default function MainMenu ( props ) {
                         <li className={ path.indexOf( "pages/faq" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/pages/faq` }>FAQs</Link></li>
                         <li className={ path.indexOf( "pages/404" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/pages/404` }>Error 404</Link></li>
                         <li className={ path.indexOf( "pages/coming-soon" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/pages/coming-soon` }>Coming Soon</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className={ path.indexOf( "blog/" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/blog/classic` } className="sf-with-ul">Blog</Link>
+                    <Link to={ `${process.env.PUBLIC_URL}/blog/classic` } className="sf-with-ul">Nữ</Link>
 
-                    <ul>
+                    {/* <ul>
                         <li className={ path.indexOf( "blog/classic" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/classic` }>Classic</Link></li>
                         <li className={ path.indexOf( "blog/listing" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/listing` } >Listing</Link></li>
                         <li className={ path.indexOf( "blog/grid" ) > -1 ? 'active' : '' }>
@@ -131,12 +131,12 @@ export default function MainMenu ( props ) {
                                 <li className={ path.indexOf( "blog/single-3" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/single-3/98` }>Fullwidth with sidebar</Link></li>
                             </ul>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li className={ path.indexOf( "element" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/elements` } className="sf-with-ul">Elements</Link>
+                    <Link to={ `${process.env.PUBLIC_URL}/elements` } className="sf-with-ul">Unisex</Link>
 
-                    <ul>
+                    {/* <ul>
                         <li className={ path.indexOf( "elements/products" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/products` }>Products</Link></li>
                         <li className={ path.indexOf( "elements/typography" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/typography` }>Typography</Link></li>
                         <li className={ path.indexOf( "elements/titles" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/titles` }>Titles</Link></li>
@@ -151,7 +151,7 @@ export default function MainMenu ( props ) {
                         <li className={ path.indexOf( "elements/portfolios" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/portfolios` }>Portfolio</Link></li>
                         <li className={ path.indexOf( "elements/cta" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/cta` }>Call to Action</Link></li>
                         <li className={ path.indexOf( "elements/icon-boxes" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/icon-boxes` }>Icon Boxes</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
             </ul>
         </nav>
