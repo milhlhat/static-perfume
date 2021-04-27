@@ -39,7 +39,7 @@ function SearchForm (props) {
     return (
         <div className="header-search">
             <a href="#dropdown" className="search-toggle" role="button" title="Search" ><i className="icon-search"></i></a>
-            <form onSubmit={()=>console.log(products)}>
+            <form >
                 <div className="header-search-wrapper">
                     <label htmlFor="q" className="sr-only">Search</label>
                     <input type="search" className="form-control" name="q" id="q" placeholder="Search in..." required />
