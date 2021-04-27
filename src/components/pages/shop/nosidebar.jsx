@@ -13,8 +13,8 @@ function NoSideBar( props ) {
     const title = { "boxed": "VIEW", "fullwidth": "Fullwidth No Sidebar" }
     let products = props.products;
     useEffect( () => {
-        console.log((props.location.search + "").substring(3));
-        console.log(search(products,(props.location.search + "").substring(3)));
+            console.log((props.location.search + "").substring(3));
+            console.log(search(products,(props.location.search + "").substring(3)));
         if ( type !== "boxed" && type !== "fullwidth" ) {
             window.location = process.env.PUBLIC_URL + "/pages/404";
         }
