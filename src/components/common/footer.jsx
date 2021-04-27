@@ -13,16 +13,16 @@ function Footer ( props ) {
                     <div className="col-2xl-5col col-md-12">
                         <div className="widget widget-about">
                             <img src={ `${process.env.PUBLIC_URL}${logoFooter}` } className="footer-logo" alt="Footer Logo" width="100" height="25" />
-                            <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
+                            <p>22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến nếu có thắc mắc. thanks and best regards! </p>
 
                             <div className="widget-about-info">
                                 <div className="row">
                                     <div className="col-sm-6 col-md-4 phoneNum">
-                                        <span className="widget-about-title">Got Question? Call us 24/7</span>
+                                        <span className="widget-about-title">Mọi thắc mắc xin liên hệ:</span>
                                         <Link to="tel:123456789">+0123 456 789</Link>
                                     </div>
                                     <div className="col-sm-6 col-md-8 payment">
-                                        <span className="widget-about-title">Payment Method</span>
+                                        <span className="widget-about-title">Phương thức thanh toán</span>
                                         <figure className="footer-payments">
                                             <img src={ `${process.env.PUBLIC_URL}/assets/images/payments.png` } alt="Payment methods" width="272" height="20" />
                                         </figure>
@@ -34,34 +34,30 @@ function Footer ( props ) {
 
                     <div className="col-xl-5col col-sm-4 col-md-4">
                         <div className="widget">
-                            <h4 className="widget-title">Information</h4>
+                            <h4 className="widget-title">Thông tin</h4>
 
                             <ul className="widget-list">
-                                <li><Link to={ `${process.env.PUBLIC_URL}/about` }>About Molla</Link></li>
-                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/about` }>How to shop on Molla</Link></li>
-                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/faq` }>FAQ</Link></li>
-                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/contact` }>Contact us</Link></li>
-                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/login` }>Log in</Link></li>
+                                <li><Link to={ `${process.env.PUBLIC_URL}/about` }>About 22tuoi.com</Link></li>
+                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/about` }>Làm sao để mua hàng?</Link></li>
+                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/faq` }>Đặt câu hỏi</Link></li>
+                                <li><Link to={ `${process.env.PUBLIC_URL}/pages/contact` }>Liên hệ qua messenger</Link></li>
                             </ul>
                         </div>
                     </div>
 
                     <div className="col-xl-5col col-sm-4 col-md-6=4">
                         <div className="widget">
-                            <h4 className="widget-title">Customer Service</h4>
+                            <h4 className="widget-title">Dịch vụ khách hàng</h4>
 
                             <ul className="widget-list">
-                                <li><Link to="#">Payment Methods</Link></li>
-                                <li><Link to="#">Money-back guarantee!</Link></li>
-                                <li><Link to="#">Returns</Link></li>
-                                <li><Link to="#">Shipping</Link></li>
-                                <li><Link to="#">Terms and conditions</Link></li>
-                                <li><Link to="#">Privacy Policy</Link></li>
+                                <li><Link to="#">Miễn phí vận chuyển</Link></li>
+                                <li><Link to="#">Hoàn tiền khi phát hiện hàng giả</Link></li>
+                                <li><Link to="#">Đổi trả trong 7 ngày</Link></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div className="col-xl-5col col-sm-4 col-md-4">
+                    {/* <div className="col-xl-5col col-sm-4 col-md-4">
                         <div className="widget">
                             <h4 className="widget-title">My Account</h4>
 
@@ -73,20 +69,20 @@ function Footer ( props ) {
                                 <li><Link to="#">Help</Link></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
             <div className="footer-bottom">
                 <div className={ container }>
-                    <p className="footer-copyright">Copyright © { ( new Date() ).getFullYear() } Molla Store. All Rights Reserved.</p>
-                    <ul className="footer-menu">
+                    <p className="footer-copyright">Copyright © { ( new Date() ).getFullYear() } 22 Store. All Rights Reserved.</p>
+                    {/* <ul className="footer-menu">
                         <li><Link to="#">Terms Of Use</Link></li>
                         <li><Link to="#">Privacy Policy</Link></li>
-                    </ul>
+                    </ul> */}
 
                     <div className="social-icons social-icons-color">
-                        <span className="social-label">Social Media</span>
+                        <span className="social-label">Mạng xã hội</span>
                         <Link to="#" className="social-icon social-facebook" title="Facebook" target="_blank"><i className="icon-facebook-f"></i></Link>
                         <Link to="#" className="social-icon social-twitter" title="Twitter" target="_blank"><i className="icon-twitter"></i></Link>
                         <Link to="#" className="social-icon social-instagram" title="Instagram" target="_blank"><i className="icon-instagram"></i></Link>

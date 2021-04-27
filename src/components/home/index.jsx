@@ -40,10 +40,10 @@ export default function HomePage () {
     return (
         <>
             <Helmet>
-                <title>Molla React Ecommerce - Sport Store</title>
+                <title>22tuoi.com - mua nước hoa tiết kiệm</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React Ecommerce - Sport Store</h1>
+            <h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
 
             <div className="main">
                 <div className="intro-slider-container mb-5">
@@ -73,9 +73,9 @@ export default function HomePage () {
                 <div className="container bestsellers">
                     <hr className="mb-3" />
                     <div className="heading">
-                        <h2 className="title text-center">BEST SELLERS</h2>
+                        <h2 className="title text-center">BÁN CHẠY NHẤT</h2>
 
-                        <p className="content text-center mb-4">The Trends Boutique: The latest fashion trends from top brands!</p>
+                        <p className="content text-center mb-4">xu hướng nước hoa 2021!</p>
                     </div>
 
                     <BestCollection />
@@ -86,7 +86,7 @@ export default function HomePage () {
                 <div className="container category-banner">
                     <div className="row">
                         {
-                            _data.banner.slice( 3, 7 ).map( ( item, index ) => {
+                            _data.banner.slice( 0, 4 ).map( ( item, index ) => {
                                 return (
                                     <div className="col-lg-3 col-md-6 col-sm-6" key={ `cat_banner_${index}` }>
                                         <CatBanner data={ item } />
