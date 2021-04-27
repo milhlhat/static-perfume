@@ -14,10 +14,9 @@
         "category": [
             "Women"
         ],
+        "gender": "0",
       
         "discount": 29,
-        "ratings": 0,
-        "reviews": 0,
         "stock": 10,
         "variants": [
             {
@@ -49,10 +48,43 @@
         "category": [
             "Women"
         ],
+        "gender" : "1",
      
         "discount": 29,
-        "ratings": 0,
-        "reviews": 0,
+        "stock": 10,
+        "variants": [
+            {
+                "size": 10,
+                "price": 150000,
+                "oldPrice": 170000,
+                "name": "Chiết"
+            },
+            {
+                "size": 100,
+                "price": 1200000,
+                "oldPrice": "",
+                "name": "Full seal"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "brand": "b3",
+        "name": "dior ",
+        
+        "pictures": [
+            "assets/images/products/elements/product-3-1.jpg",
+            "assets/images/products/elements/product-3-2.jpg",
+            "assets/images/products/elements/product-3-3.jpg"
+          
+        ],
+        "shortDesc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
+        "category": [
+            "Women"
+        ],
+        "gender" : "2",
+     
+        "discount": 29,
         "stock": 10,
         "variants": [
             {

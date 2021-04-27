@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-
+import { connect } from 'react-redux';
+import { search }  from '../../../services'
 // import Custom Components
 import SideBar from '../../features/sidebar/shop-filter';
 import ProductListTwo from '../../features/product/list/product-list-two';
@@ -9,9 +10,11 @@ import Breadcrumb from '../../common/breadcrumb';
 
 function NoSideBar( props ) {
     const type = props.match.params.grid;
-    const title = { "boxed": "Boxed No Sidebar", "fullwidth": "Fullwidth No Sidebar" }
-
+    const title = { "boxed": "VIEW", "fullwidth": "Fullwidth No Sidebar" }
+    let products = props.products;
     useEffect( () => {
+        console.log((props.location.search + "").substring(3));
+        console.log(search(products,(props.location.search + "").substring(3)));
         if ( type !== "boxed" && type !== "fullwidth" ) {
             window.location = process.env.PUBLIC_URL + "/pages/404";
         }
@@ -51,4 +54,12 @@ function NoSideBar( props ) {
     )
 }
 
-export default React.memo( NoSideBar );
+export const mapStateToProps = ( state ) => {
+    return {
+        products: state.data.products ? state.data.products : [],
+    }
+}
+export default connect(
+    mapStateToProps
+)( NoSideBar );
+// export default React.memo( NoSideBar );

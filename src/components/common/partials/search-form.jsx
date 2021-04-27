@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
+import { connect } from 'react-redux';
 
-function SearchForm () {
+function SearchForm (props) {
+    let products = props.products;
     useEffect( () => {
         document.querySelector( ".search-toggle" ).addEventListener( "click", onSearchToggleHandler );
         document.querySelector( ".header-search" ).addEventListener( "click", function ( e ) {
@@ -37,7 +39,7 @@ function SearchForm () {
     return (
         <div className="header-search">
             <a href="#dropdown" className="search-toggle" role="button" title="Search" ><i className="icon-search"></i></a>
-            <form>
+            <form onSubmit={()=>console.log(products)}>
                 <div className="header-search-wrapper">
                     <label htmlFor="q" className="sr-only">Search</label>
                     <input type="search" className="form-control" name="q" id="q" placeholder="Search in..." required />
@@ -47,4 +49,13 @@ function SearchForm () {
     );
 }
 
-export default React.memo( SearchForm );
+export const mapStateToProps = ( state ) => {
+    return {
+        products: state.data.products ? state.data.products : [],
+    }
+}
+
+export default connect(
+    mapStateToProps
+)( SearchForm );
+// export default React.memo( SearchForm );
