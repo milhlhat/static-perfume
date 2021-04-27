@@ -8,15 +8,15 @@ import { addToCart, toggleWishlist, addToCompare, showQuickViewModal, filterSort
 import { getVisibleProducts } from '../../../../services';
 
 function ProductListTwo( props ) {
-    let { type, filters, addToCart, toggleWishlist, addToCompare, showQuickViewModal } = props;
+    let { type, searchList, filters, addToCart, toggleWishlist, addToCompare, showQuickViewModal } = props;
     let products = props.products, timer;
-
+console.log(props);
     const [ loadedCount, setLoadedCount ] = useState( 8 );
     const [ hasMore, setHasMore ] = useState( true );
     const [ loading, setLoading ] = useState( false );
 
     const classList = { "boxed": "col-6 col-md-4 col-lg-4 col-xl-3", "fullwidth": "col-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2" };
-    products = getVisibleProducts( products.slice( 0, 15 ), filters );
+    products = getVisibleProducts( searchList.slice( 0, 15 ), filters );
 
     function showSideBar() {
         document.querySelector( 'body' ).classList.add( 'sidebar-filter-active' );
@@ -54,7 +54,7 @@ function ProductListTwo( props ) {
 
     useEffect( () => {
         products = getVisibleProducts( props.products.slice(0, 15), filters );
-        console.log(props.products);
+       
         if ( products.length > 10 ) {
             setHasMore( true );
         } else {

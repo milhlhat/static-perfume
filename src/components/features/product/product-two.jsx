@@ -54,7 +54,7 @@ function ProductTwo ( props ) {
 
                     <div className="product-action action-icon-top">
                         <button className="btn-product btn-cart" onClick={ addToCartHandler }>
-                            <span>thêm vào giỏ hàng</span>
+                            <span>Thêm vào giỏ hàng</span>
                         </button>
 
                         <button className="btn-product btn-quickview" title="Quick view" onClick={ quickViewHandler }>
