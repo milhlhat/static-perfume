@@ -225,28 +225,31 @@
     ],
     "banner": [
         {
-            "img": "assets/images/home/banners/banner-1.jpg",
-            "title": "<h3 className='darkWhite'>It's a lifestyle</h3>",
-            "content": "<h3>RUNNING APPAREL</h3><h3>END OF SEASON SALE</h3>",
-            "btnText": "SHOP NOW",
+            "img": "assets/images/home/banners/banner-4.jpg",
+            "title": "<h3 >Khám phá mùi hương</h3>",
+            "content": "<h3 >MAKE MORE SEXY</h3>",
+            "btnText": "NƯỚC HOA NỮ",
             "width": 300,
-            "height": 260
+            "height": 260,
+            "btnLink":""
         },
         {
-            "img": "assets/images/home/banners/banner-2.jpg",
+            "img": "assets/images/home/banners/banner-6.jpg",
             "title": "<h3 className='darkWhite'>Hike Your Next Trail</h3>",
             "content": "<h3>NEW SEASON</h3><h3>NEW GEAR</h3>",
             "btnText": "DISCOVER NOW",
             "width": 300,
-            "height": 200
+            "height": 200,
+            "btnLink":""
         },
         {
-            "img": "assets/images/home/banners/banner-3.jpg",
+            "img": "assets/images/home/banners/banner-2.jpg",
             "title": "<h3 className='darkWhite'>Summer Sale</h3>",
             "content": "<h3>SWIMWEAR SALE</h3><h3>SAVE UP TO 30%</h3>",
             "btnText": "SHOP NOW",
             "width": 300,
-            "height": 200
+            "height": 200,
+            "btnLink":""
         },
         {
             "img": "assets/images/home/banners/womens.jpg",

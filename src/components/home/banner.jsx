@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { safeContent } from '../../utils';
 
 export default function Banner ( props ) {
-    const { img, width = "300", height = "320", title, content, btnText = "Shop Now" } = props.data;
+    const { img, width = "300", height = "320", title, content, btnText = "Shop Now",btnLink } = props.data;
 
     return (
         <>
@@ -32,7 +32,7 @@ export default function Banner ( props ) {
                 </div>
 
                 <div className="action">
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-demoprimary">
+                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${btnLink}` } className="btn btn-demoprimary">
                         <span>{ btnText }</span>
 
                         <i className="icon-long-arrow-right"></i>

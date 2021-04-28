@@ -70,7 +70,7 @@ export default function HomePage () {
 
                 <Brand adClass="mb-5 owl-simple" count={ 7 } />
 
-                <div className="container bestsellers">
+                {/* <div className="container bestsellers">
                     <hr className="mb-3" />
                     <div className="heading">
                         <h2 className="title text-center">BÁN CHẠY NHẤT</h2>
@@ -79,11 +79,11 @@ export default function HomePage () {
                     </div>
 
                     <BestCollection />
-                </div>
+                </div> */}
 
-                <SpecialCollection />
+                {/* <SpecialCollection /> */}
 
-                <div className="container category-banner">
+                {/* <div className="container category-banner">
                     <div className="row">
                         {
                             _data.banner.slice( 0, 4 ).map( ( item, index ) => {
@@ -95,7 +95,7 @@ export default function HomePage () {
                             } )
                         }
                     </div>
-                </div>
+                </div> */}
 
                 <NewCollection />
 

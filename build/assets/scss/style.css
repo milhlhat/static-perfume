@@ -1902,8 +1902,8 @@ blockquote.text-white cite span {
 
 .logo {
   display: block;
-  margin-top: 2.55rem;
-  margin-bottom: 2.95rem;
+  margin-top: 0.7rem;
+	margin-bottom: 2.9rem;
   flex-shrink: 0;
   min-height: 25px;
 }
