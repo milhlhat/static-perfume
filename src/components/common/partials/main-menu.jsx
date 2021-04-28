@@ -1,75 +1,139 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function MainMenu ( props ) {
-    const [ path, setPath ] = useState( "" );
-    // const PUBLIC_URL = "/react/molla";
+export default function MainMenu(props) {
+	const [path, setPath] = useState('');
+	// const PUBLIC_URL = "/react/molla";
 
-    useEffect( () => {
-        setPath( window.location.href );
-    } )
+	useEffect(() => {
+		setPath(window.location.href);
+	});
 
-    // function showAllDemos ( e ) {
-    //     let demoItems = document.querySelectorAll( '.demo-item.hidden' );
+	// function showAllDemos ( e ) {
+	//     let demoItems = document.querySelectorAll( '.demo-item.hidden' );
 
-    //     for ( let i = 0; i < demoItems.length; i++ ) {
-    //         demoItems[ i ].classList.toggle( 'show' );
-    //     }
+	//     for ( let i = 0; i < demoItems.length; i++ ) {
+	//         demoItems[ i ].classList.toggle( 'show' );
+	//     }
 
-    //     document.querySelector( '.view-all-demos' ).classList.toggle( 'disabled-hidden' );
-    //     e.preventDefault();
-    // }
+	//     document.querySelector( '.view-all-demos' ).classList.toggle( 'disabled-hidden' );
+	//     e.preventDefault();
+	// }
 
-    return (
-        <nav className="main-nav">
-            <ul className="menu">
-                <li className="" id="menu-home">
-                    <Link to={ `${process.env.PUBLIC_URL}` } className="sf-with-ul">Home</Link>
-                </li>
+	return (
+		<nav className="main-nav">
+			<ul className="menu">
+				<li className="" id="menu-home">
+					<Link to={`${process.env.PUBLIC_URL}`} className="sf-with-ul">
+						Trang chủ
+					</Link>
+				</li>
 
-                <li className={ path.indexOf( "shop" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Sản phẩm</Link>
-                </li>
-                <li className={ path.indexOf( "product/" ) > -1 ? 'active' : '' }>
-                <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Thương Hiệu</Link>
-                   
+				<li className={path.indexOf('shop') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+						Sản phẩm
+					</Link>
+					<ul>
+						<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+								Tất cả sản phẩm
+							</Link>
+						</li>
+						<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+								Nam
+							</Link>
+						</li>
+						<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`}>
+								<span>
+									Nữ<span className="tip tip-new">New</span>
+								</span>
+							</Link>
+						</li>
+						<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+								Unisex
+							</Link>
+						</li>
+					</ul>
+				</li>
+				<li className={path.indexOf('product/') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+						Thương Hiệu
+					</Link>
 
-                    <div className="megamenu megamenu-sm">
-                        <div className="row no-gutters">
-                            <div className="col-md-6">
-                                <div className="menu-col">
-                                    <div className="menu-title">Product Details</div>
-                                    <ul>
-                                        <li className={ path.indexOf( "product/default" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/default/1` }>Default</Link></li>
-                                        <li className={ path.indexOf( "product/centered" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/centered/9` }>Centered</Link></li>
-                                        <li className={ path.indexOf( "product/extended" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/extended/8` }><span>Extended Info<span className="tip tip-new">New</span></span></Link></li>
-                                        <li className={ path.indexOf( "product/gallery" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/gallery/1` }>Gallery</Link></li>
-                                        <li className={ path.indexOf( "product/sticky" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/sticky/6` }>Sticky Info</Link></li>
-                                        <li className={ path.indexOf( "product/sidebar" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/sidebar/5` }>Boxed With Sidebar</Link></li>
-                                        <li className={ path.indexOf( "product/fullwidth" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/fullwidth/2` }>Full Width</Link></li>
-                                        <li className={ path.indexOf( "product/masonry" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/product/masonry/4` }>Masonry Sticky Info</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
+					<div className="megamenu megamenu-sm">
+						<div className="row no-gutters">
+							<div className="col-md-6">
+								<div className="menu-col">
+									<div className="menu-title">Product Details</div>
+									<ul>
+										<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/default/1`}>Default</Link>
+										</li>
+										<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/centered/9`}>Centered</Link>
+										</li>
+										<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/extended/8`}>
+												<span>
+													Extended Info<span className="tip tip-new">New</span>
+												</span>
+											</Link>
+										</li>
+										<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/gallery/1`}>Gallery</Link>
+										</li>
+										<li className={path.indexOf('product/sticky') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/sticky/6`}>Sticky Info</Link>
+										</li>
+										<li className={path.indexOf('product/sidebar') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/sidebar/5`}>
+												Boxed With Sidebar
+											</Link>
+										</li>
+										<li className={path.indexOf('product/fullwidth') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/fullwidth/2`}>Full Width</Link>
+										</li>
+										<li className={path.indexOf('product/masonry') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/masonry/4`}>
+												Masonry Sticky Info
+											</Link>
+										</li>
+									</ul>
+								</div>
+							</div>
 
-                            <div className="col-md-6">
-                                <div className="banner banner-overlay">
-                                    <Link to={ `${process.env.PUBLIC_URL}/product/centered/27` }>
-                                        <img src={ `${process.env.PUBLIC_URL}/assets/images/menu/banner-2.jpg` } alt="Banner" />
+							<div className="col-md-6">
+								<div className="banner banner-overlay">
+									<Link to={`${process.env.PUBLIC_URL}/product/centered/27`}>
+										<img
+											src={`${process.env.PUBLIC_URL}/assets/images/menu/banner-2.jpg`}
+											alt="Banner"
+										/>
 
-                                        <div className="banner-content banner-content-bottom">
-                                            <div className="banner-title text-white">New Trends<br /><span><strong>spring { ( new Date() ).getFullYear() }</strong></span></div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li className={ path.indexOf( "pages" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="sf-with-ul">Nam</Link>
+										<div className="banner-content banner-content-bottom">
+											<div className="banner-title text-white">
+												New Trends
+												<br />
+												<span>
+													<strong>spring {new Date().getFullYear()}</strong>
+												</span>
+											</div>
+										</div>
+									</Link>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				{/* <li className={path.indexOf('pages') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+						Nam
+					</Link> */}
 
-                    {/* <ul>
+				{/* <ul>
                         <li className={ path.indexOf( "pages/about" ) > -1 ? 'active' : '' }>
                             <Link to={ `${process.env.PUBLIC_URL}/pages/about` } className="sf-with-ul">About</Link>
 
@@ -91,11 +155,13 @@ export default function MainMenu ( props ) {
                         <li className={ path.indexOf( "pages/404" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/pages/404` }>Error 404</Link></li>
                         <li className={ path.indexOf( "pages/coming-soon" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/pages/coming-soon` }>Coming Soon</Link></li>
                     </ul> */}
-                </li>
-                <li className={ path.indexOf( "blog/" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/blog/classic` } className="sf-with-ul">Nữ</Link>
+				{/* </li>
+				<li className={path.indexOf('blog/') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/blog/classic`} className="sf-with-ul">
+						Nữ
+					</Link> */}
 
-                    {/* <ul>
+				{/* <ul>
                         <li className={ path.indexOf( "blog/classic" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/classic` }>Classic</Link></li>
                         <li className={ path.indexOf( "blog/listing" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/listing` } >Listing</Link></li>
                         <li className={ path.indexOf( "blog/grid" ) > -1 ? 'active' : '' }>
@@ -131,17 +197,31 @@ export default function MainMenu ( props ) {
                                 <li className={ path.indexOf( "blog/single-3" ) > -1 ? 'active' : '' }><Link to={ `${process.env.PUBLIC_URL}/blog/single-3/98` }>Fullwidth with sidebar</Link></li>
                             </ul>
                         </li>
-                    </ul> */}
-                </li>
-                <li className={ path.indexOf( "element" ) > -1 ? 'active' : '' }>
-                    <Link to={ `${process.env.PUBLIC_URL}/elements` } className="sf-with-ul">Unisex</Link>
+                    </ul> 
+				  </li>*/}
+				<li className={path.indexOf('element') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/pages/about`} className="sf-with-ul">
+						Giới thiệu
+					</Link>
 
-                    {/* <ul>
-                        <li className={ path.indexOf( "elements/products" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/products` }>Products</Link></li>
-                        <li className={ path.indexOf( "elements/typography" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/typography` }>Typography</Link></li>
-                        <li className={ path.indexOf( "elements/titles" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/titles` }>Titles</Link></li>
-                        <li className={ path.indexOf( "elements/banners" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/banners` }>Banners</Link></li>
-                        <li className={ path.indexOf( "elements/categories" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/categories` }>Product Category</Link></li>
+					<ul>
+						<li>
+							<Link to={`${process.env.PUBLIC_URL}/pages/about`}>Giới thiệu</Link>
+						</li>
+						<li>
+							<a href={`https://fb.com/22perfumery`} target="_blank" rel="noreferrer">
+								Fan Page
+							</a>
+						</li>
+						<li>
+							<a href={`https://instagram.com/22perfumery`} target="_blank" rel="noreferrer">
+								Instagram
+							</a>
+						</li>
+						<li>
+							<a href={`tel:0819287888`} >Đường dây nóng</a>
+						</li>
+						{/* <li className={ path.indexOf( "elements/categories" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/categories` }>Product Category</Link></li>
                         <li className={ path.indexOf( "elements/video-banners" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/video-banners` }>Video Banners</Link></li>
                         <li className={ path.indexOf( "elements/buttons" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/buttons` }>Buttons</Link></li>
                         <li className={ path.indexOf( "elements/accordions" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/accordions` }>Accordions</Link></li>
@@ -150,10 +230,10 @@ export default function MainMenu ( props ) {
                         <li className={ path.indexOf( "elements/blog-posts" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/blog-posts` }>Blog Posts</Link></li>
                         <li className={ path.indexOf( "elements/portfolios" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/portfolios` }>Portfolio</Link></li>
                         <li className={ path.indexOf( "elements/cta" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/cta` }>Call to Action</Link></li>
-                        <li className={ path.indexOf( "elements/icon-boxes" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/icon-boxes` }>Icon Boxes</Link></li>
-                    </ul> */}
-                </li>
-            </ul>
-        </nav>
-    );
+                        <li className={ path.indexOf( "elements/icon-boxes" ) > -1 ? "active" : '' }><Link to={ `${process.env.PUBLIC_URL}/elements/icon-boxes` }>Icon Boxes</Link></li> */}
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	);
 }

@@ -10,9 +10,9 @@ export default function MobileMenu () {
             <div className="mobile-menu-wrapper">
                 <span className="mobile-menu-close"><i className="icon-close"></i></span>
 
-                <form action="#" method="get" className="mobile-search">
+                <form action="/shop/nosidebar/boxed" method="get" className="mobile-search">
                     <label htmlFor="mobile-search" className="sr-only">Search</label>
-                    <input type="search" className="form-control" name="mobile-search" id="mobile-search" placeholder="Search product ..." required />
+                    <input type="search" className="form-control" name="q" id="q" placeholder="Search product ..." required />
                     <button className="btn btn-primary" type="submit"><i className="icon-search"></i></button>
                 </form>
 

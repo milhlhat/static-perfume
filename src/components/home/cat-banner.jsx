@@ -1,6 +1,7 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
+import { safeContent } from '../../utils';
 
 export default function Banner ( props ) {
     const { img, title, btnText = "SHOP NOW" } = props.data;
@@ -10,7 +11,7 @@ export default function Banner ( props ) {
             <figure className="position-relative">
                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` }>
                     <div className="lazy-overlay"></div>
-
+ 
                     <LazyLoadImage
                         alt="banner"
                         src={ `${process.env.PUBLIC_URL}/${img}` }
@@ -24,7 +25,7 @@ export default function Banner ( props ) {
 
             <div className="banner-content">
                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` }>
-                    <h3 className="category">{ title }</h3>
+                    <h3 className="category" dangerouslySetInnerHTML={ safeContent( title ) }></h3>
                 </Link>
 
                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="action">{ btnText }</Link>

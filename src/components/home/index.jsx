@@ -40,7 +40,7 @@ export default function HomePage () {
     return (
         <>
             <Helmet>
-                <title>22tuoi.com - mua nước hoa tiết kiệm</title>
+                <title>22tuoi.com | Nước hoa cho sinh viên nghèo</title>
             </Helmet>
 
             <h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
@@ -75,7 +75,7 @@ export default function HomePage () {
                     <div className="heading">
                         <h2 className="title text-center">BÁN CHẠY NHẤT</h2>
 
-                        <p className="content text-center mb-4">xu hướng nước hoa 2021!</p>
+                        <p className="content text-center mb-4">Xu hướng nước hoa 2021</p>
                     </div>
 
                     <BestCollection />
