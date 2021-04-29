@@ -10,10 +10,10 @@ function Footer ( props ) {
             <div className={ container }>
                 <hr className="mb-7" />
                 <div className="row">
-                    <div className="col-2xl-5col col-md-12">
+                    <div className="col-md-4">
                         <div className="widget widget-about">
                             <img src={ `${process.env.PUBLIC_URL}${logoFooter}` } className="footer-logo" alt="Footer Logo" width="100" height="25" />
-                            <p>22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến nếu có thắc mắc.  </p>
+                            <p className="pr-5">22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến nếu có thắc mắc.  </p>
 
                             <div className="widget-about-info">
                                 <div className="row">
@@ -35,8 +35,8 @@ function Footer ( props ) {
                         </div>
                     </div>
 
-                    <div className="col-xl-5col col-sm-4 col-md-4">
-                        <div className="widget">
+                    <div className=" col-sm-4 col-md-4">
+                        <div className="widget  ">
                             <h4 className="widget-title">Thông tin</h4>
 
                             <ul className="widget-list">
@@ -48,8 +48,8 @@ function Footer ( props ) {
                         </div>
                     </div>
 
-                    <div className="col-xl-5col col-sm-4 col-md-6=4">
-                        <div className="widget">
+                    <div className=" col-sm-4 col-md-4">
+                        <div className="widget  ">
                             <h4 className="widget-title">Dịch vụ khách hàng</h4>
 
                             <ul className="widget-list">

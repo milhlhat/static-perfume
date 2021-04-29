@@ -181,26 +181,26 @@
         {
             "id": 1,
             "icon": "icon-truck",
-            "title": "Payment & Delivery",
-            "subtitle": "Free shipping for orders over $50"
+            "title": "Thanh toán & Vận chuyển",
+            "subtitle": "Miễn phí giao hàng đơn 0đ - áp dụng cho hình thức chuyển khoản thanh toán trước"
         },
         {
             "id": 2,
             "icon": "icon-rotate-left",
-            "title": "Return & Refund",
-            "subtitle": "Free 100% money back guarantee"
+            "title": "Trả hàng & Hoàn tiền",
+            "subtitle": "Miễn phí trả hàng, hoàn tiền 100% nếu sản phẩm lỗi"
         },
         {
             "id": 3,
             "icon": "icon-life-ring",
-            "title": "Quality Support",
-            "subtitle": "Alway online feedback 24/7"
+            "title": "Tư vấn, hỗ trợ & feedback",
+            "subtitle": "Luôn luôn 24/7 qua hotline, fanpage, instagram"
         },
         {
             "id": 4,
             "icon": "icon-envelope",
             "title": "Join Our Newsletter",
-            "subtitle": "10% off by subscribing to our newsletter"
+            "subtitle": "10% off by subscribing to our social network"
         }
     ],
     "innerOverlayPaths": [
