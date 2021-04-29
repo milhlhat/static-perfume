@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { connect } from 'react-redux';
-import { useHistory } from 'react-router-dom';
 
 function SearchForm(props) {
-	let products = props.products;
-	let history = useHistory();
 	const [keyword, setKeyword] = useState('');
 	// useEffect(() => {
 	// 	document.querySelector('.search-toggle').addEventListener('click', onSearchToggleHandler);
@@ -42,11 +39,6 @@ function SearchForm(props) {
 		e.preventDefault();
 	}
 
-	function summitSearch() {
-		let key = document.querySelector('#search').value;
-		console.log(key);
-		history.push(`/shop/nosidebar/boxed?q=` + key);
-	}
 	const handleInput = (evt) => {
 		if (evt.target.value == null) {
 			setKeyword('');
@@ -65,7 +57,8 @@ function SearchForm(props) {
 			>
 				<i className="icon-search"></i>
 			</a>
-			<form onSubmit={() => summitSearch()}>
+
+			<form method="get" action="/shop/nosidebar/boxed">
 				<div className="header-search-wrapper show">
 					<label htmlFor="q" className="sr-only">
 						Search
