@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer ( props ) {
-    const { logoFooter = "/assets/images/home/logo-footer.png" } = props;
+    const { logoFooter = "/assets/images/home/logo-ngang-4.svg" } = props;
     const { container = "container" } = props;
 
     return (
@@ -13,18 +13,21 @@ function Footer ( props ) {
                     <div className="col-2xl-5col col-md-12">
                         <div className="widget widget-about">
                             <img src={ `${process.env.PUBLIC_URL}${logoFooter}` } className="footer-logo" alt="Footer Logo" width="100" height="25" />
-                            <p>22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến nếu có thắc mắc. thanks and best regards! </p>
+                            <p>22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến nếu có thắc mắc.  </p>
 
                             <div className="widget-about-info">
                                 <div className="row">
                                     <div className="col-sm-6 col-md-4 phoneNum">
                                         <span className="widget-about-title">Mọi thắc mắc xin liên hệ:</span>
-                                        <Link to="tel:123456789">+0123 456 789</Link>
+                                        <a href="tel:0819287888" target="_blank">0819287888</a>
                                     </div>
                                     <div className="col-sm-6 col-md-8 payment">
                                         <span className="widget-about-title">Phương thức thanh toán</span>
-                                        <figure className="footer-payments">
-                                            <img src={ `${process.env.PUBLIC_URL}/assets/images/payments.png` } alt="Payment methods" width="272" height="20" />
+                                        <figure className="footer-payments d-flex">
+                                            <img src={ `${process.env.PUBLIC_URL}/assets/images/pay/momo_logo.png` } alt="Payment methods" width="25" height="20" />
+                                            <img src={ `${process.env.PUBLIC_URL}/assets/images/pay/viettelpay.jpg` } alt="Payment methods" width="25" height="20" />
+                                            <img src={ `${process.env.PUBLIC_URL}/assets/images/pay/bank.jpg` } alt="Payment methods" width="25" height="20" />
+                                        
                                         </figure>
                                     </div>
                                 </div>
