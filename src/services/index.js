@@ -234,6 +234,35 @@ export const getProductsByCategory = (products, category) => {
 };
 
 /**
+ * Get products filtered by category
+ * @param {Array} products
+ * @param {String} category
+ * @return {Array} filteredProducts
+ */
+ export const getProductsByGender = (products, gender) => {
+	if (gender === 'Tất cả') return products;
+
+	if (-1 !== gender.indexOf('&')) {
+		gender = gender.split(' & ');
+	}
+
+	return products.filter((item) => {
+		let result = false;
+
+		if (Array.isArray(gender)) {
+			for (let i = 0; i < gender.length; i++) {
+				if (-1 !== item.gender.indexOf(gender[i])) {
+					result = true;
+				}
+			}
+		} else {
+			if (-1 !== item.gender.indexOf(gender)) result = true;
+		}
+		return result;
+	});
+};
+
+/**
  * Get number of products filtered by category
  * @param {Array} products
  * @param {String} category

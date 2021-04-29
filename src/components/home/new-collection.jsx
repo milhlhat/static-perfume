@@ -8,13 +8,14 @@ import ProductNine from '../features/product/product-nine';
 
 // import Services & Settings
 import { getProductsByCategory } from '../../services';
+import { getProductsByGender } from '../../services';
 import { addToCart, toggleWishlist } from '../../actions';
 
 function NewCollection ( props ) {
     const { addToCart, toggleWishlist } = props;
-    let categories = [ "All", "Women", "Men", "Shoes", "Accessories" ];
+    let genders = [ "Tất cả", "Nam", "Nữ", "Unisex"];
     let products = props.products;
-    products = products.slice( 41, 51 );
+    products = products.slice( 0, 10 );
 
     // let featuredProducts = getFeaturedProducts( products );
 
@@ -25,10 +26,10 @@ function NewCollection ( props ) {
 
             <Tabs selectedTabClassName="show react-tabs__tab-panel--selected" defaultIndex={ 0 } >
                 <div className="heading heading-center mb-3">
-                    <h2 className="title">NEW ARRIVALS </h2>
+                    <h2 className="title">SẢN PHẨM </h2>
 
                     <TabList className="nav nav-pills justify-content-center">
-                        { categories.map( ( cat, index ) =>
+                        { genders.map( ( cat, index ) =>
                             <Tab className="nav-item" key={ `arrival_${cat}` }>
                                 <span className="nav-link">{ cat }</span>
                             </Tab>
@@ -37,10 +38,10 @@ function NewCollection ( props ) {
                 </div>
 
                 <div className="tab-content tab-content-carousel">
-                    { categories.map( ( cat, index ) =>
+                    { genders.map( ( cat, index ) =>
                         <TabPanel className="tab-pane p-0 react-tabs__tab-panel" key={ `arrivalpanel_${cat}` } selectedClassName="active show">
                             <div className="row">
-                                { getProductsByCategory( products, cat ).map( ( product, index ) =>
+                                { getProductsByGender( products, cat ).map( ( product, index ) =>
                                     <div className="col-xl-5col col-lg-3 col-md-4 col-6" key={ `${cat}_${index}` }>
                                         <ProductNine
                                             type={ 2 }
@@ -58,7 +59,7 @@ function NewCollection ( props ) {
 
             <div className="text-center">
                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-viewMore">
-                    <span>VIEW MORE PRODUCTS</span>
+                    <span>XEM THÊM</span>
 
                     <i className="icon-long-arrow-right"></i>
                 </Link>

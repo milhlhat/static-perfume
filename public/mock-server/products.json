@@ -12,7 +12,7 @@
         "category": [
             "Women"
         ],
-        "gender": "0",
+        "gender": "Nữ",
         "discount": 29,
         "stock": 10,
         "variants": [
@@ -43,7 +43,7 @@
         "category": [
             "Women"
         ],
-        "gender": "1",
+        "gender": "Nam",
         "discount": 29,
         "stock": 10,
         "variants": [
@@ -74,7 +74,7 @@
         "category": [
             "Women"
         ],
-        "gender": "2",
+        "gender": "Nam",
         "discount": 29,
         "stock": 10,
         "variants": [
@@ -101,7 +101,7 @@
         "diem_tot": "\u0110\u00e1nh gi\u00e1",
         "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
         "do_toa_huong": " Xa - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng b\u00e1n k\u00ednh 2 m\u00e9t",
-        "gender": "1",
+        "gender": "Unisex",
         "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Cam Bergamot, G\u1eebng, Qu\u1ea3 t\u00e1o xanh\nH\u01b0\u01a1ng gi\u1eefa: C\u00e2y x\u00f4 th\u01a1m, Qu\u1ea3 b\u00e1ch x\u00f9, Hoa phong l\u1eef\nH\u01b0\u01a1ng cu\u1ed1i: C\u1ecf h\u01b0\u01a1ng b\u00e0i, G\u1ed7 tuy\u1ebft t\u00f9ng, Amberwood, \u0110\u1eadu Tonka, Tr\u1ea7m h\u01b0\u01a1ng",
         "nam_ra_mat": " Ch\u01b0a x\u00e1c \u0111\u1ecbnh",
         "nha_pha_che": " ",
