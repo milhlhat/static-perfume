@@ -225,9 +225,9 @@
     ],
     "banner": [
         {
-            "img": "assets/images/home/banners/banner-4.jpg",
-            "title": "<h3 >Khám phá mùi hương</h3>",
-            "content": "<h3 >MAKE MORE SEXY</h3>",
+            "img": "assets/images/home/banners/banner-7.jpg",
+            "title": "<h3 class='text-dark'>Khám phá mùi hương</h3>",
+            "content": "<h3 class='text-dark'>MAKE MORE SEXY</h3>",
             "btnText": "NƯỚC HOA NỮ",
             "width": 300,
             "height": 260,
@@ -235,17 +235,17 @@
         },
         {
             "img": "assets/images/home/banners/banner-6.jpg",
-            "title": "<h3 className='darkWhite'>Mùi hương phái mạnh</h3>",
-            "content": "<h3>NEW SEASON</h3><h3>NEW SCENT</h3>",
-            "btnText": "NƯỚC HOA NAM",
+            "title": "<h3 class='text-dark'>Mùi hương <span class=' '>phái mạnh</span></h3>",
+            "content": "<h3 class='text-dark'>NEW SEASON NEW SCENT</h3>",
+            "btnText": "NƯỚC HOA NAM ",
             "width": 300,
             "height": 200,
             "btnLink":""
         },
         {
-            "img": "assets/images/home/banners/banner-2.jpg",
-            "title": "<h3 className='darkWhite'>Mùi hương cho everyone</h3>",
-            "content": "<h3>SUMMER SALE</h3><h3>SAVE UP TO 30%</h3>",
+            "img": "assets/images/home/banners/banner-3.jpg",
+            "title": "<h3 class='text-dark'>Mùi hương cho everyone</h3>",
+            "content": "<h3 class='text-dark'>SUMMER SALE SAVE UP TO 30%</h3>",
             "btnText": "NƯỚC HOA UNISEX",
             "width": 300,
             "height": 200,

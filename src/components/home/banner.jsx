@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 import { safeContent } from '../../utils';
 
 export default function Banner ( props ) {
-    const { img, width = "300", height = "320", title, content, btnText = "Shop Now",btnLink } = props.data;
+    const { img, width = "300", height = "220", title, content, btnText = "Shop Now",btnLink } = props.data;
 
     return (
-        <>
+        <div>
             <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` }>
                 <div className="lazy-overlay"></div>
 
@@ -33,12 +33,12 @@ export default function Banner ( props ) {
 
                 <div className="action">
                     <Link to={ `${process.env.PUBLIC_URL}/product/default/${btnLink}` } className="btn btn-demoprimary">
-                        <span>{ btnText }</span>
+                        <span dangerouslySetInnerHTML={ safeContent( btnText ) }></span>
 
                         <i className="icon-long-arrow-right"></i>
                     </Link>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
