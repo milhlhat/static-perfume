@@ -66,6 +66,7 @@ function MediaOne ( props ) {
                             mouseActivation="hover"
                             cursorStyleActive="crosshair"
                             id="product-zoom"
+                            className="w-5"
                         />
 
                         <button id="btn-product-gallery" className="btn-product-gallery" onClick={ openLightBox }>
