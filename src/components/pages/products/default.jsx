@@ -72,7 +72,7 @@ function SingleProduct( props ) {
 
                         <DescOne id={ productId } />
 
-                        <h2 className="title text-center mb-4">You May Also Like</h2>
+                        <h2 className="title text-center mb-4">Bạn có thể thích</h2>
 
                         <RelatedProducts />
                     </div>

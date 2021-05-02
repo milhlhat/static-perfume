@@ -144,7 +144,49 @@ function ProductDetailOne(props) {
 			)}
 
 			<div className="product-content">
-				<p>{product.shortDesc}</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Nhóm nước hoa:</b>
+					{product.nhom_nuoc_hoa}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Giới tính: </b>
+					{product.gender}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Nồng độ:</b>
+					{product.nong_do}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Nhà pha chế:</b>
+					{product.nha_pha_che}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Độ lưu hương:</b>
+					{product.do_luu_huong}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Độ tỏa hương:</b>
+					{product.do_toa_huong}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Thời điểm khuyên dùng:</b>
+					{product.thoi_diem_khuyen_dung}
+				</p>
+				<p className="p-0 m-0">
+					{' '}
+					<b>Phong cách:</b>
+					{product.phong_cach}
+				</p>
+				<p className="p-0 m-0">
+					<pre className="">{product.mui_huong}</pre>
+				</p>
 			</div>
 
 			<div className="details-filter-row details-row-size">

@@ -60,13 +60,14 @@ function MediaOne ( props ) {
 
                         <Magnifier
                             imageSrc={ process.env.PUBLIC_URL + '/' + product.pictures[ 0 ] }
-                            imageAlt="Example"
+                            imageAlt={product.name}
                             largeImageSrc={ process.env.PUBLIC_URL + '/' + bigImages[ 0 ] } // Optional
                             dragToMove={ false }
                             mouseActivation="hover"
                             cursorStyleActive="crosshair"
                             id="product-zoom"
-                            className="w-5"
+                            
+                            
                         />
 
                         <button id="btn-product-gallery" className="btn-product-gallery" onClick={ openLightBox }>
