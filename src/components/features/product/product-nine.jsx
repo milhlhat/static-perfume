@@ -21,7 +21,7 @@ function ProductNine ( props ) {
         }
     }
 
-    return (
+    return ( 
         product ?
             <div className={ `product demo21 ${0 === product.stock ? 'product-disabled' : ''}` }>
                 <figure className="product-media">
