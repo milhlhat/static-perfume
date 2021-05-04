@@ -179,11 +179,7 @@ function ProductDetailOne(props) {
 					<b>Thời điểm khuyên dùng:</b>
 					{product.thoi_diem_khuyen_dung}
 				</p>
-				<p className="p-0 m-0">
-					{' '}
-					<b>Phong cách:</b>
-					{product.phong_cach}
-				</p>
+
 				<p className="p-0 m-0">
 					<pre className="">{product.mui_huong}</pre>
 				</p>

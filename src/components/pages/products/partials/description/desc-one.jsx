@@ -5,8 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import { isIEBrowser } from '../../../../../utils';
 
-//replace Perfumista.vn
-
+ 
 function DescOne(props) {
 	const { product } = props;
 
@@ -35,8 +34,8 @@ function DescOne(props) {
 					<TabPanel className="tab-pane">
 						<div className="product-desc-content">
 							<h3>Thông tin sản phẩm</h3>
-							<p>{product.shortDesc}</p>
-                            <p>{product.perfumista_review }</p>
+							 
+                            <p>{product.perfumista_review&& product.perfumista_review.replace("Perfumista.vn", "22 Store") }</p>
 							{product.diem_tot && <p>
 								<b>Điểm tốt: </b>
 								{product.diem_tot}
