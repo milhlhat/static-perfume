@@ -35,26 +35,26 @@ export default function MainMenu(props) {
 					</Link>
 					<ul>
 						<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
 								Tất cả sản phẩm
-							</Link>
+							</a>
 						</li>
 						<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`} className="sf-with-ul">
+							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`} className="sf-with-ul">
 								Nam
-							</Link>
+							</a>
 						</li>
 						<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
+							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
 								<span>
 									Nữ<span className="tip tip-new">New</span>
 								</span>
-							</Link>
+							</a>
 						</li>
 						<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`} className="sf-with-ul">
+							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`} className="sf-with-ul">
 								Unisex
-							</Link>
+							</a>
 						</li>
 					</ul>
 				</li>
