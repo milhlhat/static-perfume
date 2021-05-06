@@ -75,6 +75,7 @@ function SearchForm(props) {
 					/>
 				</div>
 			</form>
+
 		</div>
 	);
 }

@@ -33,12 +33,18 @@ export const getVisibleProducts = (products, { sortBy, category, brand, gender }
 			// } else {
 			// 	brandResult = true;
 			// }
-
 			if (gender && gender.length > 0){
-				console.log("filter gioi tinh")
-				for (let i = 0; i < gender.length; i++) {
-					if (-1 !== findIndex(item.gender, (br) => br === gender[i])) genderResult = true;
+				if(!gender.toLocaleLowerCase().includes("tất cả")){
+					if(item.gender.toLocaleLowerCase() === gender.toLocaleLowerCase()){
+						genderResult = true;
+					}
+					// for (let i = 0; i < gender.length; i++) {
+					// 	if (-1 !== findIndex(item.gender.toLocaleLowerCase(), (br) => br === gender[i])) genderResult = true;
+					// }
+				}else{
+					genderResult = true;
 				}
+				
 			}else {
 				genderResult = true;
 			}
@@ -316,13 +322,13 @@ export const getCountByRating = (products, rating) => {
  *
  * @param {String} keyword
  */
-export const search = (products, keyword) => {
+export const search = (products,  keyword) => {
 	let result_search = [];
 	let products_id = [];
 	// search by name
 	for (let i in products) {
 		let product = products[i];
-		if (product.name.includes(keyword)) {
+		if (product.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())) {
 			result_search.push(product);
 			products_id.push(product.id);
 		}
@@ -331,7 +337,7 @@ export const search = (products, keyword) => {
 	// after that search by description to add more rich
 	for (let i in products) {
 		let product = products[i];
-		if (product.shortDesc.includes(keyword) && !products_id.includes(product.id)) {
+		if (product.shortDesc.toLocaleLowerCase().includes(keyword.toLocaleLowerCase()) && !products_id.includes(product.id)) {
 			result_search.push(product);
 		}
 	}
@@ -340,30 +346,10 @@ export const search = (products, keyword) => {
 
 export const findByGender = (products, gender) => {
 	let products_filter = []
-	// let gender_chosen = ""
-
-	// switch(gender){
-	// 	case "0":
-	// 		// chon gioi tinh nu
-	// 		gender_chosen = "nữ"
-			
-	// 	case "1":
-	// 		// chon gioi tinh nam
-	// 		gender_chosen = "nam"
-			
-	// 	case "2":
-	// 		// chon gioi tinh unisex
-	// 		gender_chosen = "unisex"
-		
-	// 	default:
-	// 		// return all
-	// 		return products;
-	// 		break;
-	// }
 
 	for(let i in products){
 		let product = products[i];
-		if(product.gender === gender){
+		if(product.gender.toLocaleLowerCase().includes(gender.toLocaleLowerCase())){
 			products_filter.push(product);
 		}
 	}

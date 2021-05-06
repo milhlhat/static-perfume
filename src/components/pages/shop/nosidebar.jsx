@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
-import { search } from '../../../services';
+import { getVisibleProducts, search } from '../../../services';
 // import Custom Components
 import SideBar from '../../features/sidebar/shop-filter';
 import ProductListTwo from '../../features/product/list/product-list-two';
@@ -26,8 +26,16 @@ function NoSideBar(props) {
 		let listTemp = [...searchList];
 		let params = new URLSearchParams(props.location.search);
 		let keyword = params.get('q') == null ? '' : params.get('q');
-
-		listTemp = search(products, keyword);
+		let filter = params.get('filter') == null ? '' : params.get('filter');
+		console.log("filter: ", filter);
+		
+		if(filter != ""){
+			listTemp = getVisibleProducts(products, {gender:filter})
+		}else{
+			listTemp = search(products, keyword);
+		}
+		
+		
 		setSearchList(listTemp);
 	}
 

@@ -37,7 +37,10 @@ h6, .h6 {
   font-size: 1.6rem;
   letter-spacing: -.01em;
 }
-
+pre {
+  font-family:$font-family;
+  white-space: pre-wrap;
+}
 a {
   color: $link-color;
   text-decoration: none;

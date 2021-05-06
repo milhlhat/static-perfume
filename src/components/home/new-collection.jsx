@@ -7,7 +7,7 @@ import { Tab, Tabs, TabPanel, TabList } from 'react-tabs';
 import ProductNine from '../features/product/product-nine';
 
 // import Services & Settings
-import { getProductsByCategory } from '../../services';
+import { getProductsByCategory, getVisibleProducts } from '../../services';
 import { getProductsByGender } from '../../services';
 import { addToCart, toggleWishlist } from '../../actions';
 
@@ -15,7 +15,6 @@ function NewCollection ( props ) {
     const { addToCart, toggleWishlist } = props;
     let genders = [ "Tất cả", "Nam", "Nữ", "Unisex"];
     let products = props.products;
-    products = products.slice( 0, 10 );
 
     // let featuredProducts = getFeaturedProducts( products );
 
@@ -29,20 +28,20 @@ function NewCollection ( props ) {
                     <h2 className="title">SẢN PHẨM </h2>
 
                     <TabList className="nav nav-pills justify-content-center">
-                        { genders.map( ( cat, index ) =>
-                            <Tab className="nav-item" key={ `arrival_${cat}` }>
-                                <span className="nav-link">{ cat }</span>
+                        { genders.map( ( gender, index ) =>
+                            <Tab className="nav-item" key={ `arrival_${gender}` }>
+                                <span className="nav-link">{ gender }</span>
                             </Tab>
                         ) }
                     </TabList>
                 </div>
 
                 <div className="tab-content tab-content-carousel">
-                    { genders.map( ( cat, index ) =>
-                        <TabPanel className="tab-pane p-0 react-tabs__tab-panel" key={ `arrivalpanel_${cat}` } selectedClassName="active show">
+                    { genders.map( ( gender, index ) =>
+                        <TabPanel className="tab-pane p-0 react-tabs__tab-panel" key={ `arrivalpanel_${gender}` } selectedClassName="active show">
                             <div className="row">
-                                { getProductsByGender( products, cat ).map( ( product, index ) =>
-                                    <div className="col-xl-5col col-lg-3 col-md-4 col-6" key={ `${cat}_${index}` }>
+                                { getVisibleProducts( products, {gender: gender} ).slice(0, 10).map( ( product, index ) =>
+                                    <div className="col-xl-5col col-lg-3 col-md-4 col-6" key={ `${gender}_${index}` }>
                                         <ProductNine
                                             type={ 2 }
                                             product={ product }
@@ -58,7 +57,7 @@ function NewCollection ( props ) {
             </Tabs>
 
             <div className="text-center">
-                <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-viewMore">
+                <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="btn btn-viewMore">
                     <span>XEM THÊM</span>
 
                     <i className="icon-long-arrow-right"></i>

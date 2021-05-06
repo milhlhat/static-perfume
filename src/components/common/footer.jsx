@@ -29,7 +29,9 @@ function Footer(props) {
 							<div className="widget-about-info pl-3">
 								<div className="row">
 									<div className="  phoneNum">
-										<span className="widget-about-title font-weight-bold">Mọi thắc mắc xin liên hệ:</span>
+										<span className="widget-about-title font-weight-bold">
+											Mọi thắc mắc xin liên hệ:
+										</span>
 										<a href="tel:0819287888" target="_blank">
 											0819287888
 										</a>
@@ -117,23 +119,23 @@ function Footer(props) {
 
 					<div className="social-icons social-icons-color">
 						<span className="social-label">Mạng xã hội</span>
-						<Link
-							to="https://www.facebook.com/22perfumery"
+						<a
+							href="https://www.facebook.com/22perfumery"
 							className="social-icon social-facebook"
 							title="Facebook"
 							target="_blank"
 						>
 							<i className="icon-facebook-f"></i>
-						</Link>
+						</a>
 						{/* <Link to="#" className="social-icon social-twitter" title="Twitter" target="_blank"><i className="icon-twitter"></i></Link> */}
-						<Link
-							to="https://www.instagram.com/22perfumery/"
+						<a
+							href="https://www.instagram.com/22perfumery/"
 							className="social-icon social-instagram"
 							title="Instagram"
 							target="_blank"
 						>
 							<i className="icon-instagram"></i>
-						</Link>
+						</a>
 						{/* <Link to="#" className="social-icon social-youtube" title="Youtube" target="_blank"><i className="icon-youtube"></i></Link>
                         <Link to="#" className="social-icon social-pinterest" title="Pinterest" target="_blank"><i className="icon-pinterest"></i></Link> */}
 					</div>

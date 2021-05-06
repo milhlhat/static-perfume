@@ -184,6 +184,10 @@ h6, .h6 {
     letter-spacing: -.01em
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 a {
     color: #66f;
     text-decoration: none;
@@ -4199,7 +4203,7 @@ blockquote.text-white cite span {
 
 .footer-logo {
     margin-bottom: 2rem;
-	margin-top: -2.6rem;
+    margin-top: -2.6rem;
 }
 
 .widget-about p {

@@ -40,19 +40,19 @@ export default function MainMenu(props) {
 							</Link>
 						</li>
 						<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`} className="sf-with-ul">
 								Nam
 							</Link>
 						</li>
 						<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`}>
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
 								<span>
 									Nữ<span className="tip tip-new">New</span>
 								</span>
 							</Link>
 						</li>
 						<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
-							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+							<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`} className="sf-with-ul">
 								Unisex
 							</Link>
 						</li>

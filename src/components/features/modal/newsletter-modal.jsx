@@ -29,7 +29,7 @@ function NewsletterModal(props) {
 			if (newsletter) {
 				setOpen(true);
 			}
-		}, 100);
+		}, 10000);
 
 		return () => {
 			if (timer) {
