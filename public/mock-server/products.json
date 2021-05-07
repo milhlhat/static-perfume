@@ -158,13 +158,13 @@
         "variants": [
             {
                 "size": 10,
-                "price": 0,
+                "price": 10,
                 "oldPrice": 0,
                 "name": "Chi\u1ebft"
             },
             {
                 "size": 100,
-                "price": 0,
+                "price": 90,
                 "oldPrice": 0,
                 "name": "Full seal"
             }
@@ -282,7 +282,7 @@
         "id": 7.0,
         "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: H\u01b0\u01a1ng l\u1ee5c c\u1ee7a l\u00e1 xanh, Qu\u1ea3 t\u00e1o xanh\nH\u01b0\u01a1ng gi\u1eefa: Hoa trinh n\u1eef, Hoa sen\nH\u01b0\u01a1ng cu\u1ed1i: H\u1ed5 ph\u00e1ch, X\u1ea1 h\u01b0\u01a1ng, R\u00eau s\u1ed3i, G\u1ed7 tuy\u1ebft t\u00f9ng",
         "nam_ra_mat": " 2006",
-        "name": "Nautica Voyage",
+        "name": "Voyage",
         "nha_pha_che": " Maurice Roucel",
         "nhom_nuoc_hoa": " H\u01b0\u01a1ng g\u1ed7 bi\u1ec3n",
         "nong_do": " EDT",
@@ -295,13 +295,13 @@
         "variants": [
             {
                 "size": 10,
-                "price": 0,
+                "price": 120000,
                 "oldPrice": 0,
                 "name": "Chi\u1ebft"
             },
             {
                 "size": 100,
-                "price": 0,
+                "price": 900000,
                 "oldPrice": 0,
                 "name": "Full seal"
             }
