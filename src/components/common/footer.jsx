@@ -20,9 +20,7 @@ function Footer(props) {
 								height="25"
 							/>
 							<p className="pr-5">
-								22tuoi.com là một trang web được tạo ra từ 2 chàng sinh viên nghèo trường FPT chuyên bán
-								nước hoa chiết các loại. trang web nhằm mục đích mang lại cho các bạn cơ hội được sử
-								dụng nước mà không tốn quá nhiều chi phí. mong các bạn ủng hộ shop và đóng góp ý kiến
+								22tuoi.com là một trang web được tạo ra nhằm mục đích mang lại cho các bạn những chai nước hoa chính hãng mà giá cả phải chăng. mong các bạn ủng hộ shop và đóng góp ý kiến
 								nếu có thắc mắc.{' '}
 							</p>
 

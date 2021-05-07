@@ -58,7 +58,7 @@ export default function MainMenu(props) {
 						</li>
 					</ul>
 				</li>
-				<li className={path.indexOf('product/') > -1 ? 'active' : ''}>
+				{/* <li className={path.indexOf('product/') > -1 ? 'active' : ''}>
 					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
 						Thương Hiệu
 					</Link>
@@ -127,9 +127,9 @@ export default function MainMenu(props) {
 							</div>
 						</div>
 					</div>
-				</li>
+				</li> */}
 
-				<li className={path.indexOf('product/') > -1 ? 'active' : ''}>
+				{/* <li className={path.indexOf('product/') > -1 ? 'active' : ''}>
 					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
 						Bộ sưu tập
 					</Link>
@@ -193,7 +193,7 @@ export default function MainMenu(props) {
 							</div>
 						</div>
 					</div>
-				</li>
+				</li> */}
 				{/* <li className={path.indexOf('pages') > -1 ? 'active' : ''}>
 					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
 						Nam

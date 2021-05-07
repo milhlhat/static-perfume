@@ -46,7 +46,7 @@ export default function HomePage () {
             <h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
 
             <div className="main">
-                <div className="intro-slider-container mb-5">
+                <div className="intro-slider-container mb-3">
                     <OwlCarousel adClass="intro-slider owl-theme owl-light owl-nav-inside" carouselOptions={ introSlider }>
                         {
                             _data.introBanners.map( ( item, index ) =>
@@ -68,7 +68,7 @@ export default function HomePage () {
                     }
                 </div>
 
-                <Brand adClass="mb-5 owl-simple" count={ 7 } />
+                <Brand adClass=" owl-simple" count={ 7 } />
 
                 {/* <div className="container bestsellers">
                     <hr className="mb-3" />

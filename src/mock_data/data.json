@@ -45,27 +45,27 @@
         "default": [
             {
                 "name": "brand",
-                "image": "assets/images/brands/chanel.png"
+                "image": "assets/images/brands/gucci-logo2.jpg"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/dior-logo.jpg"
+                "image": "assets/images/brands/dior.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/ck.jpg"
+                "image": "assets/images/brands/mancera.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/burberry.png"
+                "image": "assets/images/brands/maison.png"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/mancera.jpg"
+                "image": "assets/images/brands/chanel.jpg"
             },
             {
                 "name": "brand",
-                "image": "assets/images/brands/dg.jpeg"
+                "image": "assets/images/brands/dg.jpg"
             }
         ]
     },
@@ -199,8 +199,8 @@
         {
             "id": 4,
             "icon": "icon-envelope",
-            "title": "Join Our Newsletter",
-            "subtitle": "10% off by subscribing to our social network"
+            "title": "Theo dõi 22 store",
+            "subtitle": "Để nhận thông báo về ưu đãi sớm nhất"
         }
     ],
     "innerOverlayPaths": [
@@ -216,7 +216,7 @@
     ],
     "introBanners": [
         {
-            "image": "/assets/images/banners/big-banner2.jpg",
+            "image": "/assets/images/home/banners/fragrance-1991531.jpg",
             "title": "<h3 class='text-white'>22 STORE<h3/>",
             "content": "<h3 class='text-dark'>IT'S TIME TO UPGRADE<br/>YOUR COLLECTION</h3>",
             "price": "<h3 class='text-danger'>SAVE UP TO 15%</h3>"
@@ -231,7 +231,7 @@
             "btnText": "NƯỚC HOA NỮ",
             "width": 300,
             "height": 260,
-            "btnLink":""
+            "btnLink":"/shop/nosidebar/boxed?filter=nữ"
         },
         {
             "img": "assets/images/home/banners/banner-6.jpg",
@@ -240,7 +240,7 @@
             "btnText": "NƯỚC HOA NAM ",
             "width": 300,
             "height": 200,
-            "btnLink":""
+            "btnLink":"/shop/nosidebar/boxed?filter=nam"
         },
         {
             "img": "assets/images/home/banners/banner-3.jpg",
@@ -249,7 +249,7 @@
             "btnText": "NƯỚC HOA UNISEX",
             "width": 300,
             "height": 200,
-            "btnLink":""
+            "btnLink":"/shop/nosidebar/boxed?filter=unisex"
         }
     ]
 }

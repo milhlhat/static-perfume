@@ -13,7 +13,7 @@ function Instagram ( props ) {
             <div className="row">
                 <div className="col-sm-3 banner-sm-div">
                     <div className="banner-sm col-12 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-1.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/2.png` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -22,7 +22,7 @@ function Instagram ( props ) {
                         </div>
                     </div>
                     <div className="banner-sm col-12 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-2.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/3.jpg` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -32,7 +32,7 @@ function Instagram ( props ) {
                     </div>
                 </div>
                 <div className="col-sm-3 banner-lg instagram-feed">
-                    <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-3.jpg` } alt="desc" />
+                    <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/1.jpg` } alt="desc" />
 
                     <div className="instagram-feed-content">
                         <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -42,7 +42,7 @@ function Instagram ( props ) {
                 </div>
                 <div className="col-sm-3 banner-sm-div">
                     <div className="banner-sm col-6 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-4.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/4.jpg` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -51,7 +51,7 @@ function Instagram ( props ) {
                         </div>
                     </div>
                     <div className="banner-sm col-6 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-6.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/6.jpg` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -63,7 +63,7 @@ function Instagram ( props ) {
 
                 <div className="col-sm-3 banner-sm-div">
                     <div className="banner-sm col-6 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-5.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/5.jpg` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
@@ -72,7 +72,7 @@ function Instagram ( props ) {
                         </div>
                     </div>
                     <div className="banner-sm col-6 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/banner-7.jpg` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/7.png` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>

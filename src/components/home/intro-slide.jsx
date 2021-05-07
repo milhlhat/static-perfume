@@ -4,7 +4,7 @@ import React from 'react';
 import { safeContent } from '../../utils';
 
 export default function IntroSlide ( props ) {
-    const { image, content, price, title, btnText = "DISCOVER NOW" } = props.data;
+    const { image, content, price, title, btnText = "kHÁM PHÁ" } = props.data;
 
     return (
         <div className="intro-slide" style={ { backgroundImage: 'url(' + process.env.PUBLIC_URL + image + ')' } }>
@@ -21,7 +21,7 @@ export default function IntroSlide ( props ) {
                         </div>
 
                         <div className="action">
-                            <a href={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-primary">
+                            <a href={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="btn btn-primary">
                                 <span>{ btnText }</span>
                             </a>
                         </div>

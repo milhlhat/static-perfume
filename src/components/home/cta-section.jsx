@@ -2,14 +2,14 @@ import React from 'react';
 
 export default function CTA () {
     return (
-        <div className="background" style={ { backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/banners/fanpage.png)` } }>
+        <div className="background" style={ { backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/banners/perfume-2445617_1280.jpg)` } }>
             <div className="subscribe">
                 <div className="subscribe-title text-center">
-                    <h1 className="intro-title2nd">THEO DÕI 22 STORE TRÊN FACEBOOK</h1>
+                <a href="https://www.facebook.com/22perfumery"><h1 className="intro-title2nd">THEO DÕI 22 STORE TRÊN FACEBOOK</h1></a>
 
                     <h1 className="intro-title1st">Nhấn Follow để không bỏ lỡ những ưu đãi đặc biệt dành riêng cho bạn</h1>
                 </div>
-                <form action="#">
+                {/* <form action="#">
                     <div className="input-group">
                         <input type="email" className="news" placeholder="Enter your Email Address" aria-label="Email Adress" required />
 
@@ -17,7 +17,7 @@ export default function CTA () {
                             <button className="btn btn-subscribe" type="submit"><span>Subscribe</span><i className="icon-long-arrow-right"></i></button>
                         </div>
                     </div>
-                </form>
+                </form> */}
             </div>
         </div>
     )

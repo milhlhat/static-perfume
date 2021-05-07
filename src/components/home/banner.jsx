@@ -10,7 +10,7 @@ export default function Banner ( props ) {
 
     return (
         <div>
-            <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` }>
+            <Link to={ `${process.env.PUBLIC_URL}${btnLink}` }>
                 <div className="lazy-overlay"></div>
 
                 <LazyLoadImage
@@ -24,15 +24,15 @@ export default function Banner ( props ) {
 
             <div className={ "banner-content" }>
                 <div className="title">
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } dangerouslySetInnerHTML={ safeContent( title ) }></Link>
+                    <Link to={ `${process.env.PUBLIC_URL}${btnLink}` } dangerouslySetInnerHTML={ safeContent( title ) }></Link>
                 </div>
 
                 <div className="content">
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } dangerouslySetInnerHTML={ safeContent( content ) }></Link>
+                    <Link to={ `${process.env.PUBLIC_URL}${btnLink}` } dangerouslySetInnerHTML={ safeContent( content ) }></Link>
                 </div>
 
                 <div className="action">
-                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${btnLink}` } className="btn btn-demoprimary">
+                    <Link to={ `${process.env.PUBLIC_URL}${btnLink}` } className="btn btn-demoprimary">
                         <span dangerouslySetInnerHTML={ safeContent( btnText ) }></span>
 
                         <i className="icon-long-arrow-right"></i>

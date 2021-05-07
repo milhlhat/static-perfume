@@ -21,7 +21,7 @@ function NewCollection ( props ) {
     return (
         <div className="container new-arrivals">
 
-            <hr className="mb-5 mt-8" />
+            <hr className="" />
 
             <Tabs selectedTabClassName="show react-tabs__tab-panel--selected" defaultIndex={ 0 } >
                 <div className="heading heading-center mb-3">

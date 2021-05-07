@@ -16,7 +16,7 @@ console.log(props);
     const [ loading, setLoading ] = useState( false );
 
     const classList = { "boxed": "col-6 col-md-4 col-lg-4 col-xl-3", "fullwidth": "col-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2" };
-    products = getVisibleProducts( searchList.slice( 0, 15 ), filters );
+    products = getVisibleProducts( searchList, filters );
 
     function showSideBar() {
         document.querySelector( 'body' ).classList.add( 'sidebar-filter-active' );
@@ -32,17 +32,17 @@ console.log(props);
             setLoading( true );
 
             timer = setTimeout( () => {
-                setLoadedCount( prevCount => prevCount + 4 );
+                setLoadedCount( prevCount => prevCount + 8 );
                 setLoading( false );
 
-                if ( loadedCount >= products.length - 4 ) {
+                if ( loadedCount >= products.length - 8 ) {
                     setHasMore( false );
                 }
-            }, 2000 );
+            }, 100 );
         } else {
             timer = setTimeout( () => {
                 setHasMore( false );
-            }, 500 );
+            }, 100 );
         }
     }
 
