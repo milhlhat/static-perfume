@@ -47,7 +47,7 @@ export default function MainMenu(props) {
 						<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
 							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
 								<span>
-									Nữ<span className="tip tip-new">New</span>
+									Nữ
 								</span>
 							</a>
 						</li>
@@ -100,6 +100,72 @@ export default function MainMenu(props) {
 											<Link to={`${process.env.PUBLIC_URL}/product/masonry/4`}>
 												Masonry Sticky Info
 											</Link>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div className="col-md-6">
+								<div className="banner banner-overlay">
+									<Link to={`${process.env.PUBLIC_URL}/product/centered/27`}>
+										<img
+											src={`${process.env.PUBLIC_URL}/assets/images/menu/banner-2.jpg`}
+											alt="Banner"
+										/>
+
+										<div className="banner-content banner-content-bottom">
+											<div className="banner-title text-white">
+												New Trends
+												<br />
+												<span>
+													<strong>spring {new Date().getFullYear()}</strong>
+												</span>
+											</div>
+										</div>
+									</Link>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li className={path.indexOf('product/') > -1 ? 'active' : ''}>
+					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+						Bộ sưu tập
+					</Link>
+
+					<div className="megamenu megamenu-sm">
+						<div className="row no-gutters">
+							<div className="col-md-6">
+								<div className="menu-col">
+									<div className="menu-title">Bộ sưu tập 2021</div>
+									<ul>
+										<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/default/1`}>Mùa hè</Link>
+										</li>
+										<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/centered/9`}>Mùa đông</Link>
+										</li>
+										<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/extended/8`}>
+												<span>
+													Đi học<span className="tip tip-new">New</span>
+												</span>
+											</Link>
+										</li>
+										<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/gallery/1`}>Đi tiệc</Link>
+										</li>
+										<li className={path.indexOf('product/sticky') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/sticky/6`}>Đi chơi</Link>
+										</li>
+										<li className={path.indexOf('product/sidebar') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/sidebar/5`}>
+												Ở nhà
+											</Link>
+										</li>
+										<li className={path.indexOf('product/fullwidth') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/fullwidth/2`}>Đi hẹn hò</Link>
 										</li>
 									</ul>
 								</div>

@@ -13,13 +13,13 @@ function ProductNine ( props ) {
             onAddToCart( product, 1 );
     }
 
-    function wishlistHandler () {
-        if ( isWishlist ) {
-            window.location = '/shop/wishlist';
-        } else {
-            onToggleWishlist( product, isWishlist );
-        }
-    }
+    // function wishlistHandler () {
+    //     if ( isWishlist ) {
+    //         window.location = '/shop/wishlist';
+    //     } else {
+    //         onToggleWishlist( product, isWishlist );
+    //     }
+    // }
 
     return ( 
         product ?
@@ -28,7 +28,7 @@ function ProductNine ( props ) {
                     { product.new ? <span className="product-label label-new">New</span> : '' }
                     { product.top ? <span className="product-label label-top">Top</span> : '' }
                     { product.discount ? <span className="product-label label-sale">Sale</span> : '' }
-                    { product.stock === 0 ? <span className="product-label label-out">Out Of Stock</span> : '' }
+                    { product.stock === 0 ? <span className="product-label label-out">Hết hàng</span> : '' }
 
                     <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
                         <LazyLoadImage
@@ -50,14 +50,14 @@ function ProductNine ( props ) {
                 </figure>
 
                 <div className="product-body text-center">
-                    <div className="product-cat">
+                    {/* <div className="product-cat">
                         { product.category.map( ( cat, index ) => (
                             <span key={ index } className="mr-0">
                                 <Link to="#">{ cat }</Link>
                                 { index < product.category.length - 1 ? ', ' : '' }
                             </span>
                         ) ) }
-                    </div>
+                    </div> */}
 
                     <h3 className="product-title">
                         <Link to={ `${process.env.PUBLIC_URL}/product/default/7` } >{ product.name }</Link>
@@ -73,34 +73,34 @@ function ProductNine ( props ) {
                             <div className="product-price">${ product.variants[0].price.toLocaleString( undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 } ) }</div>
                     }
 
-                    <div className="ratings-container">
+                    {/* <div className="ratings-container">
                         <div className="ratings">
                             <div className="ratings-val" style={ { width: product.ratings * 20 + '%' } }></div>
                         </div>
                         <span className="ratings-text">( { product.reviews } Reviews )</span>
-                    </div>
+                    </div> */}
 
                     <div className="product-action">
                         <button className="btn-product btn-cart" onClick={ addToCartHandler }>
-                            <span>add to cart</span>
+                            <span>Thêm vào giỏ hàng</span>
                         </button>
 
-                        {
+                        {/* {
                             type === 1 ?
                                 <button className={ `btn-addtolist ${isWishlist ? 'wishlisted' : ''}` } onClick={ wishlistHandler }>
                                     <span dangerouslySetInnerHTML={ safeContent( isWishlist ? "&nbsp;go to wishlist" : "&nbsp;add to wishlist" ) }></span>
                                 </button>
                                 : ""
-                        }
+                        } */}
                     </div>
 
-                    {
+                    {/* {
                         type === 2 ?
                             <button className={ `btn-addtolist ${isWishlist ? 'wishlisted' : ''}` } onClick={ wishlistHandler }>
                                 <span dangerouslySetInnerHTML={ safeContent( isWishlist ? "&nbsp;go to wishlist" : "&nbsp;add to wishlist" ) }></span>
                             </button>
                             : ""
-                    }
+                    } */}
                 </div>
             </div>
             : ''
