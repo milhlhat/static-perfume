@@ -122,7 +122,7 @@ function CartMenu(props) {
 
 									<figure className="product-image-container">
 										<Link
-											to={`${process.env.PUBLIC_URL}/product/default/7`}
+											to={`${process.env.PUBLIC_URL}/product/default/${item.id}`}
 											className="product-image"
 										>
 											<img

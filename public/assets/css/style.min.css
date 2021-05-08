@@ -16002,7 +16002,7 @@ button:focus {
         justify-content: center
     }
     .table-mobile .product-col .product-title {
-        text-align: left
+        text-align: center
     }
     .table-mobile {
         border: .1rem solid #ebebeb

@@ -1,0 +1,136 @@
+diff a/src/components/pages/products/partials/details/detail-one.jsx b/src/components/pages/products/partials/details/detail-one.jsx	(rejected hunks)
+@@ -9,17 +9,22 @@
+ function ProductDetailOne(props) {
+ 	const { product, isWishlist, type, addToCart, toggleWishlist } = props;
+ 	const [price, setPrice] = useState({});
+ 	useEffect(() => {
+ 		quantityInputs();
+ 		setPrice(getMinMaxPrice(product.variants));
++		
+ 	}, [product.variants]);
+ 
+ 	const addToCartHandler = () => {
+ 		if (0 !== product.stock)
+-			addToCart(product, document.querySelector('#qty').value, document.querySelector('#size').value);
++			addToCart(
++				product,
++				document.querySelector('#qty').value,
++				product.variants[document.querySelector('#size').value].size
++			);
+ 	};
+ 
+ 	const wishlistHandler = () => {
+ 		if (isWishlist) {
+ 			window.location = process.env.PUBLIC_URL + '/shop/wishlist';
+ 		} else {
+@@ -35,13 +40,12 @@
+ 
+ 		variantsArray.forEach(function(value) {
+ 			let newValue = Number(value.price);
+ 			if (newValue < min) {
+ 				min = newValue;
+ 				minOld = value.oldPrice;
+-				 
+ 			}
+ 		});
+ 
+ 		variantsArray.forEach(function(value) {
+ 			let newValue = Number(value.price);
+ 			if (newValue > max && newValue > min) {
+@@ -61,17 +65,17 @@
+ 				console.log('dung');
+ 				return true;
+ 			}
+ 		});
+ 		console.log('sai');
+ 		return false;
+-	};
++	}
+ 
+ 	function handleChangePrice(e) {
+-		console.log(e.target.value);
+-		setPrice({...price, })
++		console.log(product.variants[e.target.value]);
++		setPrice({ ...price, minPrice: product.variants[e.target.value].price, maxPrice: null });
+ 	}
+ 
+ 	// console.log('min:' + isDiscount(product.variants));
+ 	return (
+ 		<div className={'product-details'}>
+ 			<h1 className="product-title">{product.name}</h1>
+@@ -97,13 +101,13 @@
+ 								minimumFractionDigits: 0,
+ 								maximumFractionDigits: 3,
+ 							})}
+ 						đ
+ 					</span>
+ 				</div>
+-			)
++			) : (
+ 				//  : isDiscount ? (
+ 				// 	<div className="product-price">
+ 				// 		<span className="new-price">
+ 				// 			{price.minPrice &&
+ 				// 				price.minPrice.toLocaleString(undefined, {
+ 				// 					minimumFractionDigits: 0,
+@@ -133,30 +137,29 @@
+ 				// 						maximumFractionDigits: 3,
+ 				// 				  })}
+ 				// 			đ
+ 				// 		</span>
+ 				// 	</div>
+ 				// )
+-			: (
+ 				<div className="product-price">
+ 					{price.minPrice &&
+ 						price.minPrice.toLocaleString(undefined, {
+ 							minimumFractionDigits: 0,
+ 							maximumFractionDigits: 3,
+ 						})}
+-					{' - '}
++					{price.maxPrice && '-'}
+ 					{price.maxPrice && 
+ 						price.maxPrice.toLocaleString(undefined, {
+ 							minimumFractionDigits: 0,
+ 							maximumFractionDigits: 3,
+ 						})}
++
+ 					đ
+ 				</div>
+ 			)}
+ 
+-
+ 			<div className="product-content">
+ 				<p className="p-0 m-0">
+ 					{' '}
+ 					<b>Nhóm nước hoa:</b>
+ 					{product.nhom_nuoc_hoa}
+ 				</p>
+@@ -196,16 +199,24 @@
+ 				</p>
+ 			</div>
+ 
+ 			<div className="details-filter-row details-row-size">
+ 				<label htmlFor="size">Size:</label>
+ 				<div className="select-custom">
+-					<select name="size" id="size" className="form-control" defaultValue="#" onChange={(e)=>{handleChangePrice(e); }}>
+-						<option value="#">Chọn size</option>
++					<select
++						name="size"
++						id="size"
++						className="form-control"
++						defaultValue="#"
++						onChange={(e) => {
++							handleChangePrice(e);
++						}}
++					>
++						{/* <option value="#">Chọn size</option> */}
+ 						{product.variants.map((v, index) => (
+-							<option key={index} value={v.size} >
++							<option key={index} value={index}>
+ 								{v.name + ' ' + v.size + ' ml'}
+ 							</option>
+ 						))}
+ 					</select>
+ 				</div>
+ 

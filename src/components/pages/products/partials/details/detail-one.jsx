@@ -15,8 +15,11 @@ function ProductDetailOne(props) {
 	}, [product.variants]);
 
 	const addToCartHandler = () => {
-		if (0 !== product.stock)
-			addToCart(product, document.querySelector('#qty').value, document.querySelector('#size').value);
+		addToCart(
+			product,
+			document.querySelector('#qty').value,
+			product.variants[document.querySelector('#size').value].size
+		);
 	};
 
 	const wishlistHandler = () => {
@@ -38,7 +41,6 @@ function ProductDetailOne(props) {
 			if (newValue < min) {
 				min = newValue;
 				minOld = value.oldPrice;
-				 
 			}
 		});
 
@@ -64,11 +66,11 @@ function ProductDetailOne(props) {
 		});
 		console.log('sai');
 		return false;
-	};
+	}
 
-	function handleChangePrice(e){
-		console.log(e.target.value);
-		setPrice({...price, })
+	function handleChangePrice(e) {
+		console.log(product.variants[e.target.value]);
+		setPrice({ ...price, minPrice: product.variants[e.target.value].price, maxPrice: null });
 	}
 
 	// console.log('min:' + isDiscount(product.variants));
@@ -91,7 +93,7 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 3,
 							})}
-						{'-'}
+						{price.maxPrice && '-'}
 						{price.maxPrice &&
 							price.maxPrice.toLocaleString(undefined, {
 								minimumFractionDigits: 0,
@@ -100,50 +102,49 @@ function ProductDetailOne(props) {
 						đ
 					</span>
 				</div>
-			)
-			//  : isDiscount ? (
-			// 	<div className="product-price">
-			// 		<span className="new-price">
-			// 			{price.minPrice &&
-			// 				price.minPrice.toLocaleString(undefined, {
-			// 					minimumFractionDigits: 0,
-			// 					maximumFractionDigits: 3,
-			// 				})}
-			// 			{' - '}
-			// 			{price.maxPrice &&
-			// 				price.maxPrice.toLocaleString(undefined, {
-			// 					minimumFractionDigits: 0,
-			// 					maximumFractionDigits: 3,
-			// 				})}
-			// 			đ
-			// 		</span>
-			// 		<span className="old-price">
-			// 			{price.minPrice && price.minOld.toLocaleString(undefined, {
-			// 				minimumFractionDigits: 0,
-			// 				maximumFractionDigits: 3,
-			// 			})}
-			// 			{' - '}
-			// 			{(price.maxOld && 0 < price.maxOld)
-			// 				? price.maxOld.toLocaleString(undefined, {
-			// 						minimumFractionDigits: 0,
-			// 						maximumFractionDigits: 3,
-			// 				  })
-			// 				: price.maxPrice.toLocaleString(undefined, {
-			// 						minimumFractionDigits: 0,
-			// 						maximumFractionDigits: 3,
-			// 				  })}
-			// 			đ
-			// 		</span>
-			// 	</div>
-			// ) 
-			: (
+			) : (
+				//  : isDiscount ? (
+				// 	<div className="product-price">
+				// 		<span className="new-price">
+				// 			{price.minPrice &&
+				// 				price.minPrice.toLocaleString(undefined, {
+				// 					minimumFractionDigits: 0,
+				// 					maximumFractionDigits: 3,
+				// 				})}
+				// 			{' - '}
+				// 			{price.maxPrice &&
+				// 				price.maxPrice.toLocaleString(undefined, {
+				// 					minimumFractionDigits: 0,
+				// 					maximumFractionDigits: 3,
+				// 				})}
+				// 			đ
+				// 		</span>
+				// 		<span className="old-price">
+				// 			{price.minPrice && price.minOld.toLocaleString(undefined, {
+				// 				minimumFractionDigits: 0,
+				// 				maximumFractionDigits: 3,
+				// 			})}
+				// 			{' - '}
+				// 			{(price.maxOld && 0 < price.maxOld)
+				// 				? price.maxOld.toLocaleString(undefined, {
+				// 						minimumFractionDigits: 0,
+				// 						maximumFractionDigits: 3,
+				// 				  })
+				// 				: price.maxPrice.toLocaleString(undefined, {
+				// 						minimumFractionDigits: 0,
+				// 						maximumFractionDigits: 3,
+				// 				  })}
+				// 			đ
+				// 		</span>
+				// 	</div>
+				// )
 				<div className="product-price">
 					{price.minPrice &&
 						price.minPrice.toLocaleString(undefined, {
 							minimumFractionDigits: 0,
 							maximumFractionDigits: 3,
 						})}
-					{' - '}
+					{price.maxPrice && '-'}
 					{price.maxPrice &&
 						price.maxPrice.toLocaleString(undefined, {
 							minimumFractionDigits: 0,
@@ -152,7 +153,6 @@ function ProductDetailOne(props) {
 					đ
 				</div>
 			)}
-
 
 			<div className="product-content">
 				<p className="p-0 m-0">
@@ -199,10 +199,18 @@ function ProductDetailOne(props) {
 			<div className="details-filter-row details-row-size">
 				<label htmlFor="size">Size:</label>
 				<div className="select-custom">
-					<select name="size" id="size" className="form-control" defaultValue="#" onChange={(e)=>{handleChangePrice(e); }}>
-						<option value="#">Chọn size</option>
+					<select
+						name="size"
+						id="size"
+						className="form-control"
+						defaultValue="#"
+						onChange={(e) => {
+							handleChangePrice(e);
+						}}
+					>
+						{/* <option value="#">Chọn size</option> */}
 						{product.variants.map((v, index) => (
-							<option key={index} value={v.size} >
+							<option key={index} value={index}>
 								{v.name + ' ' + v.size + ' ml'}
 							</option>
 						))}

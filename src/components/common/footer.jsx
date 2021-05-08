@@ -54,7 +54,7 @@ function Footer(props) {
 									<Link to={`${process.env.PUBLIC_URL}/pages/faq`}>Đặt câu hỏi</Link>
 								</li>
 								<li>
-									<Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ qua messenger</Link>
+									<Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ</Link>
 								</li>
 							</ul>
 						</div>
@@ -76,14 +76,12 @@ function Footer(props) {
 							<h4 className="widget-title">Dịch vụ khách hàng</h4>
 
 							<ul className="widget-list">
-								<li>
-									<Link to="#">Miễn phí vận chuyển</Link>
-								</li>
+								 
 								<li>
 									<Link to="#">Hoàn tiền khi phát hiện hàng giả</Link>
 								</li>
 								<li>
-									<Link to="#">Đổi trả trong 7 ngày</Link>
+									<Link to="#">Lỗi đổi trả trong 7 ngày</Link>
 								</li>
 							</ul>
 						</div>
