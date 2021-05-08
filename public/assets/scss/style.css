@@ -19693,7 +19693,7 @@ a:hover, a:focus {
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 1.3rem 0;
+  padding: .5rem 0;
 }
 
 .notification .notify-content h3 {

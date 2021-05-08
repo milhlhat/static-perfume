@@ -29,14 +29,15 @@ function Header(props) {
 				className="notification"
 				style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/notification-back.jpg)` }}
 			>
-				<div className="notify-content">
+				<div className="notify-content d-flex justify-content-center align-items-center">
 					<h3>MIỄN PHÍ GIAO HÀNG ĐƠN 0Đ* - CAM KẾT AUTHENTIC 100%</h3>
+					<i className="icon-close text-white ml-1" onClick={hideNotificationHandler}></i>
 				</div>
-				<div className="notify-action">
+				{/* <div className="notify-action">
 					<Link to="#">
 						<i className="icon-close" onClick={hideNotificationHandler}></i>
 					</Link>
-				</div>
+				</div> */}
 			</div>
 			<header className="header">
 				<div className="header-top">

@@ -22,9 +22,9 @@ export default function MobileMenu () {
                             <span className="nav-link">Menu</span>
                         </Tab>
 
-                        <Tab className="nav-item">
+                        {/* <Tab className="nav-item">
                             <span className="nav-link">Categories</span>
-                        </Tab>
+                        </Tab> */}
                     </TabList>
 
                     <div className="tab-content">
@@ -32,7 +32,7 @@ export default function MobileMenu () {
                             <MobileMainNav />
                         </TabPanel>
 
-                        <TabPanel>
+                        {/* <TabPanel>
                             <nav className="mobile-cats-nav">
                                 <ul className="mobile-cats-menu">
                                     <li><Link className="mobile-cats-lead" to="#">Daily offers</Link></li>
@@ -48,7 +48,7 @@ export default function MobileMenu () {
                                     <li><Link to="#">Outdoor Furniture </Link></li>
                                 </ul>
                             </nav>
-                        </TabPanel>
+                        </TabPanel> */}
                     </div>
                 </Tabs>
 

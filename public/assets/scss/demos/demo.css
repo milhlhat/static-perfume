@@ -10,7 +10,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 1.3rem 0; }
+  padding: 0.5rem 0; }
   .notification .notify-content h3 {
     font-size: 1.3rem;
     font-weight: 400;
