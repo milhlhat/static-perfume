@@ -49,8 +49,8 @@ function cartReducer(
 
 		case CHANGE_QTY:
 			const cart = state.cart.reduce((cartAcc, product) => {
-				if (product.id === action.productId) {
-					cartAcc.push({ ...product, qty: action.qty });
+				if (product.id === action.productId && product.size == action.size) {
+					cartAcc.push({ ...product, qty: action.qty, size: action.size });
 				} else {
 					cartAcc.push(product);
 				}

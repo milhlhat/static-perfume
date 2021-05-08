@@ -61,7 +61,7 @@ export const removeNewsletterMdoal = (modal) => ({
 /************ Cart Action **************/
 // add item to cart
 export const addToCart = (product, qty, size) => (dispatch) => {
-	toast.success('Đã thêm sản phẩm vào giỏ hàng ❤' );
+	toast.success('Đã thêm sản phẩm vào giỏ hàng ');
 	dispatch(addToCartUnsafe(product, qty, size));
 };
 
@@ -106,10 +106,11 @@ export const removeFromCart = (productId, size) => (dispatch) => {
 };
 
 // change item's qty
-export const changeQty = (productId, qty) => ({
+export const changeQty = (productId, qty, size) => ({
 	type: types.CHANGE_QTY,
 	productId,
 	qty,
+	size,
 });
 
 // change shipping method

@@ -5954,10 +5954,14 @@ blockquote.text-white cite span {
     z-index: 3
 }
 
+.hover-img-product-nine img{
+    width:85% !important
+}
+
 .product-media::before {
     content: '';
     display: block;
-    width: 95%;
+    width: 80%;
     background-image: linear-gradient(#f4f4f4 250px, transparent 0);
     background-size: cover;
     background-position: center center;
@@ -6000,7 +6004,7 @@ blockquote.text-white cite span {
 
 .product-image-hover img {
     position: absolute;
-    left: 0;
+    /* left: 0; */
     top: 0;
     opacity: 0;
     width: 100%;

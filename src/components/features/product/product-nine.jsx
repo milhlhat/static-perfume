@@ -42,7 +42,7 @@ function ProductNine ( props ) {
                                 alt="product"
                                 src={ `${process.env.PUBLIC_URL}/${product.pictures[ 1 ]}` }
                                 threshold={ 100 }
-                                wrapperClassName="product-image-hover product-image"
+                                wrapperClassName="product-image-hover product-image hover-img-product-nine"
                             />
                             : ''
                         }

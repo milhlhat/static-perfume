@@ -15,6 +15,7 @@ function Cart(props) {
 	const { cartlist, total, removeFromCart, prevShip, productList } = props;
 	const [shipping, setShipping] = useState(prevShip);
 	const [cartDetail, setCartDetail] = useState([]);
+	const [productSize, setProductSize] = useState([]);
 	const shippingPrice = { free: 0, standard: 10, express: 20 };
 
 	useEffect(() => {
@@ -26,8 +27,8 @@ function Cart(props) {
 		setShipping(val);
 	}
 
-	function onChangeQty(e, productId) {
-		props.changeQty(productId, e.currentTarget.querySelector('input[type="number"]').value);
+	function onChangeQty(e, productId,size) {
+		props.changeQty(productId, e.currentTarget.querySelector('input[type="number"]').value, size);
 	}
 
 	function goToCheckout() {
@@ -137,7 +138,7 @@ function Cart(props) {
 														<td className="quantity-col">
 															<div
 																className="cart-product-quantity"
-																onClick={(e) => onChangeQty(e, item.id)}
+																onClick={(e) => onChangeQty(e, item.product.id,item.size)}
 															>
 																<input
 																	type="number"

@@ -10,7 +10,7 @@ function ProductTwo ( props ) {
 
     const addToCartHandler = () => {
         if ( 0 !== product.stock )
-            onAddToCart( product, 1 );
+            onAddToCart( product, 1, product.variants[0].size );
     }
 
     const quickViewHandler = () => {
