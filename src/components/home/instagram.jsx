@@ -72,7 +72,7 @@ function Instagram ( props ) {
                         </div>
                     </div>
                     <div className="banner-sm col-6 instagram-feed">
-                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/7.png` } alt="desc" />
+                        <img src={ `${process.env.PUBLIC_URL}/assets/images/home/instagram/8.JPG` } alt="desc" />
 
                         <div className="instagram-feed-content">
                             <Link to="#"><i className="icon-heart-o"></i>280</Link>
