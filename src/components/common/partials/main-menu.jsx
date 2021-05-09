@@ -39,19 +39,19 @@ export default function MainMenu(props) {
 								Tất cả sản phẩm
 							</a>
 						</li>
-						<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
+						<li className={path.indexOf('filter=nam') > -1 ? 'active' : ''}>
 							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`} className="sf-with-ul">
 								Nam
 							</a>
 						</li>
-						<li className={path.indexOf('product/extended') > -1 ? 'active' : ''}>
+						<li className={path.indexOf('filter=nữ') > -1 ? 'active' : ''}>
 							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
 								<span>
 									Nữ
 								</span>
 							</a>
 						</li>
-						<li className={path.indexOf('product/gallery') > -1 ? 'active' : ''}>
+						<li className={path.indexOf('filter=unisex') > -1 ? 'active' : ''}>
 							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`} className="sf-with-ul">
 								Unisex
 							</a>

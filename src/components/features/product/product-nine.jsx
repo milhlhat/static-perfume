@@ -10,7 +10,7 @@ function ProductNine(props) {
 	const [price, setPrice] = useState({});
 	useEffect(() => {
 		setPrice(getMinMaxPrice(product.variants));
-	}, [product.variants]);
+	}, [product.variants]); 
 	function addToCartHandler() {
 		if (0 !== product.stock) onAddToCart(product, 1, product.variants[0].size);
 	}

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Countdown from 'react-countdown';
 
 import { rendererOne } from '../count-down';
 
-import { findIndex } from '../../../utils';
+import { findIndex, getMinMaxPrice } from '../../../utils';
 
 function ProductSix(props) {
 	const {
@@ -17,9 +17,12 @@ function ProductSix(props) {
 		onToggleWishlist,
 		onAddToCompare,
 	} = props;
-
+	const [price, setPrice] = useState({});
+	useEffect(() => {
+		setPrice(getMinMaxPrice(product.variants));
+	}, [product.variants]); 
 	const addToCartHandler = () => {
-		if (0 !== product.stock) onAddToCart(product, 1);
+		if (0 !== product.stock) onAddToCart(product, 1, product.variants[0].size);
 	};
 
 	const addToCompareHandler = () => {
@@ -73,7 +76,7 @@ function ProductSix(props) {
 				)}
 
 				<div className="product-action-vertical">
-					<button
+					{/* <button
 						className={`btn-product-icon btn-wishlist ${
 							isWishlist ? 'added-to-wishlist' : 'remove-from-wishlist'
 						}`}
@@ -81,20 +84,20 @@ function ProductSix(props) {
 						title={isWishlist ? 'Go to wishlist' : 'Add to wishlist'}
 					>
 						<span>{isWishlist ? 'go to wishlist' : 'add to wishlist'}</span>
-					</button>
+					</button> */}
 
 					<button className="btn-product-icon btn-quickview" title="Quick view" onClick={quickViewHandler}>
-						<span>Quick view</span>
+						<span>Xem nhanh</span>
 					</button>
 
-					<button className="btn-product-icon btn-compare" title="Compare" onClick={addToCompareHandler}>
+					{/* <button className="btn-product-icon btn-compare" title="Compare" onClick={addToCompareHandler}>
 						<span>Compare</span>
-					</button>
+					</button> */}
 				</div>
 
 				<div className="product-action">
 					<button className="btn-product btn-cart" onClick={addToCartHandler}>
-						<span>add to cart</span>
+						<span>Thêm vào giỏ hàng</span>
 					</button>
 				</div>
 			</figure>
@@ -107,20 +110,76 @@ function ProductSix(props) {
 				{0 === product.stock ? (
 					<div className="product-price">
 						<span className="out-price">
-							 
-							{product.variants[0].price.toLocaleString(undefined, {
-								minimumFractionDigits: 2,
-								maximumFractionDigits: 2,
-							})}
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							-&nbsp;
+							{price.maxPrice &&
+								price.maxPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							đ
+						</span>
+					</div>
+				) : 0 < product.discount ? (
+					<div className="product-price">
+						<span className="new-price">
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+						</span>
+						<span className="new-price">
+							{price.maxPrice
+								? '- ' +
+								  price.maxPrice.toLocaleString(undefined, {
+										minimumFractionDigits: 0,
+										maximumFractionDigits: 2,
+								  })
+								: ''}
+							đ
+						</span>
+						{'-'}&nbsp;
+						<span className="old-price">
+							{price.minOld &&
+								price.minOld.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+						</span>
+						<span className="old-price">
+							&nbsp;
+							{price.maxOld &&
+								price.maxOld.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							đ
 						</span>
 					</div>
 				) : (
 					<div className="product-price">
-						 
-						{product.variants[0].price.toLocaleString(undefined, {
-							minimumFractionDigits: 2,
-							maximumFractionDigits: 2,
-						})}
+						<span className="new-price">
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+						</span>
+						<span className="new-price">
+							{price.maxPrice
+								? '- ' +
+								  price.maxPrice.toLocaleString(undefined, {
+										minimumFractionDigits: 0,
+										maximumFractionDigits: 2,
+								  })
+								: ''}
+							đ
+						</span>
 					</div>
 				)}
 			</div>
