@@ -35,12 +35,12 @@ function SingleProduct( props ) {
             </Helmet>
             <div className="main">
                 <Breadcrumb
-                    title="Default"
+                    title="Chi tiết "
                     type="product"
                     slug="default"
                     adClass="breadcrumb-nav border-0 mb-0"
                     productId={ productId }
-                    parent1={ [ "Products", "product" ] }
+                    parent1={['Sản phẩm', 'shop/nosidebar']}
                 />
 
                 <div className="page-content">

@@ -49,7 +49,7 @@ function Breadcrumb( props ) {
                             <li className="breadcrumb-item"><Link to={ `${process.env.PUBLIC_URL}` }>Trang chủ</Link></li>
                             { path.map( ( item, index ) => (
                                 <li className="breadcrumb-item" key={ index }>
-                                    <Link to={ `${process.env.PUBLIC_URL}/${item[ 1 ]}/default/7` }>{ item[ 0 ] }</Link>
+                                    <Link to={ `${process.env.PUBLIC_URL}/${item[ 1 ]}` }>{ item[ 0 ] }</Link>
                                 </li>
                             ) ) }
                             <li className="breadcrumb-item active" aria-current="page">{ title }</li>

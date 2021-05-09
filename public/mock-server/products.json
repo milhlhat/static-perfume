@@ -3506,13 +3506,13 @@
         "variants": [
             {
                 "size": 10,
-                "price": 0,
+                "price": 10,
                 "oldPrice": 0,
                 "name": "Chi\u1ebft"
             },
             {
                 "size": 100,
-                "price": 0,
+                "price": 90,
                 "oldPrice": 0,
                 "name": "Full seal"
             }
