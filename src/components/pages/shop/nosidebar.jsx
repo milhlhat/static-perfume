@@ -10,7 +10,7 @@ import Breadcrumb from '../../common/breadcrumb';
 
 function NoSideBar(props) {
 	const type = props.match.params.grid;
-	const title = { boxed: 'VIEW', fullwidth: 'Fullwidth No Sidebar' };
+	const title = { boxed: 'Danh sách sản phẩm', fullwidth: 'Fullwidth No Sidebar' };
 	let products = props.products;
 	const [searchList, setSearchList] = useState([]);
 
@@ -27,15 +27,14 @@ function NoSideBar(props) {
 		let params = new URLSearchParams(props.location.search);
 		let keyword = params.get('q') == null ? '' : params.get('q');
 		let filter = params.get('filter') == null ? '' : params.get('filter');
-		console.log("filter: ", filter);
-		
-		if(filter != ""){
-			listTemp = getVisibleProducts(products, {gender:filter})
-		}else{
+		console.log('filter: ', filter);
+
+		if (filter != '') {
+			listTemp = getVisibleProducts(products, { gender: filter });
+		} else {
 			listTemp = search(products, keyword);
 		}
-		
-		
+
 		setSearchList(listTemp);
 	}
 
@@ -51,10 +50,10 @@ function NoSideBar(props) {
 			</Helmet>
 
 			<div className="main">
-				<PageHeader title={title[type]} subTitle="Shop" />
+				<PageHeader title={title[type]} subTitle="Hoàn tiền nếu phát hiện hàng giả" />
 				<Breadcrumb
 					title={title[type]}
-					parent1={['Shop', 'shop/nosidebar']}
+					parent1={['Sản phẩm', 'shop/nosidebar']}
 					adClass="mb-2"
 					container={type === 'boxed' ? 'container' : 'container-fluid'}
 				/>

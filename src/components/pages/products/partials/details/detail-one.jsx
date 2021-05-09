@@ -91,66 +91,73 @@ function ProductDetailOne(props) {
 						{price.minPrice &&
 							price.minPrice.toLocaleString(undefined, {
 								minimumFractionDigits: 0,
-								maximumFractionDigits: 3,
+								maximumFractionDigits: 2,
 							})}
-						{price.maxPrice && '-'}
+						-&nbsp;
 						{price.maxPrice &&
 							price.maxPrice.toLocaleString(undefined, {
 								minimumFractionDigits: 0,
-								maximumFractionDigits: 3,
+								maximumFractionDigits: 2,
+							})}
+						đ
+					</span>
+				</div>
+			) : 0 < product.discount ? (
+				<div className="product-price">
+					<span className="new-price">
+						{price.minPrice &&
+							price.minPrice.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
+							})}
+					</span>
+					<span className="new-price">
+						{price.maxPrice
+							? '- ' +
+							  price.maxPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+							  })
+							: ''}
+						đ
+					</span>
+					{'-'}&nbsp;
+					<span className="old-price">
+						{price.minOld &&
+							price.minOld.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
+							})}
+					</span>
+					<span className="old-price">
+						&nbsp;
+						{price.maxOld &&
+							price.maxOld.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
 							})}
 						đ
 					</span>
 				</div>
 			) : (
-				//  : isDiscount ? (
-				// 	<div className="product-price">
-				// 		<span className="new-price">
-				// 			{price.minPrice &&
-				// 				price.minPrice.toLocaleString(undefined, {
-				// 					minimumFractionDigits: 0,
-				// 					maximumFractionDigits: 3,
-				// 				})}
-				// 			{' - '}
-				// 			{price.maxPrice &&
-				// 				price.maxPrice.toLocaleString(undefined, {
-				// 					minimumFractionDigits: 0,
-				// 					maximumFractionDigits: 3,
-				// 				})}
-				// 			đ
-				// 		</span>
-				// 		<span className="old-price">
-				// 			{price.minPrice && price.minOld.toLocaleString(undefined, {
-				// 				minimumFractionDigits: 0,
-				// 				maximumFractionDigits: 3,
-				// 			})}
-				// 			{' - '}
-				// 			{(price.maxOld && 0 < price.maxOld)
-				// 				? price.maxOld.toLocaleString(undefined, {
-				// 						minimumFractionDigits: 0,
-				// 						maximumFractionDigits: 3,
-				// 				  })
-				// 				: price.maxPrice.toLocaleString(undefined, {
-				// 						minimumFractionDigits: 0,
-				// 						maximumFractionDigits: 3,
-				// 				  })}
-				// 			đ
-				// 		</span>
-				// 	</div>
-				// )
 				<div className="product-price">
-					{price.minPrice &&
-						price.minPrice.toLocaleString(undefined, {
-							minimumFractionDigits: 0,
-							maximumFractionDigits: 3,
-						})}
-					{price.maxPrice && '-'}
-					{price.maxPrice &&
-						price.maxPrice.toLocaleString(undefined, {
-							minimumFractionDigits: 0,
-							maximumFractionDigits: 3,
-						})}
-					đ
+					<span className="new-price">
+						{price.minPrice &&
+							price.minPrice.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
+							})}
+					</span>
+					<span className="new-price">
+						{price.maxPrice
+							? '- ' +
+							  price.maxPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+							  })
+							: ''}
+						đ
+					</span>
 				</div>
 			)}
 
@@ -204,7 +211,7 @@ function ProductDetailOne(props) {
 						id="size"
 						className="form-control"
 						defaultValue="#"
-						onChange={(e) => {
+						onClick={(e) => {
 							handleChangePrice(e);
 						}}
 					>
@@ -216,14 +223,14 @@ function ProductDetailOne(props) {
 						))}
 					</select>
 				</div>
-
+{/* 
 				{'default' === type ? (
 					<Link to="#" className="size-guide">
 						<i className="icon-th-list"></i>size guide
 					</Link>
 				) : (
 					''
-				)}
+				)} */}
 			</div>
 
 			<div className="details-filter-row details-row-size">
@@ -246,11 +253,11 @@ function ProductDetailOne(props) {
 			<div className="product-details-action">
 				{isIEBrowser() || isEdgeBrowser() ? (
 					<button className="btn-product btn-cart" onClick={addToCartHandler} style={{ minHeight: '4rem' }}>
-						<span>add to cart</span>
+						<span>Thêm vào giỏ hàng</span>
 					</button>
 				) : (
 					<button className="btn-product btn-cart" onClick={addToCartHandler}>
-						<span>add to cart</span>
+						<span>Thêm vào giỏ hàng</span>
 					</button>
 				)}
 				{/* { isIEBrowser() || isEdgeBrowser() ?

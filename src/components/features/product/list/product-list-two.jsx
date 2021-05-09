@@ -65,9 +65,9 @@ console.log(props);
     return (
         <>
             <div className="toolbox">
-                <div className="toolbox-left">
+                {/* <div className="toolbox-left">
                     <button className="sidebar-toggler" onClick={ showSideBar } style={ { padding: "0" } }><i className="icon-bars"></i>Lọc</button>
-                </div>
+                </div> */}
 
                 <div className="toolbox-center">
                     <div className="toolbox-info">

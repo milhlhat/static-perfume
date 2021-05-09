@@ -657,3 +657,32 @@ export const productGallery = () => {
         }
     }
 }
+
+/**
+ * 
+ * @param {*} variantsArray 
+ * @returns 
+ */
+export 	function getMinMaxPrice(variantsArray) {
+    let min = Number(variantsArray[0].price);
+    let max = 0;
+    let minOld = Number(variantsArray[0].oldPrice);
+    let maxOld = 0;
+
+    variantsArray.forEach(function(value) {
+        let newValue = Number(value.price);
+        if (newValue < min) {
+            min = newValue;
+            minOld = value.oldPrice;
+        }
+    });
+
+    variantsArray.forEach(function(value) {
+        let newValue = Number(value.price);
+        if (newValue > max && newValue > min) {
+            max = newValue;
+            maxOld = value.oldPrice;
+        }
+    });
+    return { minPrice: min, maxPrice: max, minOld: minOld, maxOld: maxOld };
+}

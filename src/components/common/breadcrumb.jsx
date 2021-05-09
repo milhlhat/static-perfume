@@ -33,7 +33,7 @@ function Breadcrumb( props ) {
             { type === "normal" ?
                 <div className={ container }>
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to={ `${process.env.PUBLIC_URL}` }>Home</Link></li>
+                        <li className="breadcrumb-item"><Link to={ `${process.env.PUBLIC_URL}` }>Trang chủ</Link></li>
                         { path.map( item => (
                             <li className="breadcrumb-item" key={ item[ 0 ] }>
                                 <Link to={ `${process.env.PUBLIC_URL}/${item[ 1 ]}` }>{ item[ 0 ] }</Link>
@@ -46,7 +46,7 @@ function Breadcrumb( props ) {
                 type === "product" ?
                     <div className={ `${container}  d-flex align-items-center` }>
                         <ol className="breadcrumb">
-                            <li className="breadcrumb-item"><Link to={ `${process.env.PUBLIC_URL}` }>Home</Link></li>
+                            <li className="breadcrumb-item"><Link to={ `${process.env.PUBLIC_URL}` }>Trang chủ</Link></li>
                             { path.map( ( item, index ) => (
                                 <li className="breadcrumb-item" key={ index }>
                                     <Link to={ `${process.env.PUBLIC_URL}/${item[ 1 ]}/default/7` }>{ item[ 0 ] }</Link>
