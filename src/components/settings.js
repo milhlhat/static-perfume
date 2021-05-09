@@ -364,7 +364,7 @@ export const introSlider = {
 
 export const brandSlider = {
     nav: true,
-    dots: false,
+    dots: true,
     margin: 10,
     loop: false,
     responsive: {

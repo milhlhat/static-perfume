@@ -2,7 +2,9 @@
 /* Fonts */
 /* font-family: 'Poppins', sans-serif; */
 /* Header */
-
+:root {
+  --primary-blue: #04358c;
+}
 .menu .megamenu.demo {
   height: 68vh; }
 
@@ -294,7 +296,7 @@
   padding-bottom: 5px; }
   .btn-demoprimary:hover, .btn-demoprimary:focus {
     color: #000000;
-    background-color: #fff; }
+    background-color: var(--primary-blue); }
 
 .btn-viewMore {
   color: #333333;
@@ -590,7 +592,7 @@
 .nav.nav-pills .nav-item.show .nav-link {
   color: #fff;
   border: none;
-  background-color: #6666ff; }
+  background-color: #09091a; }
 
 .newsletter .background {
   background-position: center;

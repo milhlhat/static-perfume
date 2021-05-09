@@ -56,15 +56,15 @@ function AboutOne() {
 							<p>
 								Chúng mình đã đặt thông tin{' '}
 								<a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">
-									fanpage
+									<b> fanpage</b>
 								</a>
 								,{' '}
-								<a href="tel:0819287888" rel="noreferrer">
-									instagram
+								<a href="https://instagram.com/22perfumery" rel="noreferrer">
+									<b> instagram</b>{' '}
 								</a>{' '}
 								và{' '}
-								<a href="https://instagram.com/22perfumery" rel="noreferrer">
-									số điện thoại
+								<a href="tel:0819287888" rel="noreferrer">
+									<b>hotline</b>
 								</a>{' '}
 								khắp mọi nơi trên website để quý khách hàng có thể liên lạc bất cứ lúc nào.{' '}
 							</p>
@@ -163,7 +163,7 @@ function AboutOne() {
 
 				<div className="mb-2"></div>
 
-				<div className="about-testimonials bg-light-2 pt-6 pb-6">
+				{/* <div className="about-testimonials bg-light-2 pt-6 pb-6">
 					<div className="container">
 						<h2 className="title text-center mb-3">What Customer Say About Us</h2>
 
@@ -183,7 +183,7 @@ function AboutOne() {
 							/>
 						</OwlCarousels>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

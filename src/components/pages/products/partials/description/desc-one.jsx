@@ -49,35 +49,28 @@ console.log(product);
 
 					<TabPanel className="tab-pane">
 						<div className="product-desc-content">
-							<h3>Information</h3>
+							<h3>Thông tin</h3>
 							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat
-								mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper
-								suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam
-								porttitor mauris sit amet orci.{' '}
+								Hiện tại tất cả các sản phẩm bên mình thường có size chiết 10ml và full size. Các bạn cần order thêm sản phẩm chưa có trên website có thể inbox trực tiếp qua <a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">Fan page</a> với chúng mình nhé. 
 							</p>
 
-							<h3>Fabric & care</h3>
+							<h3>Đóng gói sản phẩm</h3>
 							<ul>
-								<li>Faux suede fabric</li>
-								<li>Gold tone metal hoop handles.</li>
-								<li>RI branding</li>
-								<li>Snake print trim interior </li>
-								<li>Adjustable cross body strap</li>
-								<li> Height: 31cm; Width: 32cm; Depth: 12cm; Handle Drop: 61cm</li>
+								<li>Sản phẩm bạn đặt kèm logo 22 store.</li>
+								<li>Hộp carton.</li>
+								<li>Thư cảm ơn</li>
+								<li>Giấy bọc chống sốc.</li>
 							</ul>
 
-							<h3>Size</h3>
-							<p>one size</p>
+						 
 						</div>
 					</TabPanel>
 
 					<TabPanel className="tab-pane">
 						<div className="product-desc-content">
-							<h3>Delivery & returns</h3>
+							<h3>Vận chuyển & Đổi trả</h3>
 							<p>
-								We deliver to over 100 countries around the world. For full details of the delivery
-								options we offer, please view our <Link to="#">Delivery information</Link>
+								22 Store hỗ trợ free shipping vớt tất cả các đơn hàng thanh toán trước qua ví điện tử, ngân hàng, smartbanking. Đối với thanh toán bằng tiền mặt khi nhận hàng chúng mình tính cước thu hộ
 								<br />
 								We hope you’ll love every purchase, but if you ever need to return an item you can do so
 								within a month of receipt. For full details of how to make a return, please view our{' '}

@@ -126,7 +126,7 @@ function NewsletterModal(props) {
 										style={isIEBrowser() ? { padding: '2' } : {}}
 										htmlFor="register-policy-2"
 									>
-										Biết 100% authentic gòy, không hiện lần sau.
+										Không hiện lần sau.
 									</label>
 								</div>
 							</div>

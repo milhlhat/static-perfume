@@ -4,7 +4,7 @@ import React from 'react';
 import { safeContent } from '../../utils';
 
 export default function IntroSlide ( props ) {
-    const { image, content, price, title, btnText = "kHÁM PHÁ" } = props.data;
+    const { image, content, price, title, btnText = "KHÁM PHÁ" } = props.data;
 
     return (
         <div className="intro-slide" style={ { backgroundImage: 'url(' + process.env.PUBLIC_URL + image + ')' } }>

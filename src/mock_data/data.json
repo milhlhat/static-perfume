@@ -182,25 +182,25 @@
             "id": 1,
             "icon": "icon-truck",
             "title": "Thanh toán & Vận chuyển",
-            "subtitle": "Miễn phí giao hàng đơn 0đ - áp dụng cho hình thức chuyển khoản thanh toán trước"
+            "subtitle": "Miễn phí giao hàng đơn 0đ - áp dụng cho hình thức chuyển khoản thanh toán trước."
         },
         {
             "id": 2,
             "icon": "icon-rotate-left",
             "title": "Trả hàng & Hoàn tiền",
-            "subtitle": "Miễn phí trả hàng, hoàn tiền 100% nếu sản phẩm lỗi"
+            "subtitle": "Miễn phí trả hàng, hoàn tiền 100% nếu sản phẩm lỗi."
         },
         {
             "id": 3,
             "icon": "icon-life-ring",
             "title": "Tư vấn, hỗ trợ & feedback",
-            "subtitle": "Luôn luôn 24/7 qua hotline, fanpage, instagram"
+            "subtitle": "Hotline 24/7, fanpage, instagram."
         },
         {
             "id": 4,
             "icon": "icon-envelope",
             "title": "Theo dõi 22 store",
-            "subtitle": "Để nhận thông báo về ưu đãi sớm nhất"
+            "subtitle": "Để nhận thông báo về ưu đãi sớm nhất."
         }
     ],
     "innerOverlayPaths": [
@@ -226,17 +226,17 @@
     "banner": [
         {
             "img": "assets/images/home/banners/banner-7.jpg",
-            "title": "<h3 class='text-dark'>Khám phá mùi hương</h3>",
-            "content": "<h3 class='text-dark'>MAKE MORE SEXY</h3>",
+            "title": "<h3 class='text-dark'>Mùi hương phái đẹp</h3>",
+            "content": "<h3 class='text-dark'>Smell like a lady</h3>",
             "btnText": "NƯỚC HOA NỮ",
             "width": 300,
             "height": 260,
             "btnLink":"/shop/nosidebar/boxed?filter=nữ"
         },
         {
-            "img": "assets/images/home/banners/banner-6.jpg",
+            "img": "assets/images/home/banners/banner-6.jpg", 
             "title": "<h3 class='text-dark'>Mùi hương <span class=' '>phái mạnh</span></h3>",
-            "content": "<h3 class='text-dark'>NEW SEASON NEW SCENT</h3>",
+            "content": "<h3 class='text-dark'>Truly Scent</h3>",
             "btnText": "NƯỚC HOA NAM ",
             "width": 300,
             "height": 200,
@@ -244,8 +244,8 @@
         },
         {
             "img": "assets/images/home/banners/banner-3.jpg",
-            "title": "<h3 class='text-dark'>Mùi hương cho everyone</h3>",
-            "content": "<h3 class='text-dark'>SUMMER SALE SAVE UP TO 30%</h3>",
+            "title": "<h3 class='text-dark'>Mùi hương cho bất cứ ai</h3>",
+            "content": "<h3 class='text-dark'>Luxurious smell</h3>",
             "btnText": "NƯỚC HOA UNISEX",
             "width": 300,
             "height": 200,

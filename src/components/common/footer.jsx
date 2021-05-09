@@ -20,8 +20,7 @@ function Footer(props) {
 								height="25"
 							/>
 							<p className="pr-5">
-								22tuoi.com là một trang web được tạo ra nhằm mục đích mang lại cho các bạn những chai nước hoa chính hãng mà giá cả phải chăng. mong các bạn ủng hộ shop và đóng góp ý kiến
-								nếu có thắc mắc.{' '}
+								22tuoi.com Được tạo ra với mục đính đem đến cho người dùng những chai nước hoa chính hãng cùng giá cả phải chăng.{' '}
 							</p>
 
 							<div className="widget-about-info pl-3">

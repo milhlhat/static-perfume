@@ -265,7 +265,7 @@ export default function MainMenu(props) {
                         </li>
                     </ul> 
 				  </li>*/}
-				<li className={path.indexOf('element') > -1 ? 'active' : ''}>
+				<li className={path.indexOf('pages') > -1 ? 'active' : ''}>
 					<Link to={`${process.env.PUBLIC_URL}/pages/about`} className="sf-with-ul">
 						Giới thiệu
 					</Link>

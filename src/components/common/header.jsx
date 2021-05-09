@@ -25,7 +25,7 @@ function Header(props) {
 
 	return (
 		<>
-			<div
+			{/* <div
 				className="notification"
 				style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/notification-back.jpg)` }}
 			>
@@ -33,17 +33,13 @@ function Header(props) {
 					<h3>MIỄN PHÍ GIAO HÀNG ĐƠN 0Đ* - CAM KẾT AUTHENTIC 100%</h3>
 					<i className="icon-close text-white ml-1" onClick={hideNotificationHandler}></i>
 				</div>
-				{/* <div className="notify-action">
-					<Link to="#">
-						<i className="icon-close" onClick={hideNotificationHandler}></i>
-					</Link>
-				</div> */}
-			</div>
+				 
+			</div> */}
 			<header className="header">
-				<div className="header-top">
+				{/* <div className="header-top">
 					<div className={container}>
 						<div className="header-left">
-							{/* <div className="header-dropdown">
+							  <div className="header-dropdown">
                                 <Link to="#">Usd</Link>
                                 <div className="header-menu">
                                     <ul>
@@ -51,15 +47,15 @@ function Header(props) {
                                         <li><Link to="#">Usd</Link></li>
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div>  
 							<div className="pt-2 pb-2"></div>
 						</div>
 
-						<div className="header-right">
+					  <div className="header-right">
 							<a href="tel:0819287888">
 								<i className="icon-phone"></i>Call: 0819287888
 							</a>
-							{/* <ul className="top-menu">
+						  <ul className="top-menu">
                                 <li>
                                     <Link to="#">Hỗ Trợ</Link>
                                     <ul>
@@ -68,10 +64,10 @@ function Header(props) {
                                         <li><Link to={ `${process.env.PUBLIC_URL}/pages/contact` }>Liên hệ</Link></li>
                                     </ul>
                                 </li>
-                            </ul> */}
-						</div>
+                            </ul>  
+						</div> 
 					</div>
-				</div>
+				</div> */}
 
 				<div className="header-middle sticky-header">
 					<div className={container}>
@@ -101,7 +97,7 @@ function Header(props) {
 									<span className="wishlist-count">{isWishlist.length}</span>
 								</Link>
 							</div> */}
-                          
+
 							<CartMenu />
 						</div>
 					</div>

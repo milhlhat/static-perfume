@@ -158,13 +158,13 @@ function CartMenu(props) {
 						</div> */}
 
 						<div className="dropdown-cart-action">
-							<Link to={`${process.env.PUBLIC_URL}/shop/cart`} className="btn btn-primary">
+							<Link to={`${process.env.PUBLIC_URL}/shop/cart`} className="btn btn-primary w-100">
 								View Cart
 							</Link>
-							<Link to={`${process.env.PUBLIC_URL}/shop/checkout`} className="btn btn-outline-primary-2">
+							{/* <Link to={`${process.env.PUBLIC_URL}/shop/checkout`} className="btn btn-outline-primary-2">
 								<span>Checkout</span>
 								<i className="icon-long-arrow-right"></i>
-							</Link>
+							</Link> */}
 						</div>
 					</>
 				)}

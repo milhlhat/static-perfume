@@ -91,7 +91,7 @@ function MobileMainNav(props) {
 							<Link to={`${process.env.PUBLIC_URL}/pages/coming-soon`}>Coming Soon</Link>
 						</li>
 						<li>
-							<Link to={`${process.env.PUBLIC_URL}/pages/about`}>About </Link>
+							<Link to={`${process.env.PUBLIC_URL}/pages/about`}>About Us</Link>
 						</li>
 						<li>
 							<Link to={`${process.env.PUBLIC_URL}/pages/contact`} className="sf-with-ul">

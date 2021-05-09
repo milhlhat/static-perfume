@@ -25,52 +25,51 @@ import { introSlider } from '../settings';
 import _data from '../../mock_data/data';
 import style from './style.scss';
 
-export default function HomePage () {
-    useEffect( () => {
-        document.getElementById( "menu-home" ).classList.add( "active" );
+export default function HomePage() {
+	useEffect(() => {
+		document.getElementById('menu-home').classList.add('active');
 
-        style.use();
+		style.use();
 
-        return ( () => {
-            document.getElementById( "menu-home" ).classList.remove( "active" );
-            style.unuse();
-        } )
-    }, [] )
+		return () => {
+			document.getElementById('menu-home').classList.remove('active');
+			style.unuse();
+		};
+	}, []);
 
-    return (
-        <>
-            <Helmet>
-                <title>22tuoi.com | Nước hoa cho sinh viên nghèo</title>
-            </Helmet>
+	return (
+		<>
+			<Helmet>
+				<title>22tuoi.com | Nước hoa cho sinh viên nghèo</title>
+			</Helmet>
 
-            <h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
+			<h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
 
-            <div className="main">
-                <div className="intro-slider-container mb-5">
-                    <OwlCarousel adClass="intro-slider owl-theme owl-light owl-nav-inside" carouselOptions={ introSlider }>
-                        {
-                            _data.introBanners.map( ( item, index ) =>
-                                <IntroSlide data={ item } key={ index } />
-                            )
-                        }
-                    </OwlCarousel>
+			<div className="main">
+				<div className="intro-slider-container mb-5">
+					<OwlCarousel
+						adClass="intro-slider owl-theme owl-light owl-nav-inside"
+						carouselOptions={introSlider}
+					>
+						{_data.introBanners.map((item, index) => (
+							<IntroSlide data={item} key={index} />
+						))}
+					</OwlCarousel>
 
-                    <span className="slider-loader"></span>
-                </div>
+					<span className="slider-loader"></span>
+				</div>
 
-                <div className="container banner-container">
-                    {
-                        _data.banner.slice( 0, 3 ).map( ( item, index ) =>
-                            <div className="col-12 col-sm-10 col-md-8 col-lg-4 col-pd1" key={ `banner_group ${index}` }>
-                                <Banner data={ item } />
-                            </div>
-                        )
-                    }
-                </div>
+				<div className="container banner-container">
+					{_data.banner.slice(0, 3).map((item, index) => (
+						<div className="col-12 col-sm-10 col-md-8 col-lg-4 col-pd1" key={`banner_group ${index}`}>
+							<Banner data={item} />
+						</div>
+					))}
+				</div>
 
-                <Brand adClass=" owl-simple" count={ 7 } />
+				<Brand adClass=" owl-simple" count={7} />
 
-                {/* <div className="container bestsellers">
+				{/* <div className="container bestsellers">
                     <hr className="mb-3" />
                     <div className="heading">
                         <h2 className="title text-center">BÁN CHẠY NHẤT</h2>
@@ -81,9 +80,9 @@ export default function HomePage () {
                     <BestCollection />
                 </div> */}
 
-                {/* <SpecialCollection /> */}
+				{/* <SpecialCollection /> */}
 
-                {/* <div className="container category-banner">
+				{/* <div className="container category-banner">
                     <div className="row">
                         {
                             _data.banner.slice( 0, 4 ).map( ( item, index ) => {
@@ -97,23 +96,20 @@ export default function HomePage () {
                     </div>
                 </div> */}
 
-                <NewCollection />
+				<NewCollection />
 
-                <div className="container newsletter">
+				{/* <div className="container newsletter">
                     <CTA />
-                </div>
+                </div> */}
+				 
+				<ServiceBox iconAdClass="text-dark" adClass="" />
 
-                <ServiceBox
-                    iconAdClass="text-dark"
-                    adClass=""
-                />
+				{/* <Instagram /> */}
+			</div>
 
-                <Instagram />
-            </div>
+			<NewsletterModal />
 
-            <NewsletterModal />
-
-            <QuickView />
-        </>
-    );
+			<QuickView />
+		</>
+	);
 }
