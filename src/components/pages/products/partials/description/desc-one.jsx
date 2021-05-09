@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import { isIEBrowser } from '../../../../../utils';
 
- 
+
 function DescOne(props) {
 	const { product } = props;
-
+console.log(product);
 	return (
 		<Tabs selectedTabClassName="show" selectedTabPanelClassName="active show">
 			<div className="product-details-tab">
@@ -34,8 +34,8 @@ function DescOne(props) {
 					<TabPanel className="tab-pane">
 						<div className="product-desc-content">
 							<h3>Thông tin sản phẩm</h3>
-							 
-                            <p>{product.perfumista_review&& product.perfumista_review.replace("Perfumista.vn", "22 Store") }</p>
+
+							<p>{product.perfumista_review && product.perfumista_review.replace("Perfumista.vn", "22 Store")}</p>
 							{product.diem_tot && <p>
 								<b>Điểm tốt: </b>
 								{product.diem_tot}
@@ -151,10 +151,20 @@ function DescOne(props) {
 		</Tabs>
 	);
 }
+function getProductById(productList, id) {
+	for (var i in productList) {
+		var item = productList[i];
 
+		if (item.id == id) {
+			return item;
+		}
+	}
+	return '';
+}
 function mapStateToProps(state, props) {
 	return {
-		product: state.data.products.filter((product) => product.id === parseInt(props.id))[0],
+		product: getProductById(state.data.products, props.id)
+
 	};
 }
 

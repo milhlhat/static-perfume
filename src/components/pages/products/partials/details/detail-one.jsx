@@ -9,7 +9,10 @@ import { quantityInputs, isIEBrowser, isEdgeBrowser, findIndex } from '../../../
 function ProductDetailOne(props) {
 	const { product, isWishlist, type, addToCart, toggleWishlist } = props;
 	const [price, setPrice] = useState({});
+	console.log('detail',product);
 	useEffect(() => {
+
+
 		quantityInputs();
 		setPrice(getMinMaxPrice(product.variants));
 	}, [product.variants]);
