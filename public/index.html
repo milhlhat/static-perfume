@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>22tuoi.com</title>
     <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="22store -  Tiệm nước hoa của 2 sinh viên nghèo của đại học FPT"
-    />
+    <meta name="description" content="22store -  Tiệm nước hoa của 2 sinh viên nghèo của đại học FPT" />
     <meta name="author" content="p-themes">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/images/icons/logo-title.png">
@@ -26,14 +25,14 @@
 
     <script type="text/javascript">
         WebFontConfig = {
-            google: { families: [ 'Poppins:300,400,500,600,700' ] }
-        };
-        ( function ( d ) {
-            var wf = d.createElement( 'script' ), s = d.scripts[ 0 ];
+            google: { families: ['Poppins:300,400,500,600,700'] }
+        };json.dumps(list)
+        (function (d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
             wf.src = '%PUBLIC_URL%/assets/js/webfont.js';
             wf.async = true;
-            s.parentNode.insertBefore( wf, s );
-        } )( document );
+            s.parentNode.insertBefore(wf, s);
+        })(document);
     </script>
 
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/line-awesome/css/line-awesome.min.css">
@@ -60,6 +59,28 @@
     </button>
 
     <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v10.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat" attribution="setup_tool" page_id="100398532142202">
+    </div>
 </body>
 
 </html>
