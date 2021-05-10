@@ -214,11 +214,11 @@ function ProductDetailOne(props) {
 						id="size"
 						className="form-control"
 						defaultValue="#"
-						onClick={(e) => {
+						onChange={(e) => {
 							handleChangePrice(e);
 						}}
 					>
-						{/* <option value="#">Chọn size</option> */}
+						<option value={0}>Chọn size</option>
 						{product.variants.map((v, index) => (
 							<option key={index} value={index}>
 								{v.name + ' ' + v.size + ' ml'}

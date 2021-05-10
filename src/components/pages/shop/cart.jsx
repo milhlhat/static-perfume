@@ -158,7 +158,7 @@ function Cart(props) {
 														<td className="quantity-col">
 															<div
 																className="cart-product-quantity"
-																onClick={(e) =>
+																onChange={(e) =>
 																	onChangeQty(e, item.product.id, item.size)
 																}
 															>
