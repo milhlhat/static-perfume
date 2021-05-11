@@ -61,7 +61,7 @@ export const removeNewsletterMdoal = (modal) => ({
 /************ Cart Action **************/
 // add item to cart
 export const addToCart = (product, qty, size) => (dispatch) => {
-	toast.success('Đã thêm sản phẩm vào giỏ hàng ');
+	toast.success('Đã thêm sản phẩm vào giỏ hàng.');
 	dispatch(addToCartUnsafe(product, qty, size));
 };
 
@@ -96,7 +96,7 @@ export const addToCartFromWishlist = (product, qty) => (dispatch) => {
 
 // remove item from cart
 export const removeFromCart = (productId, size) => (dispatch) => {
-	toast.error('Item removed from Cart');
+	toast.error('Đã xóa sản phẩm khỏi rõ hàng.');
 
 	dispatch({
 		type: types.REMOVE_FROM_CART,

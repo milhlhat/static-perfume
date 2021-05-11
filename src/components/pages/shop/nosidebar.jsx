@@ -53,7 +53,7 @@ function NoSideBar(props) {
 				<PageHeader title={title[type]} subTitle="Hoàn tiền nếu phát hiện hàng giả" />
 				<Breadcrumb
 					title={title[type]}
-					parent1={['Sản phẩm', 'shop/nosidebar']}
+					parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
 					adClass="mb-2"
 					container={type === 'boxed' ? 'container' : 'container-fluid'}
 				/>
