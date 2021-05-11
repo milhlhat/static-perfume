@@ -658,9 +658,9 @@ export const productGallery = () => {
  * @returns
  */
 export function getMinMaxPrice(variantsArray) {
-	let min = 0;
+	let min = variantsArray.length > 0 ? Number(variantsArray[0].price) : 0;
 	let max = 0;
-	let minOld = 0;
+	let minOld = variantsArray.length > 0 ? Number(variantsArray[0].price) : 0;
 	let maxOld = 0;
 	if (variantsArray) {
 		variantsArray.forEach(function(value) {

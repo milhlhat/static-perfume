@@ -4,15 +4,13 @@ import { Link } from 'react-router-dom';
 
 import { addToCart, toggleWishlist } from '../../../../../actions';
 
-import { quantityInputs, isIEBrowser, isEdgeBrowser, findIndex } from '../../../../../utils';
+import { quantityInputs, isIEBrowser, isEdgeBrowser, findIndex, getMinMaxPrice } from '../../../../../utils';
 
 function ProductDetailOne(props) {
 	const { product, isWishlist, type, addToCart, toggleWishlist } = props;
 	const [price, setPrice] = useState({});
-	console.log('detail',product);
+	console.log('detail', product);
 	useEffect(() => {
-
-
 		quantityInputs();
 		setPrice(getMinMaxPrice(product.variants));
 	}, [product.variants]);
@@ -33,29 +31,6 @@ function ProductDetailOne(props) {
 		}
 	};
 
-	function getMinMaxPrice(variantsArray) {
-		let min = Number(variantsArray[0].price);
-		let max = 0;
-		let minOld = Number(variantsArray[0].oldPrice);
-		let maxOld = 0;
-
-		variantsArray.forEach(function(value) {
-			let newValue = Number(value.price);
-			if (newValue < min) {
-				min = newValue;
-				minOld = value.oldPrice;
-			}
-		});
-
-		variantsArray.forEach(function(value) {
-			let newValue = Number(value.price);
-			if (newValue > max && newValue > min) {
-				max = newValue;
-				maxOld = value.oldPrice;
-			}
-		});
-		return { minPrice: min, maxPrice: max, minOld: minOld, maxOld: maxOld };
-	}
 	// console.log(price);
 	function isDiscount() {
 		let variantsArray = [...product.variants];
@@ -226,7 +201,7 @@ function ProductDetailOne(props) {
 						))}
 					</select>
 				</div>
-{/* 
+				{/* 
 				{'default' === type ? (
 					<Link to="#" className="size-guide">
 						<i className="icon-th-list"></i>size guide
