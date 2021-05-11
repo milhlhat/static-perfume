@@ -86,80 +86,73 @@ function ProductTwo(props) {
 				</h3>
 
 				{0 === product.stock ? (
-				<div className="product-price">
-					<span className="out-price">
-						{price.minPrice &&
-							price.minPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-						-&nbsp;
-						{price.maxPrice &&
-							price.maxPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-						đ
-					</span>
-				</div>
-			) : 0 < product.discount ? (
-				<div className="product-price">
-					<span className="new-price">
-						{price.minPrice &&
-							price.minPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-					</span>
-					<span className="new-price">
-						{price.maxPrice
-							? '- ' +
-							  price.maxPrice.toLocaleString(undefined, {
+					<div className="product-price">
+						<span className="out-price">
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
-							  })
-							: ''}
-						đ
-					</span>
-					{'-'}&nbsp;
-					<span className="old-price">
-						{price.minOld &&
-							price.minOld.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-					</span>
-					<span className="old-price">
-						&nbsp;
-						{price.maxOld &&
-							price.maxOld.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-						đ
-					</span>
-				</div>
-			) : (
-				<div className="product-price">
-					<span className="new-price">
-						{price.minPrice &&
-							price.minPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})}
-					</span>
-					<span className="new-price">
-						{price.maxPrice
-							? '- ' +
-							  price.maxPrice.toLocaleString(undefined, {
+								})}
+							&nbsp;-&nbsp;
+							{price.maxPrice &&
+								price.maxPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
-							  })
-							: ''}
-						đ
-					</span>
-				</div>
-			)}
+								})}
+							đ
+						</span>
+					</div>
+				) : 0 < product.discount ? (
+					<div className="product-price">
+						<span className="new-price">
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							{price.maxPrice
+								? ' - ' +
+								  price.maxPrice.toLocaleString(undefined, {
+										minimumFractionDigits: 0,
+										maximumFractionDigits: 2,
+								  })
+								: ''}
+							đ
+						</span>
+						<span className="old-price">
+							{price.minOld &&
+								price.minOld.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							&nbsp;
+							{price.maxOld &&
+								price.maxOld.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							đ
+						</span>
+					</div>
+				) : (
+					<div className="product-price">
+						<span className="new-price">
+							{price.minPrice &&
+								price.minPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+								})}
+							{price.maxPrice
+								? ' - ' +
+								  price.maxPrice.toLocaleString(undefined, {
+										minimumFractionDigits: 0,
+										maximumFractionDigits: 2,
+								  })
+								: ''}
+							đ
+						</span>
+					</div>
+				)}
 
 				{/* <div className="ratings-container">
                         <div className="ratings">

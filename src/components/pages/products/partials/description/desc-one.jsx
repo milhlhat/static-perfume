@@ -72,9 +72,7 @@ console.log(product);
 							<p>
 								22 Store hỗ trợ free shipping vớt tất cả các đơn hàng thanh toán trước qua ví điện tử, ngân hàng, smartbanking. Đối với thanh toán bằng tiền mặt khi nhận hàng chúng mình tính cước thu hộ
 								<br />
-								We hope you’ll love every purchase, but if you ever need to return an item you can do so
-								within a month of receipt. For full details of how to make a return, please view our{' '}
-								<Link to="#">Returns information</Link>
+								 Về đổi trả 22Store sẽ đổi hàng cho quý khách nếu sản phẩm hỏng do vận chuyển, phát hiện hàng giả.
 							</p>
 						</div>
 					</TabPanel>

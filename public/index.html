@@ -1,86 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<base href="/" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+		<title>22tuoi.com</title>
+		<meta name="keywords" content="22tuoi,22store,nuoc hoa,perfume,22perfumery,22tuoi nuoc hoa" />
+		<meta name="description" content="22Store -  Tiệm nước hoa của 2 sinh viên nghèo FU" />
+		<meta name="author" content="22Store" />
+		<meta
+			property="og:image"
+			content="https://scontent-hkt1-1.xx.fbcdn.net/v/t1.6435-9/160075929_100400372142018_6206344657420534305_n.png?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=D3VnUanD_CUAX9L4TRs&_nc_ht=scontent-hkt1-1.xx&oh=def3c9e6e9f6762a7a5c77778be0c06f&oe=60BFF30B"
+		/>
+		<meta
+			property="og:description"
+			content="22Store là của hàng cung cấp nước hoa chính hãng với giá cả phải chăng."
+		/>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/images/icons/logo-title.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/assets/images/icons/favicon.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/assets/images/icons/favicon.png" />
+		<link rel="manifest" href="%PUBLIC_URL%/assets/images/icons/site.webmanifest" />
+		<link rel="mask-icon" href="%PUBLIC_URL%/assets/images/icons/safari-pinned-tab.svg" color="#666666" />
+		<link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/icons/favicon.png" />
+		<meta name="apple-mobile-web-app-title" content="22 STORE" />
+		<meta name="application-name" content="22 STORE" />
+		<meta name="msapplication-TileColor" content="#cc9966" />
+		<meta name="msapplication-config" content="%PUBLIC_URL%/assets/images/icons/browserconfig.xml" />
+		<meta name="theme-color" content="#ffffff" />
 
-<head>
-    <base href="/">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>22tuoi.com</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="22store -  Tiệm nước hoa của 2 sinh viên nghèo của đại học FPT" />
-    <meta name="author" content="p-themes">
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/assets/images/icons/logo-title.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/assets/images/icons/favicon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/assets/images/icons/favicon.png">
-    <link rel="manifest" href="%PUBLIC_URL%/assets/images/icons/site.webmanifest">
-    <link rel="mask-icon" href="%PUBLIC_URL%/assets/images/icons/safari-pinned-tab.svg" color="#666666">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/icons/favicon.png">
-    <meta name="apple-mobile-web-app-title" content="22 STORE">
-    <meta name="application-name" content="22 STORE" />
-    <meta name="msapplication-TileColor" content="#cc9966">
-    <meta name="msapplication-config" content="%PUBLIC_URL%/assets/images/icons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+		<script type="text/javascript">
+			WebFontConfig = {
+				google: { families: ['Poppins:300,400,500,600,700'] },
+			};
+			(function(d) {
+				var wf = d.createElement('script'),
+					s = d.scripts[0];
+				wf.src = '%PUBLIC_URL%/assets/js/webfont.js';
+				wf.async = true;
+				s.parentNode.insertBefore(wf, s);
+			})(document);
+		</script>
 
-    <script type="text/javascript">
-        WebFontConfig = {
-            google: { families: ['Poppins:300,400,500,600,700'] }
-        }; 
-        (function (d) {
-            var wf = d.createElement('script'), s = d.scripts[0];
-            wf.src = '%PUBLIC_URL%/assets/js/webfont.js';
-            wf.async = true;
-            s.parentNode.insertBefore(wf, s);
-        })(document);
-    </script>
+		<link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/line-awesome/css/line-awesome.min.css" />
+		<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/fonts-molla.min.css" />
+		<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/owl-carousel/owl.carousel.css" />
+		<link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.min.css" id="base" />
+	</head>
 
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendor/line-awesome/css/line-awesome.min.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/fonts-molla.min.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/plugins/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.min.css" id="base">
-</head>
+	<body style="position: relative;">
+		<div id="root"></div>
+		<div class="loading-overlay">
+			<div class="bounce-loader">
+				<div class="bounce1"></div>
+				<div class="bounce2"></div>
+				<div class="bounce3"></div>
+			</div>
+		</div>
 
-<body style="position: relative;">
-    <div id="root"></div>
-    <div class="loading-overlay">
-        <div class="bounce-loader">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
+		<div class="mobile-menu-overlay"></div>
 
-    <div class="mobile-menu-overlay"></div>
+		<button id="scroll-top" title="Back to Top">
+			<i class="icon-arrow-up"></i>
+		</button>
 
-    <button id="scroll-top" title="Back to Top">
-        <i class="icon-arrow-up"></i>
-    </button>
+		<script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
 
-    <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					xfbml: true,
+					version: 'v10.0',
+				});
+			};
 
-    <!-- Load Facebook SDK for JavaScript -->
-    <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function () {
-            FB.init({
-                xfbml: true,
-                version: 'v10.0'
-            });
-        };
+			(function(d, s, id) {
+				var js,
+					fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			})(document, 'script', 'facebook-jssdk');
+		</script>
 
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-    <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution="setup_tool" page_id="100398532142202">
-    </div>
-</body>
-
+		<!-- Your Chat Plugin code -->
+		<div class="fb-customerchat" attribution="setup_tool" page_id="100398532142202"></div>
+	</body>
 </html>

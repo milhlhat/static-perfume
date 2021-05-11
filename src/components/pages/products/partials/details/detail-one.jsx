@@ -88,10 +88,9 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-					</span>
-					<span className="new-price">
+				 
 						{price.maxPrice
-							? '- ' +
+							? ' - ' +
 							  price.maxPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
@@ -99,15 +98,14 @@ function ProductDetailOne(props) {
 							: ''}
 						đ
 					</span>
-					{'-'}&nbsp;
+					 &nbsp;
 					<span className="old-price">
 						{price.minOld &&
 							price.minOld.toLocaleString(undefined, {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-					</span>
-					<span className="old-price">
+				 
 						&nbsp;
 						{price.maxOld &&
 							price.maxOld.toLocaleString(undefined, {
@@ -125,10 +123,9 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-					</span>
-					<span className="new-price">
+					 
 						{price.maxPrice
-							? '- ' +
+							? ' - ' +
 							  price.maxPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,

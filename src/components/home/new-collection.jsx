@@ -41,7 +41,7 @@ function NewCollection ( props ) {
                         <TabPanel className="tab-pane p-0 react-tabs__tab-panel" key={ `arrivalpanel_${gender}` } selectedClassName="active show">
                             <div className="row">
                                 { getVisibleProducts( products, {gender: gender} ).slice(0, 5).map( ( product, index ) =>
-                                    <div className="col-xl-5col col-lg-3 col-md-4 col-6" key={ `${gender}_${index}` }>
+                                    <div className="col-xl-5col col-lg-3 col-md-4 col-6 mb-2" key={ `${gender}_${index}` }>
                                         <ProductNine
                                             type={ 2 }
                                             product={ product }

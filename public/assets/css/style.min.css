@@ -6153,7 +6153,10 @@ blockquote.text-white cite span {
     line-height: 1.25;
     letter-spacing: -.01em;
     color: #333333;
-    margin-bottom: .2rem
+    margin-bottom: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .product.product-list .product-title {
@@ -6210,7 +6213,10 @@ blockquote.text-white cite span {
 
 .new-price {
     color: #ef837b;
-    margin-right: .8rem
+    margin-right: .8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .old-price {
@@ -6219,7 +6225,10 @@ blockquote.text-white cite span {
 }
 
 .out-price {
-    color: #cccccc
+    color: #cccccc;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .out-text {

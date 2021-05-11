@@ -20,7 +20,7 @@ function ProductSix(props) {
 	const [price, setPrice] = useState({});
 	useEffect(() => {
 		setPrice(getMinMaxPrice(product.variants));
-	}, [product.variants]); 
+	}, [product.variants]);
 	const addToCartHandler = () => {
 		if (0 !== product.stock) onAddToCart(product, 1, product.variants[0].size);
 	};
@@ -115,7 +115,7 @@ function ProductSix(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-							-&nbsp;
+							&nbsp;-&nbsp;
 							{price.maxPrice &&
 								price.maxPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
@@ -132,10 +132,8 @@ function ProductSix(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="new-price">
 							{price.maxPrice
-								? '- ' +
+								? ' - ' +
 								  price.maxPrice.toLocaleString(undefined, {
 										minimumFractionDigits: 0,
 										maximumFractionDigits: 2,
@@ -143,15 +141,12 @@ function ProductSix(props) {
 								: ''}
 							đ
 						</span>
-						{'-'}&nbsp;
 						<span className="old-price">
 							{price.minOld &&
 								price.minOld.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="old-price">
 							&nbsp;
 							{price.maxOld &&
 								price.maxOld.toLocaleString(undefined, {
@@ -169,10 +164,8 @@ function ProductSix(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="new-price">
 							{price.maxPrice
-								? '- ' +
+								? ' - ' +
 								  price.maxPrice.toLocaleString(undefined, {
 										minimumFractionDigits: 0,
 										maximumFractionDigits: 2,

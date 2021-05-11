@@ -10,7 +10,7 @@ function ProductNine(props) {
 	const [price, setPrice] = useState({});
 	useEffect(() => {
 		setPrice(getMinMaxPrice(product.variants));
-	}, [product.variants]); 
+	}, [product.variants]);
 	function addToCartHandler() {
 		if (0 !== product.stock) onAddToCart(product, 1, product.variants[0].size);
 	}
@@ -62,7 +62,7 @@ function ProductNine(props) {
                     </div> */}
 
 				<h3 className="product-title">
-					<Link to={`${process.env.PUBLIC_URL}/product/default/7`}>{product.name}</Link>
+					<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>{product.name}</Link>
 				</h3>
 
 				{0 === product.stock ? (
@@ -73,7 +73,7 @@ function ProductNine(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-							-&nbsp;
+							&nbsp;-&nbsp;
 							{price.maxPrice &&
 								price.maxPrice.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
@@ -90,10 +90,8 @@ function ProductNine(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="new-price">
 							{price.maxPrice
-								? '- ' +
+								? ' - ' +
 								  price.maxPrice.toLocaleString(undefined, {
 										minimumFractionDigits: 0,
 										maximumFractionDigits: 2,
@@ -101,15 +99,12 @@ function ProductNine(props) {
 								: ''}
 							đ
 						</span>
-						{'-'}&nbsp;
 						<span className="old-price">
 							{price.minOld &&
 								price.minOld.toLocaleString(undefined, {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="old-price">
 							&nbsp;
 							{price.maxOld &&
 								price.maxOld.toLocaleString(undefined, {
@@ -127,10 +122,8 @@ function ProductNine(props) {
 									minimumFractionDigits: 0,
 									maximumFractionDigits: 2,
 								})}
-						</span>
-						<span className="new-price">
 							{price.maxPrice
-								? '- ' +
+								? ' - ' +
 								  price.maxPrice.toLocaleString(undefined, {
 										minimumFractionDigits: 0,
 										maximumFractionDigits: 2,
