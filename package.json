@@ -2,7 +2,7 @@
   "name": "22store",
   "version": "0.1.2",
   "private": true,
-  "homepage": "http://22tuoi.com",
+  "homepage": "https://nhat1199.github.io",
   "basename": "/",
   "dependencies": {
     "@babel/core": "^7.1.0",
@@ -81,7 +81,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "deploy": "sh ./deploy-surge.sh",
+    "deploy": "sh ./deploy.sh",
     "deploy2": "npm run build && mv build/index.html build/200.html && surge build"
   },
   "eslintConfig": {
