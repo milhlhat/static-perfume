@@ -20,24 +20,24 @@ function SearchForm(props) {
 	// 	};
 	// });
 
-	function onSearchToggleHandler1(e) {
-		if (
-			document.querySelector('.header-search-wrapper') &&
-			document.querySelector('.header-search-wrapper').classList.contains('show')
-		) {
-			document.querySelector('.header-search-wrapper').classList.remove('show');
-			document.querySelector('.search-toggle').classList.remove('active');
-			document.querySelector('body').classList.remove('is-search-active');
-			e.preventDefault();
-		}
-	}
+	// function onSearchToggleHandler1(e) {
+	// 	if (
+	// 		document.querySelector('.header-search-wrapper') &&
+	// 		document.querySelector('.header-search-wrapper').classList.contains('show')
+	// 	) {
+	// 		document.querySelector('.header-search-wrapper').classList.remove('show');
+	// 		document.querySelector('.search-toggle').classList.remove('active');
+	// 		document.querySelector('body').classList.remove('is-search-active');
+	// 		e.preventDefault();
+	// 	}
+	// }
 
-	function onSearchToggleHandler(e) {
-		document.querySelector('.header-search-wrapper').classList.toggle('show');
-		document.querySelector('.search-toggle').classList.toggle('active');
-		document.querySelector('.header-search-wrapper input').focus();
-		e.preventDefault();
-	}
+	// function onSearchToggleHandler(e) {
+	// 	document.querySelector('.header-search-wrapper').classList.toggle('show');
+	// 	document.querySelector('.search-toggle').classList.toggle('active');
+	// 	document.querySelector('.header-search-wrapper input').focus();
+	// 	e.preventDefault();
+	// }
 
 	const handleInput = (evt) => {
 		if (evt.target.value == null) {
@@ -61,7 +61,7 @@ function SearchForm(props) {
 			<form method="get" action="/shop/nosidebar/boxed">
 				<div className="header-search-wrapper show">
 					<label htmlFor="q" className="sr-only">
-						Search
+						Tìm kiếm...
 					</label>
 					<input
 						type="search"

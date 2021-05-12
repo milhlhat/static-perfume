@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+// import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
-import { isIEBrowser } from '../../../../../utils';
+// import { isIEBrowser } from '../../../../../utils';
 
 
 function DescOne(props) {
@@ -145,7 +145,7 @@ function getProductById(productList, id) {
 	for (var i in productList) {
 		var item = productList[i];
 
-		if (item.id == id) {
+		if (Number(item.id) === Number(id)) {
 			return item;
 		}
 	}

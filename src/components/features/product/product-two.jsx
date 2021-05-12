@@ -20,13 +20,13 @@ function ProductTwo(props) {
 		showQuickView(product.id);
 	};
 
-	const wishlistHandler = () => {
-		if (isWishlist) {
-			window.location = process.env.PUBLIC_URL + '/shop/wishlist';
-		} else {
-			onToggleWishlist(product, isWishlist);
-		}
-	};
+	// const wishlistHandler = () => {
+	// 	if (isWishlist) {
+	// 		window.location = process.env.PUBLIC_URL + '/shop/wishlist';
+	// 	} else {
+	// 		onToggleWishlist(product, isWishlist);
+	// 	}
+	// };
 
 	return product ? (
 		<div className="product">

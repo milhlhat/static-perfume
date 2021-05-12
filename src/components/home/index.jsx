@@ -11,12 +11,12 @@ import QuickView from '../features/product/common/quickview-two';
 // import Home Components
 import IntroSlide from './intro-slide';
 import Banner from './banner';
-import BestCollection from './best-collection';
-import SpecialCollection from './special-collection';
-import CatBanner from './cat-banner';
+// import BestCollection from './best-collection';
+// import SpecialCollection from './special-collection';
+// import CatBanner from './cat-banner';
 import NewCollection from './new-collection';
-import CTA from './cta-section';
-import Instagram from './instagram';
+// import CTA from './cta-section';
+// import Instagram from './instagram';
 
 // import Slider Settings
 import { introSlider } from '../settings';

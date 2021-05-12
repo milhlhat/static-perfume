@@ -7,7 +7,7 @@ import { addToCart, toggleWishlist } from '../../../../../actions';
 import { quantityInputs, isIEBrowser, isEdgeBrowser, findIndex, getMinMaxPrice } from '../../../../../utils';
 
 function ProductDetailOne(props) {
-	const { product, isWishlist, type, addToCart, toggleWishlist } = props;
+	const { product, addToCart } = props;
 	const [price, setPrice] = useState({});
 
 	useEffect(() => {
@@ -23,32 +23,61 @@ function ProductDetailOne(props) {
 		);
 	};
 
-	const wishlistHandler = () => {
-		if (isWishlist) {
-			window.location = process.env.PUBLIC_URL + '/shop/wishlist';
-		} else {
-			toggleWishlist(product, isWishlist);
-		}
-	};
+	// const wishlistHandler = () => {
+	// 	if (isWishlist) {
+	// 		window.location = process.env.PUBLIC_URL + '/shop/wishlist';
+	// 	} else {
+	// 		toggleWishlist(product, isWishlist);
+	// 	}
+	// };
 
 	// console.log(price);
-	function isDiscount() {
-		let variantsArray = [...product.variants];
-		variantsArray.forEach(function (value) {
-			let newValue = Number(value.oldPrice);
+	// function isDiscount() {
+	// 	let variantsArray = [...product.variants];
+	// 	variantsArray.forEach(function (value) {
+	// 		let newValue = Number(value.oldPrice);
 
-			if (newValue > 0) {
-				console.log('dung');
-				return true;
-			}
-		});
-		console.log('sai');
-		return false;
-	}
+	// 		if (newValue > 0) {
+	// 			console.log('dung');
+	// 			return true;
+	// 		}
+	// 	});
+	// 	console.log('sai');
+	// 	return false;
+	// }
 
 	function handleChangePrice(e) {
 		setPrice({ ...price, minPrice: product.variants[e.target.value].price, maxPrice: null });
 	}
+
+	function splitScent(str){
+		if(str.trim().toLowerCase().includes('hương chính')){
+			return(<>
+				<b>Hương chính: </b>{str.trim().substr(12,str.length)}
+				</>
+			);
+		}
+		else if(str.trim().toLowerCase().includes('hương đầu')){
+			let start_middle_scent=str.trim().toLowerCase().indexOf('hương giữa');
+			let start_last_scent=str.trim().toLowerCase().indexOf('hương cuối');
+			let first_scent=str.trim().substring(11,start_middle_scent)
+			let middle_scent=str.trim().substring(Number(start_middle_scent)+11,start_last_scent)
+			let last_scent=str.trim().substring(Number(start_last_scent)+11,str.length)
+			return(<>
+				<b>Hương đầu: </b>{first_scent} <br/>
+				<b>Hương giữa: </b>{middle_scent} <br/>
+				<b>Hương cuối: </b>{last_scent}
+				</>
+			);
+		}
+		else{
+			return(<>
+				{str}
+				</>
+			);
+		}
+	}
+
 
 	// console.log('min:' + isDiscount(product.variants));
 	return (
@@ -173,7 +202,8 @@ function ProductDetailOne(props) {
 				</p>
 
 				<p className="p-0 m-0">
-					<pre className="">{product.mui_huong}</pre>
+							{splitScent(product.mui_huong)}
+					{/* <pre className="">{product.mui_huong}</pre> */}
 				</p>
 			</div>
 

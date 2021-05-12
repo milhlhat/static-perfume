@@ -11,12 +11,14 @@ function ProductSix(props) {
 	const {
 		product,
 		type = 'product',
-		isWishlist,
 		onAddToCart,
 		showQuickView,
-		onToggleWishlist,
-		onAddToCompare,
 	} = props;
+	// const {
+	// 	isWishlist,
+	// 	onToggleWishlist,
+	// 	onAddToCompare,
+	// } = props;
 	const [price, setPrice] = useState({});
 	useEffect(() => {
 		setPrice(getMinMaxPrice(product.variants));
@@ -25,21 +27,21 @@ function ProductSix(props) {
 		if (0 !== product.stock) onAddToCart(product, 1, product.variants[0].size);
 	};
 
-	const addToCompareHandler = () => {
-		onAddToCompare(product);
-	};
+	// const addToCompareHandler = () => {
+	// 	onAddToCompare(product);
+	// };
 
 	const quickViewHandler = () => {
 		showQuickView(product.id);
 	};
 
-	const wishlistHandler = () => {
-		if (isWishlist) {
-			window.location = process.env.PUBLIC_URL + '/shop/wishlist';
-		} else {
-			onToggleWishlist(product, isWishlist);
-		}
-	};
+	// const wishlistHandler = () => {
+	// 	if (isWishlist) {
+	// 		window.location = process.env.PUBLIC_URL + '/shop/wishlist';
+	// 	} else {
+	// 		onToggleWishlist(product, isWishlist);
+	// 	}
+	// };
 
 	function toTop() {
 		window.scroll({

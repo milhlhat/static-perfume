@@ -29,7 +29,7 @@ function Footer(props) {
 										<span className="widget-about-title font-weight-bold">
 											Mọi thắc mắc xin liên hệ:
 										</span>
-										<a href="tel:0819287888" target="_blank">
+										<a href="tel:0819287888" rel="noreferrer" target="_blank">
 											0819287888
 										</a>
 									</div>
@@ -116,6 +116,7 @@ function Footer(props) {
 						<span className="social-label">Mạng xã hội</span>
 						<a
 							href="https://www.facebook.com/22perfumery"
+							rel="noreferrer"
 							className="social-icon social-facebook"
 							title="Facebook"
 							target="_blank"
@@ -125,6 +126,7 @@ function Footer(props) {
 						{/* <Link to="#" className="social-icon social-twitter" title="Twitter" target="_blank"><i className="icon-twitter"></i></Link> */}
 						<a
 							href="https://www.instagram.com/22perfumery/"
+							rel="noreferrer"
 							className="social-icon social-instagram"
 							title="Instagram"
 							target="_blank"

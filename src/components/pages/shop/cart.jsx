@@ -91,12 +91,12 @@ function Cart(props) {
 	return (
 		<>
 			<Helmet>
-				<title>Giỏ hàng | 22</title>
+				<title>Giỏ hàng | 22 Store</title>
 			</Helmet>
 
 			<div className="main">
 				<PageHeader title="Giỏ hàng" subTitle="Shop" />
-				<Breadcrumb title="Shopping Cart" parent1={['Shop', 'shop/nosidebar/boxed']} />
+				<Breadcrumb title="Giỏ hàng" parent1={['Shop', 'shop/nosidebar/boxed']} />
 
 				<div className="page-content">
 					<div className="cart">
@@ -107,11 +107,11 @@ function Cart(props) {
 										<thead>
 											<tr>
 												<th></th>
-												<th>Product</th>
-												<th>Price</th>
+												<th>Tên sản phẩm</th>
+												<th>Giá</th>
 												<th>Size</th>
-												<th>Quantity</th>
-												<th>Total</th>
+												<th>Số lượng</th>
+												<th>Tổng</th>
 												<th></th>
 											</tr>
 										</thead>
@@ -327,7 +327,7 @@ function Cart(props) {
 										to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`}
 										className="btn btn-outline-dark-2 btn-block mb-3"
 									>
-										<span>CONTINUE SHOPPING</span>
+										<span>XEM SẢN PHẨM KHÁC</span>
 										<i className="icon-refresh"></i>
 									</Link>
 								</aside>

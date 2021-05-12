@@ -7,8 +7,8 @@ import { Tab, Tabs, TabPanel, TabList } from 'react-tabs';
 import ProductNine from '../features/product/product-nine';
 
 // import Services & Settings
-import { getProductsByCategory, getVisibleProducts } from '../../services';
-import { getProductsByGender } from '../../services';
+import { getVisibleProducts } from '../../services';
+// import { getProductsByGender } from '../../services';
 import { addToCart, toggleWishlist } from '../../actions';
 
 function NewCollection ( props ) {

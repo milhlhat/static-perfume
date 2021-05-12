@@ -1,4 +1,4 @@
-import { findIndex } from '../utils';
+// import { findIndex } from '../utils';
 
 /**
  * Get visible products
@@ -10,9 +10,9 @@ import { findIndex } from '../utils';
 export const getVisibleProducts = (products, { sortBy, category, brand, gender }) => {
 	return products
 		.filter((item) => {
-			let catResult = false,
-				brandResult = false,
-				genderResult = false;
+			// let catResult = false,
+			// 	brandResult = false;
+			let	genderResult = false;
 			// if (category && category.length > 0) {
 			// 	for (let i = 0; i < category.length; i++) {
 			// 		if (

@@ -160,7 +160,7 @@ function Wishlist( props ) {
                             </tbody>
                             
                         </table>
-                        <a href='https://m.me/100398532142202' target="_blank" className=" btn btn-outline-primary-2 btn-order btn-block mb-2">
+                        <a href='https://m.me/100398532142202' rel="noreferrer" target="_blank" className=" btn btn-outline-primary-2 btn-order btn-block mb-2">
                             <span className="btn-order">ĐẶT HÀNG QUA MESSENGER NGAY</span><i className="icon-facebook-messenger"></i></a>
 
                         <div className="wishlist-share">

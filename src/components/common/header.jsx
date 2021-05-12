@@ -11,17 +11,17 @@ import LoginModal from '../features/modal/login-modal';
 import { showModal } from '../../actions';
 
 function Header(props) {
-	const { isWishlist, showModal, container = 'container' } = props;
+	const { container = 'container' } = props;
 
 	// function openLoginModal ( e ) {
 	//     showModal( 'login' );
 	//     e.preventDefault();
 	// }
 
-	function hideNotificationHandler(e) {
-		document.querySelector('.notification').style.display = 'none';
-		e.preventDefault();
-	}
+	// function hideNotificationHandler(e) {
+	// 	document.querySelector('.notification').style.display = 'none';
+	// 	e.preventDefault();
+	// }
 
 	return (
 		<>

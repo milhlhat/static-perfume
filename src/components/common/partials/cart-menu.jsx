@@ -23,7 +23,7 @@ function CartMenu(props) {
 		for (var i in product.variants) {
 			var variant = product.variants[i];
 
-			if (variant.size == size) {
+			if (Number(variant.size) === Number(size)) {
 				vari = variant;
 				break;
 			}
@@ -159,7 +159,7 @@ function CartMenu(props) {
 
 						<div className="dropdown-cart-action">
 							<Link to={`${process.env.PUBLIC_URL}/shop/cart`} className="btn btn-primary w-100">
-								View Cart
+								Xem giỏ hàng
 							</Link>
 							{/* <Link to={`${process.env.PUBLIC_URL}/shop/checkout`} className="btn btn-outline-primary-2">
 								<span>Checkout</span>

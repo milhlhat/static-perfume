@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 import MobileMainNav from './partials/mobile-nav';
@@ -12,7 +12,7 @@ export default function MobileMenu () {
 
                 <form action="/shop/nosidebar/boxed" method="get" className="mobile-search">
                     <label htmlFor="mobile-search" className="sr-only">Search</label>
-                    <input type="search" className="form-control" name="q" id="q" placeholder="Search product ..." required />
+                    <input type="search" className="form-control" name="q" id="q" placeholder="Tìm kiếm ..." required />
                     <button className="btn btn-primary" type="submit"><i className="icon-search"></i></button>
                 </form>
 
@@ -53,10 +53,10 @@ export default function MobileMenu () {
                 </Tabs>
 
                 <div className="social-icons">
-                    <Link to="#" className="social-icon" target="_blank" title="Facebook"><i className="icon-facebook-f"></i></Link>
-                    <Link to="#" className="social-icon" target="_blank" title="Twitter"><i className="icon-twitter"></i></Link>
-                    <Link to="#" className="social-icon" target="_blank" title="Instagram"><i className="icon-instagram"></i></Link>
-                    <Link to="#" className="social-icon" target="_blank" title="Youtube"><i className="icon-youtube"></i></Link>
+                    <a href="https://www.facebook.com/22perfumery" rel="noreferrer" className="social-icon" target="_blank" title="Facebook"><i className="icon-facebook-f"></i></a>
+                    {/* <Link to="#" className="social-icon" target="_blank" title="Twitter"><i className="icon-twitter"></i></Link> */}
+                    <a href="https://www.instagram.com/22perfumery/" rel="noreferrer" className="social-icon" target="_blank" title="Instagram"><i className="icon-instagram"></i></a>
+                    {/* <Link to="#" className="social-icon" target="_blank" title="Youtube"><i className="icon-youtube"></i></Link> */}
                 </div>
             </div>
         </div>

@@ -18,9 +18,9 @@ console.log(props);
     const classList = { "boxed": "col-6 col-md-4 col-lg-4 col-xl-3", "fullwidth": "col-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2" };
     products = getVisibleProducts( searchList, filters );
 
-    function showSideBar() {
-        document.querySelector( 'body' ).classList.add( 'sidebar-filter-active' );
-    }
+    // function showSideBar() {
+    //     document.querySelector( 'body' ).classList.add( 'sidebar-filter-active' );
+    // }
 
     function changeFilter( e ) {
         props.filterSort( e.target.value );

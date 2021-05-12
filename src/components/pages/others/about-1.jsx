@@ -21,7 +21,7 @@ function AboutOne() {
 	return (
 		<div className="main">
 			<Helmet>
-				<title>Giới thiệu | 22</title>
+				<title>Giới thiệu | 22 Store</title>
 			</Helmet>
 
 			<h1 className="d-none">22store facebook</h1>

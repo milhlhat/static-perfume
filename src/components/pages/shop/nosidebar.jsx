@@ -46,7 +46,7 @@ function NoSideBar(props) {
 	return (
 		<>
 			<Helmet>
-				<title>Sản phẩm | 22</title>
+				<title>Sản phẩm | 22 Store</title>
 			</Helmet>
 
 			<div className="main">

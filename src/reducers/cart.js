@@ -1,5 +1,6 @@
 import { ADD_TO_CART, REMOVE_FROM_CART, CHANGE_QTY, CHANGE_SHIPPING } from '../constants/action-types';
-import { findProductByIdAndSize, findIndex, findProductInCartByIdAndSize } from '../utils';
+import { findProductInCartByIdAndSize } from '../utils';
+// import { findProductByIdAndSize, findIndex } from '../utils';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
@@ -20,7 +21,7 @@ function cartReducer(
 				let cartTemp = [...state.cart];
 				for (let i = 0; i < cartTemp.length; i++) {
 					let item = cartTemp[i];
-					if (item.id == findProductCart.id && item.size == findProductCart.size) {
+					if (Number(item.id) === Number(findProductCart.id) && Number(item.size) === Number(findProductCart.size)) {
 						cartTemp[i].qty += parseInt(action.qty);
 					}
 				}
