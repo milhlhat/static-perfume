@@ -40,10 +40,10 @@ export default function HomePage() {
 	return (
 		<>
 			<Helmet>
-				<title>22tuoi.com | Nước hoa cho sinh viên nghèo</title>
+				<title>22Store | 22tuoi.com</title>
 			</Helmet>
 
-			<h1 className="d-none">22tuoi.com - mua nước hoa tiết kiệm</h1>
+			<h1 className="d-none">22tuoi.com - mua nước hoa chiết</h1>
 
 			<div className="main">
 				<div className="intro-slider-container mb-5">
