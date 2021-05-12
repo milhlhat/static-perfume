@@ -19,10 +19,10 @@ export default function Buttons() {
 	return (
 		<>
 			<Helmet>
-				<title>Molla React eCommerce Template | Buttons</title>
+				<title>22 Store | Buttons</title>
 			</Helmet>
 
-			<h1 className="d-none">Molla React eCommerce Template - Buttons</h1>
+			<h1 className="d-none">22 Store - Buttons</h1>
 
 			<div className="main">
 				<PageHeader title="Buttons" subTitle="Elements" />

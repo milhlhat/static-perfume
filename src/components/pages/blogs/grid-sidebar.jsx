@@ -22,10 +22,10 @@ export default function GridSidebar() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Grid Sidebar</title>
+                <title>22 Store | Blog Grid Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Grid Sidebar</h1>
+            <h1 className="d-none">22 Store - Blog Grid Sidebar</h1>
 
             <div className="main">
                 <PageHeader title="Blog Grid With Sidebar" subTitle="Blog" />

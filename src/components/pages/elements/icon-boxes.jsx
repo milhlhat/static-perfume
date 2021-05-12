@@ -10,10 +10,10 @@ function IconBoxes() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Icon Boxes</title>
+                <title>22 Store | Icon Boxes</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Icon Boxes</h1>
+            <h1 className="d-none">22 Store - Icon Boxes</h1>
 
             <div className="main">
 

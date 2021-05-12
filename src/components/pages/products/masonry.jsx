@@ -30,10 +30,10 @@ function MasonryProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product Masonry StickyInfo</title>
+                <title>22 Store | Product Masonry StickyInfo</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product Masonry StickyInfo</h1>
+            <h1 className="d-none">22 Store - Product Masonry StickyInfo</h1>
 
             <div className="main">
                 <Breadcrumb

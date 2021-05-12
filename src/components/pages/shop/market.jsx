@@ -18,10 +18,10 @@ function ShopMarket ( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template   | Shop Market</title>
+                <title>22 Store   | Shop Market</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Shop Market</h1>
+            <h1 className="d-none">22 Store - Shop Market</h1>
 
             <div className="main shop-market">
                 <PageHeader title={ "Shop Market" } subTitle="Shop" />

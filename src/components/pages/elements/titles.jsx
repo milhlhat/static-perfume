@@ -13,10 +13,10 @@ function Titles() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Titles</title>
+                <title>22 Store | Titles</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Titles</h1>
+            <h1 className="d-none">22 Store - Titles</h1>
 
             <div className="main">
                 <PageHeader title="Titles" subTitle="Elements" />

@@ -20,10 +20,10 @@ export default function Portofolios() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Portfolio</title>
+                <title>22 Store | Portfolio</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Portfolio</h1>
+            <h1 className="d-none">22 Store - Portfolio</h1>
 
             <div className="main">
                 <PageHeader title="Portfolio" subTitle="Elements" />

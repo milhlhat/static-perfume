@@ -27,10 +27,10 @@ function Products( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Products</title>
+                <title>22 Store | Products</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Products</h1>
+            <h1 className="d-none">22 Store - Products</h1>
 
             <div className="main no-span">
                 <PageHeader title="Products" subTitle="Elements" />

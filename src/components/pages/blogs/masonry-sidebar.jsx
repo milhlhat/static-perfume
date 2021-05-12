@@ -22,10 +22,10 @@ export default function MasonrySidebar() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Masonry Sidebar</title>
+                <title>22 Store | Blog Masonry Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Masonry Sidebar</h1>
+            <h1 className="d-none">22 Store - Blog Masonry Sidebar</h1>
 
             <div className="main">
 

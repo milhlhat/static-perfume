@@ -46,10 +46,10 @@ function Checkout( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Checkout</title>
+                <title>22 Store | Checkout</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Checkout</h1>
+            <h1 className="d-none">22 Store - Checkout</h1>
 
             <div className="main">
 

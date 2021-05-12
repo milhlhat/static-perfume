@@ -21,10 +21,10 @@ export default function Grid4Cols() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Grid 4 Cols</title>
+                <title>22 Store | Blog Grid 4 Cols</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Grid 4 Cols</h1>
+            <h1 className="d-none">22 Store - Blog Grid 4 Cols</h1>
 
             <div className="main">
 

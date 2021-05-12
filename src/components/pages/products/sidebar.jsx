@@ -36,10 +36,10 @@ function SidebarProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Boxed With Sidebar</title>
+                <title>22 Store | Boxed With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Boxed With Sidebar</h1>
+            <h1 className="d-none">22 Store - Boxed With Sidebar</h1>
 
             <div className="main">
                 <Breadcrumb

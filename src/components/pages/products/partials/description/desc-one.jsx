@@ -8,7 +8,6 @@ import { isIEBrowser } from '../../../../../utils';
 
 function DescOne(props) {
 	const { product } = props;
-console.log(product);
 	return (
 		<Tabs selectedTabClassName="show" selectedTabPanelClassName="active show">
 			<div className="product-details-tab">
@@ -51,7 +50,7 @@ console.log(product);
 						<div className="product-desc-content">
 							<h3>Thông tin</h3>
 							<p>
-								Hiện tại tất cả các sản phẩm bên mình thường có size chiết 10ml và full size. Các bạn cần order thêm sản phẩm chưa có trên website có thể inbox trực tiếp qua <a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">Fan page</a> với chúng mình nhé. 
+								Hiện tại tất cả các sản phẩm bên mình thường có size chiết 10ml và full size. Các bạn cần order thêm sản phẩm chưa có trên website có thể inbox trực tiếp qua <a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">Fan page</a> với chúng mình nhé.
 							</p>
 
 							<h3>Đóng gói sản phẩm</h3>
@@ -62,7 +61,7 @@ console.log(product);
 								<li>Giấy bọc chống sốc.</li>
 							</ul>
 
-						 
+
 						</div>
 					</TabPanel>
 

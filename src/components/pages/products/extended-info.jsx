@@ -30,10 +30,10 @@ export default function ExtendedInfo( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product Extended Info</title>
+                <title>22 Store | Product Extended Info</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product Extended Info</h1>
+            <h1 className="d-none">22 Store - Product Extended Info</h1>
 
             <div className="main">
                 <Breadcrumb

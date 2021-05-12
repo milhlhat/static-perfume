@@ -11,10 +11,10 @@ function DashBoard() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | My Account</title>
+                <title>22 Store | My Account</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - My Account</h1>
+            <h1 className="d-none">22 Store - My Account</h1>
 
             <div className="main">
                 <PageHeader title="My Account" subTitle="Shop" />

@@ -9,10 +9,10 @@ function Typography() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Typography</title>
+                <title>22 Store | Typography</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Typography</h1>
+            <h1 className="d-none">22 Store - Typography</h1>
 
             <div className="main">
 

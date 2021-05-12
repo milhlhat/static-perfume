@@ -17,10 +17,10 @@ function Categories() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product Category</title>
+                <title>22 Store | Product Category</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product Category</h1>
+            <h1 className="d-none">22 Store - Product Category</h1>
 
             <div className="main">
 

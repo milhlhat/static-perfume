@@ -10,10 +10,10 @@ function ElementTabs() {
 	return (
 		<>
 			<Helmet>
-				<title>Molla React eCommerce Template | Tabs</title>
+				<title>22 Store | Tabs</title>
 			</Helmet>
 
-			<h1 className="d-none">Molla React eCommerce Template - Tabs</h1>
+			<h1 className="d-none">22 Store - Tabs</h1>
 
 			<div className="main">
 

@@ -11,10 +11,10 @@ function Accordions() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Accordions</title>
+                <title>22 Store | Accordions</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Accordions</h1>
+            <h1 className="d-none">22 Store - Accordions</h1>
 
             <div className="main">
                 <PageHeader title="Accordions" subTitle="Elements" />

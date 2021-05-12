@@ -26,10 +26,10 @@ export default function StickyInfo( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product StickyInfo</title>
+                <title>22 Store | Product StickyInfo</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product StickyInfo</h1>
+            <h1 className="d-none">22 Store - Product StickyInfo</h1>
 
             <div className="main">
 

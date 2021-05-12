@@ -25,10 +25,10 @@ function Testimonials() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Testimonials</title>
+                <title>22 Store | Testimonials</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Testimonials</h1>
+            <h1 className="d-none">22 Store - Testimonials</h1>
 
             <div className="main">
                 <PageHeader title="Testimonials" subTitle="Elements" />

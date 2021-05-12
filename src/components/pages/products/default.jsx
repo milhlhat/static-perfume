@@ -11,27 +11,28 @@ import RelatedProducts from './partials/related-products';
 import Breadcrumb from '../../common/breadcrumb';
 import QuickView from '../../features/product/common/quickview';
 
-import { productGallery } from '../../../utils';
+import { getProductById, productGallery } from '../../../utils';
+import { connect } from 'react-redux';
 
-function SingleProduct( props ) {
+function SingleProduct(props) {
     let productId = props.match.params.id;
-
-    useEffect( () => {
+    const { product } = props;
+    useEffect(() => {
         productGallery();
 
-        document.querySelector( '.skel-pro-single' ).classList.remove( 'loaded' );
+        document.querySelector('.skel-pro-single').classList.remove('loaded');
 
-        let imgLoad = imagesLoaded( ".product-main-image", { background: true } );
+        let imgLoad = imagesLoaded(".product-main-image", { background: true });
 
-        imgLoad.on( 'done', function ( instance, image ) {
-            document.querySelector( '.skel-pro-single' ).classList.add( 'loaded' );
-        } );
-    }, [ productId ] )
+        imgLoad.on('done', function (instance, image) {
+            document.querySelector('.skel-pro-single').classList.add('loaded');
+        });
+    }, [productId])
 
     return (
         <>
             <Helmet>
-                <title>Sản Phẩm | 22</title>
+                <title>{product ? product.name : 'Sản Phẩm'} | 22 Store</title>
             </Helmet>
             <div className="main">
                 <Breadcrumb
@@ -39,7 +40,7 @@ function SingleProduct( props ) {
                     type="product"
                     slug="default"
                     adClass="breadcrumb-nav border-0 mb-0"
-                    productId={ productId }
+                    productId={productId}
                     parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
                 />
 
@@ -51,7 +52,7 @@ function SingleProduct( props ) {
                                     <div className="skel-product-gallery">
                                     </div>
 
-                                    <MediaOne id={ productId } />
+                                    <MediaOne id={productId} />
                                 </div>
 
                                 <div className="col-md-6">
@@ -65,12 +66,12 @@ function SingleProduct( props ) {
                                         </div>
                                     </div>
 
-                                    <ProductDetailOne id={ productId } />
+                                    <ProductDetailOne id={productId} />
                                 </div>
                             </div>
                         </div>
 
-                        <DescOne id={ productId } />
+                        <DescOne id={productId} />
 
                         <h2 className="title text-center mb-4">Bạn có thể thích</h2>
 
@@ -85,5 +86,10 @@ function SingleProduct( props ) {
         </>
     )
 }
+function mapStateToProps(state, props) {
+    return {
+        product: getProductById(state.data.products, props.match.params.id)
+    };
+}
 
-export default SingleProduct;
+export default connect(mapStateToProps)(SingleProduct);

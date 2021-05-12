@@ -36,10 +36,10 @@ function SingleProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product Fullwidth</title>
+                <title>22 Store | Product Fullwidth</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product Fullwidth</h1>
+            <h1 className="d-none">22 Store - Product Fullwidth</h1>
 
             <div className="main">
                 <Breadcrumb

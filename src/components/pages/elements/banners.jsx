@@ -11,10 +11,10 @@ export default function Banners() {
 	return (
 		<>
 			<Helmet>
-				<title>Molla React eCommerce Template | Banners</title>
+				<title>22 Store | Banners</title>
 			</Helmet>
 
-			<h1 className="d-none">Molla React eCommerce Template - Banners</h1>
+			<h1 className="d-none">22 Store - Banners</h1>
 
 			<div className="main">
 				<PageHeader title="Banners" subTitle="Elements" />

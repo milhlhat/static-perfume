@@ -62,10 +62,10 @@ function SingleDefault( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Default With Sidebar</title>
+                <title>22 Store | Blog Default With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Default With Sidebar</h1>
+            <h1 className="d-none">22 Store - Blog Default With Sidebar</h1>
 
             <div className="main">
                 <PageHeader title="Default With Sidebar" subTitle="Single Post" />

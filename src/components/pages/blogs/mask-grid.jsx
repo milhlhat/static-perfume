@@ -21,10 +21,10 @@ export default function MaskGrid () {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Mask Grid</title>
+                <title>22 Store | Blog Mask Grid</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Mask Grid</h1>
+            <h1 className="d-none">22 Store - Blog Mask Grid</h1>
 
             <div className="main">
                 <PageHeader title="Blog Mask Grid" subTitle="Blog" />

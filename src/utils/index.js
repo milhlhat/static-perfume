@@ -682,3 +682,19 @@ export function getMinMaxPrice(variantsArray) {
 
 	return { minPrice: min, maxPrice: max, minOld: minOld, maxOld: maxOld };
 }
+/**
+ * 
+ * @param {*} productList 
+ * @param {*} id 
+ * @returns 
+ */
+export function getProductById(productList, id) {
+	for (var i in productList) {
+		var item = productList[i];
+
+		if (item.id == id) {
+			return item;
+		}
+	}
+	return '';
+}

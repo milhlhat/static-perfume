@@ -21,10 +21,10 @@ export default function Grid3Cols() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Grid 3 Cols</title>
+                <title>22 Store | Blog Grid 3 Cols</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Grid 3 Cols</h1>
+            <h1 className="d-none">22 Store - Blog Grid 3 Cols</h1>
 
             <div className="main">
 

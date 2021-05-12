@@ -21,10 +21,10 @@ export default function MaskMasonry() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Mask Masonry</title>
+                <title>22 Store | Blog Mask Masonry</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Mask Masonry</h1>
+            <h1 className="d-none">22 Store - Blog Mask Masonry</h1>
 
             <div className="main">
                 <PageHeader title="Blog Mask Masonry" subTitle="Blog" />

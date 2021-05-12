@@ -18,10 +18,10 @@ function ShopList( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Shop With Sidebar</title>
+                <title>22 Store | Shop With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Shop With Sidebar</h1>
+            <h1 className="d-none">22 Store - Shop With Sidebar</h1>
 
             <div className="main">
                 <PageHeader title={ titles[ grid ] } subTitle="Shop" />

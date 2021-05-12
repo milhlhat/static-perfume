@@ -9,7 +9,7 @@ import { quantityInputs, isIEBrowser, isEdgeBrowser, findIndex, getMinMaxPrice }
 function ProductDetailOne(props) {
 	const { product, isWishlist, type, addToCart, toggleWishlist } = props;
 	const [price, setPrice] = useState({});
-	console.log('detail', product);
+
 	useEffect(() => {
 		quantityInputs();
 		setPrice(getMinMaxPrice(product.variants));
@@ -34,7 +34,7 @@ function ProductDetailOne(props) {
 	// console.log(price);
 	function isDiscount() {
 		let variantsArray = [...product.variants];
-		variantsArray.forEach(function(value) {
+		variantsArray.forEach(function (value) {
 			let newValue = Number(value.oldPrice);
 
 			if (newValue > 0) {
@@ -47,7 +47,6 @@ function ProductDetailOne(props) {
 	}
 
 	function handleChangePrice(e) {
-		console.log(product.variants[e.target.value]);
 		setPrice({ ...price, minPrice: product.variants[e.target.value].price, maxPrice: null });
 	}
 
@@ -88,13 +87,13 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-				 
+
 						{price.maxPrice
 							? ' - ' +
-							  price.maxPrice.toLocaleString(undefined, {
-									minimumFractionDigits: 0,
-									maximumFractionDigits: 2,
-							  })
+							price.maxPrice.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
+							})
 							: ''}
 						đ
 					</span>
@@ -105,7 +104,7 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-				 
+
 						&nbsp;
 						{price.maxOld &&
 							price.maxOld.toLocaleString(undefined, {
@@ -123,13 +122,13 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-					 
+
 						{price.maxPrice
 							? ' - ' +
-							  price.maxPrice.toLocaleString(undefined, {
-									minimumFractionDigits: 0,
-									maximumFractionDigits: 2,
-							  })
+							price.maxPrice.toLocaleString(undefined, {
+								minimumFractionDigits: 0,
+								maximumFractionDigits: 2,
+							})
 							: ''}
 						đ
 					</span>

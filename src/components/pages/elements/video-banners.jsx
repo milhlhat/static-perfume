@@ -19,10 +19,10 @@ function VideoBanners( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Video Banners</title>
+                <title>22 Store | Video Banners</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Video Banners</h1>
+            <h1 className="d-none">22 Store - Video Banners</h1>
 
             <div className="main">
 

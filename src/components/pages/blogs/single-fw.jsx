@@ -66,10 +66,10 @@ function SingleFullWidth( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Fullwidth With Sidebar</title>
+                <title>22 Store | Blog Fullwidth With Sidebar</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Fullwidth With Sidebar</h1>
+            <h1 className="d-none">22 Store - Blog Fullwidth With Sidebar</h1>
 
             <div className="main single-2">
 

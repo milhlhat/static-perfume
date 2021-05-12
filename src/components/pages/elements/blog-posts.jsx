@@ -15,10 +15,10 @@ function BlogPosts() {
 	return (
 		<>
 			<Helmet>
-				<title>Molla React eCommerce Template | Blog Posts</title>
+				<title>22 Store | Blog Posts</title>
 			</Helmet>
 
-			<h1 className="d-none">Molla React eCommerce Template - Blog Posts</h1>
+			<h1 className="d-none">22 Store - Blog Posts</h1>
 
 			<div className="main">
 				<PageHeader title="Blog Posts" subTitle="Elements" />

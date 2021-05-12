@@ -29,10 +29,10 @@ export default function CenteredProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Centered Product</title>
+                <title>22 Store | Centered Product</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Centered Product</h1>
+            <h1 className="d-none">22 Store - Centered Product</h1>
 
             <div className="main">
                 <Breadcrumb

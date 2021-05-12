@@ -16,10 +16,10 @@ function Listing() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Listing</title>
+                <title>22 Store | Blog Listing</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Listing</h1>
+            <h1 className="d-none">22 Store - Blog Listing</h1>
 
             <div className="main">
                 <PageHeader title="Blog Listing" subTitle="Blog" />

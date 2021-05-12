@@ -15,10 +15,10 @@ function Classic() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Classic</title>
+                <title>22 Store | Blog Classic</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Classic</h1>
+            <h1 className="d-none">22 Store - Blog Classic</h1>
 
             <div className="main">
                 <PageHeader title="Blog Classic" subTitle="Blog" />

@@ -40,7 +40,7 @@ export default function HomePage() {
 	return (
 		<>
 			<Helmet>
-				<title>22Store | 22tuoi.com</title>
+				<title>22 Store | Trang Chủ</title>
 			</Helmet>
 
 			<h1 className="d-none">22tuoi.com - mua nước hoa chiết</h1>

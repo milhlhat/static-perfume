@@ -20,10 +20,10 @@ export default function CTA() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Call To Action</title>
+                <title>22 Store | Call To Action</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Call To Action</h1>
+            <h1 className="d-none">22 Store - Call To Action</h1>
 
             <div className="main">
                 <PageHeader title="Call to Action" subTitle="Elements" />

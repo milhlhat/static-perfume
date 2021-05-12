@@ -21,10 +21,10 @@ export default function Grid2Cols() {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Blog Grid 2 Cols</title>
+                <title>22 Store | Blog Grid 2 Cols</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Blog Grid 2 Cols</h1>
+            <h1 className="d-none">22 Store - Blog Grid 2 Cols</h1>
 
             <div className="main">
 

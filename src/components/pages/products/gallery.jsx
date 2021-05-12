@@ -30,10 +30,10 @@ export default function GalleryProduct( props ) {
     return (
         <>
             <Helmet>
-                <title>Molla React eCommerce Template | Product Gallery</title>
+                <title>22 Store | Product Gallery</title>
             </Helmet>
 
-            <h1 className="d-none">Molla React eCommerce Template - Product Gallery</h1>
+            <h1 className="d-none">22 Store - Product Gallery</h1>
 
             <div className="main">
                 <div className="page-content">
