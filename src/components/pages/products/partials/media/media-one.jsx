@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { Magnifier } from "react-image-magnifiers";
+import { Magnifier,TOUCH_ACTIVATION } from "react-image-magnifiers";
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
@@ -64,6 +64,7 @@ function MediaOne ( props ) {
                             largeImageSrc={ process.env.PUBLIC_URL + '/' + bigImages[ 0 ] } // Optional
                             dragToMove={ false }
                             mouseActivation="hover"
+                            touchActivation={TOUCH_ACTIVATION.DOUBLE_TAP}
                             cursorStyleActive="crosshair"
                             id="product-zoom"
                             
