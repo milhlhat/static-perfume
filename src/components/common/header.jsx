@@ -18,23 +18,23 @@ function Header(props) {
 	//     e.preventDefault();
 	// }
 
-	// function hideNotificationHandler(e) {
-	// 	document.querySelector('.notification').style.display = 'none';
-	// 	e.preventDefault();
-	// }
+	function hideNotificationHandler(e) {
+		document.querySelector('.notification').style.display = 'none';
+		e.preventDefault();
+	}
 
 	return (
 		<>
-			{/* <div
+			<div
 				className="notification"
 				style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/notification-back.jpg)` }}
 			>
 				<div className="notify-content d-flex justify-content-center align-items-center">
-					<h3>MIỄN PHÍ GIAO HÀNG ĐƠN 0Đ* - CAM KẾT AUTHENTIC 100%</h3>
+					<h3>HIỆN TẠI WEBSITE ĐANG THỬ NGHIỆM, GIÁ SẢN PHẨM CHƯA PHẢI LÀ CHÍNH THỨC</h3>
 					<i className="icon-close text-white ml-1" onClick={hideNotificationHandler}></i>
 				</div>
 				 
-			</div> */}
+			</div>
 			<header className="header">
 				{/* <div className="header-top">
 					<div className={container}>
