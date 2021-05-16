@@ -25,12 +25,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 430000.0,
-                "oldPrice": 430000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 800000,
                 "oldPrice": 800000,
@@ -73,12 +67,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 430000.0,
-                "oldPrice": 430000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 800000,
@@ -123,12 +111,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 430000.0,
-                "oldPrice": 430000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 800000,
                 "oldPrice": 800000,
@@ -171,12 +153,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, Xu\u00e2n, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 158000.0,
-                "oldPrice": 158000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 256000,
@@ -221,12 +197,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 182000.0,
-                "oldPrice": 182000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 304000,
                 "oldPrice": 304000,
@@ -269,12 +239,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 207000.0,
-                "oldPrice": 207000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 354000,
@@ -319,12 +283,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 223500.0,
-                "oldPrice": 223500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 387000,
                 "oldPrice": 387000,
@@ -367,12 +325,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 207000.0,
-                "oldPrice": 207000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 354000,
@@ -417,12 +369,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 240000.0,
-                "oldPrice": 240000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 420000,
                 "oldPrice": 420000,
@@ -465,12 +411,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 229000.0,
-                "oldPrice": 229000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 398000,
@@ -515,12 +455,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 219500.0,
-                "oldPrice": 219500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 379000,
                 "oldPrice": 379000,
@@ -563,12 +497,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 202500.0,
-                "oldPrice": 202500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 345000,
@@ -613,12 +541,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 185000.0,
-                "oldPrice": 185000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 310000,
                 "oldPrice": 310000,
@@ -661,12 +583,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 314500.0,
-                "oldPrice": 314500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 569000,
@@ -711,12 +627,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 199500.0,
-                "oldPrice": 199500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 339000,
                 "oldPrice": 339000,
@@ -759,12 +669,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 102500.0,
-                "oldPrice": 102500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 145000,
@@ -809,12 +713,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 449500.0,
-                "oldPrice": 449500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 839000,
                 "oldPrice": 839000,
@@ -857,12 +755,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 264000.0,
-                "oldPrice": 264000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 468000,
@@ -907,12 +799,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 267500.0,
-                "oldPrice": 267500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 475000,
                 "oldPrice": 475000,
@@ -955,12 +841,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, H\u1ea1",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 240000.0,
-                "oldPrice": 240000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 420000,
@@ -1048,12 +928,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 239500.0,
-                "oldPrice": 239500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 419000,
                 "oldPrice": 419000,
@@ -1096,12 +970,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 210000.0,
-                "oldPrice": 210000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 360000,
@@ -1146,12 +1014,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 96500.0,
-                "oldPrice": 96500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 133000,
                 "oldPrice": 133000,
@@ -1193,12 +1055,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 219500.0,
-                "oldPrice": 219500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 379000,
@@ -1243,12 +1099,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 219500.0,
-                "oldPrice": 219500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 379000,
                 "oldPrice": 379000,
@@ -1291,12 +1141,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 212000.0,
-                "oldPrice": 212000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 364000,
@@ -1341,12 +1185,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 244500.0,
-                "oldPrice": 244500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 429000,
                 "oldPrice": 429000,
@@ -1389,12 +1227,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 234500.0,
-                "oldPrice": 234500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 409000,
@@ -1439,12 +1271,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 465000.0,
-                "oldPrice": 465000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 870000,
                 "oldPrice": 870000,
@@ -1487,12 +1313,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 199500.0,
-                "oldPrice": 199500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 339000,
@@ -1537,12 +1357,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 280000.0,
-                "oldPrice": 280000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 500000,
                 "oldPrice": 500000,
@@ -1585,12 +1399,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu, \u0110\u00f4ng",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 280000.0,
-                "oldPrice": 280000.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 500000,
@@ -1635,12 +1443,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 245000.0,
-                "oldPrice": 245000.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 430000,
                 "oldPrice": 430000,
@@ -1683,12 +1485,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, Thu",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 264500.0,
-                "oldPrice": 264500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 469000,
@@ -1733,12 +1529,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 179500.0,
-                "oldPrice": 179500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 299000,
                 "oldPrice": 299000,
@@ -1782,12 +1572,6 @@
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
             {
-                "size": 5,
-                "price": 209500.0,
-                "oldPrice": 209500.0,
-                "name": "Chi\u1ebft"
-            },
-            {
                 "size": 10,
                 "price": 359000,
                 "oldPrice": 359000,
@@ -1830,12 +1614,6 @@
         "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n",
         "tuoi_khuyen_dung": " Tr\u00ean 25",
         "variants": [
-            {
-                "size": 5,
-                "price": 188500.0,
-                "oldPrice": 188500.0,
-                "name": "Chi\u1ebft"
-            },
             {
                 "size": 10,
                 "price": 317000,
