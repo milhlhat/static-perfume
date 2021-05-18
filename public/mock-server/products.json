@@ -167,7 +167,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Versace Versace Pour Homme  EDT_1.jpg",
             "assets/images/products/elements/Versace Versace Pour Homme  EDT_0.jpg"
         ]
     },
@@ -210,7 +209,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Versace Eros  EDT_1.jpg",
             "assets/images/products/elements/Versace Eros  EDT_0.jpg"
         ]
     },
@@ -253,8 +251,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Narciso Rodriguez Narciso Rodriguez for Her Eau de Parfum  EDP_1.jpg",
-            "assets/images/products/elements/Narciso Rodriguez Narciso Rodriguez for Her Eau de Parfum  EDP_0.jpg"
+            "assets/images/products/elements/Narciso Rodriguez Narciso Rodriguez for Her Eau de Parfum  EDP_1.jpg"
         ]
     },
     {
@@ -296,8 +293,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Narciso Rodriguez Pure Musc For Her  _1.jpg",
-            "assets/images/products/elements/Narciso Rodriguez Pure Musc For Her  _0.jpg"
+            "assets/images/products/elements/Narciso Rodriguez Pure Musc For Her  _1.jpg"
         ]
     },
     {
@@ -425,8 +421,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Giorgio Armani Acqua di Gio Profumo  _1.jpg",
-            "assets/images/products/elements/Giorgio Armani Acqua di Gio Profumo  _0.jpg"
+            "assets/images/products/elements/Giorgio Armani Acqua di Gio Profumo  _1.jpg"
         ]
     },
     {
@@ -468,7 +463,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Giorgio Armani Acqua di Gio  EDT_1.jpg",
             "assets/images/products/elements/Giorgio Armani Acqua di Gio  EDT_0.jpg"
         ]
     },
@@ -597,8 +591,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Yves Saint Laurent La Nuit de l`Homme  EDT_1.jpg",
-            "assets/images/products/elements/Yves Saint Laurent La Nuit de l`Homme  EDT_0.jpg"
+            "assets/images/products/elements/Yves Saint Laurent La Nuit de l`Homme  EDT_1.jpg"
         ]
     },
     {
@@ -683,8 +676,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Creed Aventus  EDP_1.jpg",
-            "assets/images/products/elements/Creed Aventus  EDP_0.jpg"
+            "assets/images/products/elements/Creed Aventus  EDP_1.jpg" 
         ]
     },
     {
@@ -726,8 +718,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Chanel Allure Homme Sport  EDT_1.jpg",
-            "assets/images/products/elements/Chanel Allure Homme Sport  EDT_0.jpg"
+            "assets/images/products/elements/Chanel Allure Homme Sport  EDT_1.jpg" 
         ]
     },
     {
@@ -769,7 +760,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Chanel Bleu de Chanel  EDT_1.jpg",
             "assets/images/products/elements/Chanel Bleu de Chanel  EDT_0.jpg"
         ]
     },
@@ -898,8 +888,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Christian Dior Sauvage Eau de Parfum  _1.jpg",
-            "assets/images/products/elements/Christian Dior Sauvage Eau de Parfum  _0.jpg"
+            "assets/images/products/elements/Christian Dior Sauvage Eau de Parfum  _1.jpg"
         ]
     },
     {
@@ -941,8 +930,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Lancome La Vie Est Belle  EDP_1.jpg",
-            "assets/images/products/elements/Lancome La Vie Est Belle  EDP_0.jpg"
+            "assets/images/products/elements/Lancome La Vie Est Belle  EDP_1.jpg"
         ]
     },
     {
@@ -1069,8 +1057,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Carolina Herrera Good Girl  _1.jpg",
-            "assets/images/products/elements/Carolina Herrera Good Girl  _0.jpg"
+            "assets/images/products/elements/Carolina Herrera Good Girl  _1.jpg" 
         ]
     },
     {
@@ -1155,8 +1142,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Tom Ford Black Orchid  EDP_1.jpg",
-            "assets/images/products/elements/Tom Ford Black Orchid  EDP_0.jpg"
+            "assets/images/products/elements/Tom Ford Black Orchid  EDP_1.jpg" 
         ]
     },
     {
@@ -1198,8 +1184,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Tom Ford Oud Wood  EDP_1.jpg",
-            "assets/images/products/elements/Tom Ford Oud Wood  EDP_0.jpg"
+            "assets/images/products/elements/Tom Ford Oud Wood  EDP_1.jpg" 
         ]
     },
     {
@@ -1284,7 +1269,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Chanel Coco Noir  EDP_1.jpg",
             "assets/images/products/elements/Chanel Coco Noir  EDP_0.jpg"
         ]
     },
@@ -1358,7 +1342,7 @@
         "variants": [
             {
                 "size": 10,
-                "price": 51000,
+                "price": 510000,
                 "oldPrice": 510000,
                 "name": "Chi\u1ebft"
             },
@@ -1370,8 +1354,7 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Yves Saint Laurent Eau Libre  _1.jpg",
-            "assets/images/products/elements/Yves Saint Laurent Eau Libre  _0.jpg"
+            "assets/images/products/elements/Yves Saint Laurent Eau Libre  _1.jpg" 
         ]
     },
     {
@@ -1542,7 +1525,6 @@
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Chanel Chance Eau de Toilette  EDT_1.jpg",
             "assets/images/products/elements/Chanel Chance Eau de Toilette  EDT_0.jpg"
         ]
     }
