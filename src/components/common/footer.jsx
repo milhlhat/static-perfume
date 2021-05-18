@@ -44,16 +44,16 @@ function Footer(props) {
 
 							<ul className="widget-list">
 								<li>
-									<Link to={`${process.env.PUBLIC_URL}/about`}>About 22tuoi.com</Link>
+									<Link to={`${process.env.PUBLIC_URL}/pages/about`}>About 22tuoi.com</Link>
 								</li>
 								<li>
-									<Link to={`${process.env.PUBLIC_URL}/pages/about`}>Làm sao để mua hàng?</Link>
+									<Link to={`#`}>Làm sao để mua hàng?</Link>
 								</li>
 								<li>
-									<Link to={`${process.env.PUBLIC_URL}/pages/faq`}>Đặt câu hỏi</Link>
+									{/* <Link to={`${process.env.PUBLIC_URL}/pages/faq`}>Đặt câu hỏi</Link> */}
 								</li>
 								<li>
-									<Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ</Link>
+									{/* <Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ</Link> */}
 								</li>
 							</ul>
 						</div>

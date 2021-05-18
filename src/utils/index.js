@@ -696,5 +696,6 @@ export function getProductById(productList, id) {
 			return item;
 		}
 	}
-	return '';
+	return null;
 }
+

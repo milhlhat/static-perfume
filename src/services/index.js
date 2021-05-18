@@ -1,5 +1,7 @@
 // import { findIndex } from '../utils';
 
+import { getProductById } from "../utils";
+
 /**
  * Get visible products
  *
@@ -298,10 +300,11 @@ export const getCartTotal = (cartItems) => {
  * @param {Array} cartItems
  * @return {Integer} numbers of cart items in cartlist
  */
-export const getCartCount = (cartItems) => {
+export const getCartCount = (productList,cartItems) => {
 	let total = 0;
 
 	for (let i = 0; i < cartItems.length; i++) {
+		if(getProductById(productList,cartItems[i].id))
 		total += parseInt(cartItems[i].qty, 10);
 	}
 

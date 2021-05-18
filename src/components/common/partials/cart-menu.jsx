@@ -66,20 +66,6 @@ function CartMenu(props) {
 	}
 
 	return (
-		// <div className="dropdown cart-dropdown">
-		// <Link
-		// 			to={`${process.env.PUBLIC_URL}/shop/cart`}
-		// 			className="dropdown-toggle"
-		// 			role="button"
-		// 			data-toggle="dropdown"
-		// 			aria-haspopup="true"
-		// 			aria-expanded="false"
-		// 			data-display="static"
-		// 		>
-		// 			<i className="icon-shopping-cart"></i>
-		// 			<span className="cart-count">{getCartCount(cartlist)}</span>
-		// 		</Link>
-		//         </div>
 		<div className="dropdown cart-dropdown">
 			<Link
 				to={`${process.env.PUBLIC_URL}/shop/cart`}
@@ -91,59 +77,72 @@ function CartMenu(props) {
 				data-display="static"
 			>
 				<i className="icon-shopping-cart"></i>
-				<span className="cart-count">{getCartCount(cartlist)}</span>
+				<span className="cart-count">{getCartCount(productList, cartlist)}</span>
 			</Link>
 
 			<div className={`dropdown-menu dropdown-menu-right ${cartlist.length === 0 ? 'text-center' : ''}`}>
-				{0 === cartlist.length ? (
-					<p>No products in the cart.</p>
+				{0 === getCartCount(productList, cartlist) ? (
+					<p>Giỏ hàng trống.</p>
 				) : (
 					<>
 						<div className="dropdown-cart-products">
-							{cartlist.map((item, index) => (
-								<div className="product" key={index}>
-									<div className="product-cart-details">
-										<h4 className="product-title">
-											<Link
-												to={`${process.env.PUBLIC_URL}/product/default/` + item.id}
-												dangerouslySetInnerHTML={safeContent(findProductById(item.id).name)}
-											></Link>
-										</h4>
+							{cartlist.map(
+								(item, index) =>
+									findProductById(item.id) && (
+										<div className="product" key={index}>
+											<div className="product-cart-details">
+												<h4 className="product-title">
+													<Link
+														to={`${process.env.PUBLIC_URL}/product/default/` + item.id}
+														dangerouslySetInnerHTML={safeContent(
+															findProductById(item.id).name
+														)}
+													></Link>
+												</h4>
 
-										<span className="cart-product-info">
-											<span className="cart-product-qty">{item.qty}</span>x{' '}
-											{item.price &&
-												item.price.toLocaleString(undefined, {
-													minimumFractionDigits: 2,
-													maximumFractionDigits: 2,
-												})}
-										</span>
-									</div>
+												<span className="cart-product-info">
+													<span className="cart-product-qty">{item.qty}</span>x{' '}
+													{item.price &&
+														item.price.toLocaleString(undefined, {
+															minimumFractionDigits: 2,
+															maximumFractionDigits: 2,
+														})}
+												</span>
+											</div>
 
-									<figure className="product-image-container">
-										<Link
-											to={`${process.env.PUBLIC_URL}/product/default/${item.id}`}
-											className="product-image"
-										>
-											<img
-												src={process.env.PUBLIC_URL + '/' + findProductById(item.id).pictures[0]}
-												data-oi={process.env.PUBLIC_URL + '/' + findProductById(item.id).pictures[0]}
-												alt="product"
-											/>
-										</Link>
-									</figure>
-									<button
-										className="btn-remove"
-										title="Remove Product"
-										onClick={() => {
-											removeFromCart(item.id, item.size);
-											removeFromCartDetail(item.id, item.size);
-										}}
-									>
-										<i className="icon-close"></i>
-									</button>
-								</div>
-							))}
+											<figure className="product-image-container">
+												<Link
+													to={`${process.env.PUBLIC_URL}/product/default/${item.id}`}
+													className="product-image"
+												>
+													<img
+														src={
+															process.env.PUBLIC_URL +
+															'/' +
+															findProductById(item.id).pictures[0]
+														}
+														data-oi={
+															process.env.PUBLIC_URL +
+															'/' +
+															findProductById(item.id).pictures[0]
+														}
+														alt="product"
+													/>
+												</Link>
+											</figure>
+											<button
+												className="btn-remove"
+												title="Remove Product"
+												onClick={() => {
+													removeFromCart(item.id, item.size);
+													removeFromCartDetail(item.id, item.size);
+												}}
+											>
+												<i className="icon-close"></i>
+											</button>
+										</div>
+									)
+							)}
 						</div>
 						{/* <div className="dropdown-cart-total">
 							<span>Total</span>
