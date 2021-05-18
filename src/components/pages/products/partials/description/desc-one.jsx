@@ -5,7 +5,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 // import { isIEBrowser } from '../../../../../utils';
 
-
 function DescOne(props) {
 	const { product } = props;
 	return (
@@ -33,12 +32,17 @@ function DescOne(props) {
 					<TabPanel className="tab-pane">
 						<div className="product-desc-content">
 							<h3>Thông tin sản phẩm</h3>
-
-							<p>{product.perfumista_review && product.perfumista_review.replace("Perfumista.vn", "22 Store")}</p>
-							{product.diem_tot && <p>
-								<b>Điểm tốt: </b>
-								{product.diem_tot}
-							</p>}
+							<b>{product.name}</b>
+							<p>
+								{product.perfumista_review &&
+									product.perfumista_review.replace('Perfumista.vn', '22 Store').trim()}
+							</p>
+							{product.diem_tot && (
+								<p>
+									<b>Điểm tốt: </b>
+									{product.diem_tot}
+								</p>
+							)}
 							<p>
 								<b>Điểm chưa tốt: </b>
 								{product.diem_chua_tot}
@@ -50,7 +54,12 @@ function DescOne(props) {
 						<div className="product-desc-content">
 							<h3>Thông tin</h3>
 							<p>
-								Hiện tại tất cả các sản phẩm bên mình thường có size chiết 10ml và full size. Các bạn cần order thêm sản phẩm chưa có trên website có thể inbox trực tiếp qua <a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">Fan page</a> với chúng mình nhé.
+								Hiện tại tất cả các sản phẩm bên mình thường có size chiết 10ml và full size. Các bạn
+								cần order thêm sản phẩm chưa có trên website có thể inbox trực tiếp qua{' '}
+								<a href="https://fb.com/22perfumery" target="_blank" rel="noreferrer">
+									Fan page
+								</a>{' '}
+								với chúng mình nhé.
 							</p>
 
 							<h3>Đóng gói sản phẩm</h3>
@@ -60,8 +69,6 @@ function DescOne(props) {
 								<li>Thư cảm ơn</li>
 								<li>Giấy bọc chống sốc.</li>
 							</ul>
-
-
 						</div>
 					</TabPanel>
 
@@ -69,9 +76,12 @@ function DescOne(props) {
 						<div className="product-desc-content">
 							<h3>Vận chuyển & Đổi trả</h3>
 							<p>
-								22 Store hỗ trợ free shipping vớt tất cả các đơn hàng thanh toán trước qua ví điện tử, ngân hàng, smartbanking. Đối với thanh toán bằng tiền mặt khi nhận hàng chúng mình tính cước thu hộ
+								22 Store hỗ trợ free shipping vớt tất cả các đơn hàng thanh toán trước qua ví điện tử,
+								ngân hàng, smartbanking. Đối với thanh toán bằng tiền mặt khi nhận hàng chúng mình tính
+								cước thu hộ
 								<br />
-								 Về đổi trả 22Store sẽ đổi hàng cho quý khách nếu sản phẩm hỏng do vận chuyển, phát hiện hàng giả.
+								Về đổi trả 22Store sẽ đổi hàng cho quý khách nếu sản phẩm hỏng do vận chuyển, phát hiện
+								hàng giả.
 							</p>
 						</div>
 					</TabPanel>
@@ -153,8 +163,7 @@ function getProductById(productList, id) {
 }
 function mapStateToProps(state, props) {
 	return {
-		product: getProductById(state.data.products, props.id)
-
+		product: getProductById(state.data.products, props.id),
 	};
 }
 
