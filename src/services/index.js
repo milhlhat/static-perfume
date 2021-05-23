@@ -328,14 +328,31 @@ export const getCountByRating = (products, rating) => {
 export const search = (products,  keyword) => {
 	let result_search = [];
 	let products_id = [];
+	let find_by_name = [];
+	let find_by_brand = [];
+	let find_by_des = [];
+
 	// search by name
 	for (let i in products) {
 		let product = products[i];
-		if (product.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())) {
-			result_search.push(product);
+		if (product.name.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())  && !products_id.includes(product.id)) {
+			find_by_name.push(product);
+			products_id.push(product.id);
+		}else if (product.brand.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())  && !products_id.includes(product.id)) {
+			find_by_brand.push(product);
 			products_id.push(product.id);
 		}
 	}
+	result_search = find_by_name.concat(find_by_brand);
+
+	// // search by brand
+	// for (let i in products) {
+	// 	let product = products[i];
+	// 	if (product.brand.toLocaleLowerCase().includes(keyword.toLocaleLowerCase())) {
+	// 		result_search.push(product);
+	// 		products_id.push(product.id);
+	// 	}
+	// }
 
 	// after that search by description to add more rich
 	for (let i in products) {
