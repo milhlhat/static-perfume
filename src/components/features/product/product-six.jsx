@@ -106,7 +106,7 @@ function ProductSix(props) {
 
 			<div className="product-body product-action-inner">
 				<h3 className="product-title">
-					<Link to={`${process.env.PUBLIC_URL}/product/default/7`}>{product.name}</Link>
+					<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>{product.name}</Link>
 				</h3>
 
 				{0 === product.stock ? (

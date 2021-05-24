@@ -30,7 +30,7 @@ function Header(props) {
 				style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/notification-back.jpg)` }}
 			>
 				<div className="notify-content d-flex justify-content-center align-items-center">
-					<h3 className="ml-1">Mẹo nhỏ: Chat ngay qua Messenger nếu có thắng mắc về sản phẩm.</h3>
+					<h3 className="ml-1">Mẹo nhỏ: Chat ngay qua Messenger nếu có thắc mắc về sản phẩm.</h3>
 					<i className="icon-close text-white ml-1 mr-2" onClick={hideNotificationHandler}></i>
 				</div>
 				 

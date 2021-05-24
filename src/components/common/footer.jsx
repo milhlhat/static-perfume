@@ -20,7 +20,7 @@ function Footer(props) {
 								height="25"
 							/>
 							<p className="pr-5">
-								22tuoi.com Được tạo ra với mục đính đem đến cho người dùng những chai nước hoa chính hãng cùng giá cả phải chăng.{' '}
+								22tuoi.com được tạo ra với mục đính đem đến cho người dùng những chai nước hoa chính hãng cùng giá cả phải chăng.{' '}
 							</p>
 
 							<div className="widget-about-info pl-3">

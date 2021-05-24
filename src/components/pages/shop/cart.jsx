@@ -28,7 +28,7 @@ function Cart(props) {
 	}
 
 	function onChangeQty(e, productId, size) {
-		let qty = e.currentTarget.querySelector('input[type="number"]').value;
+		let qty = Math.abs(e.currentTarget.querySelector('input[type="number"]').value);
 		props.changeQty(productId, qty, size);
 		let listTemp = [...cartDetail];
 
@@ -169,7 +169,6 @@ function Cart(props) {
 																	min="1"
 																	max={item.stock}
 																	step="1"
-																	data-decimals="0"
 																	required
 																/>
 															</div>

@@ -50,39 +50,56 @@ function ProductDetailOne(props) {
 		setPrice({ ...price, minPrice: product.variants[e.target.value].price, maxPrice: null });
 	}
 
-	function splitScent(str){
-		if(str.trim().toLowerCase().includes('hương chính')){
-			return(<>
-				<b>Hương chính: </b>{str.trim().substr(12,str.length)}
+	function splitScent(str) {
+		if (
+			str
+				.trim()
+				.toLowerCase()
+				.includes('hương chính')
+		) {
+			return (
+				<>
+					<b>Hương chính: </b>
+					{str.trim().substr(12, str.length)}
 				</>
 			);
-		}
-		else if(str.trim().toLowerCase().includes('hương đầu')){
-			let start_middle_scent=str.trim().toLowerCase().indexOf('hương giữa');
-			let start_last_scent=str.trim().toLowerCase().indexOf('hương cuối');
-			let first_scent=str.trim().substring(11,start_middle_scent)
-			let middle_scent=str.trim().substring(Number(start_middle_scent)+11,start_last_scent)
-			let last_scent=str.trim().substring(Number(start_last_scent)+11,str.length)
-			return(<>
-				<b>Hương đầu: </b>{first_scent} <br/>
-				<b>Hương giữa: </b>{middle_scent} <br/>
-				<b>Hương cuối: </b>{last_scent}
+		} else if (
+			str
+				.trim()
+				.toLowerCase()
+				.includes('hương đầu')
+		) {
+			let start_middle_scent = str
+				.trim()
+				.toLowerCase()
+				.indexOf('hương giữa');
+			let start_last_scent = str
+				.trim()
+				.toLowerCase()
+				.indexOf('hương cuối');
+			let first_scent = str.trim().substring(11, start_middle_scent);
+			let middle_scent = str.trim().substring(Number(start_middle_scent) + 11, start_last_scent);
+			let last_scent = str.trim().substring(Number(start_last_scent) + 11, str.length);
+			return (
+				<>
+					<b>Hương đầu: </b>
+					{first_scent} <br />
+					<b>Hương giữa: </b>
+					{middle_scent} <br />
+					<b>Hương cuối: </b>
+					{last_scent}
 				</>
 			);
-		}
-		else{
-			return(<>
-				{str}
-				</>
-			);
+		} else {
+			return <>{str}</>;
 		}
 	}
-
 
 	// console.log('min:' + isDiscount(product.variants));
 	return (
 		<div className={'product-details'}>
-			<h1 className="product-title">{product.name}</h1>
+			<h1 className="product-title mb-0">{product.name}</h1>
+			<span>{product.brand}</span>
 			{/* 
             <div className="ratings-container">
                 <div className="ratings">
@@ -116,24 +133,22 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-
 						{price.maxPrice
 							? ' - ' +
-							price.maxPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})
+							  price.maxPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+							  })
 							: ''}
 						đ
 					</span>
-					 &nbsp;
+					&nbsp;
 					<span className="old-price">
 						{price.minOld &&
 							price.minOld.toLocaleString(undefined, {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-
 						&nbsp;
 						{price.maxOld &&
 							price.maxOld.toLocaleString(undefined, {
@@ -151,13 +166,12 @@ function ProductDetailOne(props) {
 								minimumFractionDigits: 0,
 								maximumFractionDigits: 2,
 							})}
-
 						{price.maxPrice
 							? ' - ' +
-							price.maxPrice.toLocaleString(undefined, {
-								minimumFractionDigits: 0,
-								maximumFractionDigits: 2,
-							})
+							  price.maxPrice.toLocaleString(undefined, {
+									minimumFractionDigits: 0,
+									maximumFractionDigits: 2,
+							  })
 							: ''}
 						đ
 					</span>
@@ -202,7 +216,7 @@ function ProductDetailOne(props) {
 				</p>
 
 				<p className="p-0 m-0">
-							{splitScent(product.mui_huong)}
+					{splitScent(product.mui_huong)}
 					{/* <pre className="">{product.mui_huong}</pre> */}
 				</p>
 			</div>
