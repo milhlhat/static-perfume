@@ -64,7 +64,7 @@ function ProductSidebar( props ) {
                                         products.slice( 0, 4 ).map( ( item, index ) => (
                                             <div className="product product-sm" key={ `sm_product_${index}` }>
                                                 <figure className="product-media">
-                                                    <a href={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>
+                                                    <a href={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>
                                                         <img
                                                             src={ `${process.env.PUBLIC_URL}/${item.pictures[ 0 ]}` }
                                                             alt="Product"
@@ -75,7 +75,7 @@ function ProductSidebar( props ) {
 
                                                 <div className="product-body">
                                                     <h5 className="product-title">
-                                                        <a href={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>{ item.name }</a>
+                                                        <a href={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>{ item.name }</a>
                                                     </h5>
                                                     <div className="product-price">
                                                         <span className="new-price">${ item.price }</span>
@@ -92,7 +92,7 @@ function ProductSidebar( props ) {
                                         products.slice( 4, 8 ).map( ( item, index ) => (
                                             <div className="product product-sm" key={ `sm_product_${index}` }>
                                                 <figure className="product-media">
-                                                    <a href={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>
+                                                    <a href={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>
                                                         <img
                                                             src={ `${process.env.PUBLIC_URL}/${item.pictures[ 0 ]}` }
                                                             alt="Product"
@@ -103,7 +103,7 @@ function ProductSidebar( props ) {
 
                                                 <div className="product-body">
                                                     <h5 className="product-title">
-                                                        <a href={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>{ item.name }</a>
+                                                        <a href={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>{ item.name }</a>
                                                     </h5>
                                                     <div className="product-price">
                                                         <span className="new-price">${ item.price }</span>

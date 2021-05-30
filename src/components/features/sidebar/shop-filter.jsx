@@ -56,9 +56,9 @@ function ShopFilter(props) {
 			<div className="sidebar-filter-wrapper">
 				<div className="widget widget-clean">
 					<label>Filters:</label>
-					<a href="/shop/nosidebar/boxed" className="sidebar-filter-clear" onClick={clearAll}>
+					{/* <a href="/shop" className="sidebar-filter-clear" onClick={clearAll}>
 						Clean All
-					</a>
+					</a> */}
 				</div>
 
 				{/* <SlideToggle collapsed={ false }>
@@ -215,13 +215,16 @@ function ShopFilter(props) {
                 </SlideToggle> */}
 				<ul>
 					<li>
-						<Link to="/shop/nosidebar/boxed?filter=nam">Nước hoa nam</Link>
+						<i className="icon-sistrix" /> <a href="/shop?filter=nam">Nước hoa nam</a>
 					</li>
 					<li>
-						<Link to="/shop/nosidebar/boxed?filter=nữ">Nước hoa nữ</Link>
+						<i className="icon-sistrix" /> <a href="/shop?filter=nữ">Nước hoa nữ</a>
 					</li>
 					<li>
-						<Link to="/shop/nosidebar/boxed?filter=unisex">Nước hoa unisex</Link>
+						<i className="icon-sistrix" /> <a href="/shop?filter=unisex">Nước hoa unisex</a>
+					</li>
+					<li>
+						<i className="icon-sistrix" /> <a href="/shop">Tất cả</a>
 					</li>
 				</ul>
 			</div>

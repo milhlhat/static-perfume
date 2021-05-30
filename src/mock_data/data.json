@@ -205,7 +205,7 @@
     ],
     "innerOverlayPaths": [
         "shop/sidebar",
-        "product/default",
+        "product/view",
         "product/centered",
         "product/extended",
         "product/gallery",
@@ -231,7 +231,7 @@
             "btnText": "NƯỚC HOA NỮ",
             "width": 300,
             "height": 260,
-            "btnLink":"/shop/nosidebar/boxed?filter=nữ"
+            "btnLink":"/shop?filter=nữ"
         },
         {
             "img": "assets/images/home/banners/banner-6.jpg", 
@@ -240,7 +240,7 @@
             "btnText": "NƯỚC HOA NAM ",
             "width": 300,
             "height": 200,
-            "btnLink":"/shop/nosidebar/boxed?filter=nam"
+            "btnLink":"/shop?filter=nam"
         },
         {
             "img": "assets/images/home/banners/banner-3.jpg",
@@ -249,7 +249,7 @@
             "btnText": "NƯỚC HOA UNISEX",
             "width": 300,
             "height": 200,
-            "btnLink":"/shop/nosidebar/boxed?filter=unisex"
+            "btnLink":"/shop?filter=unisex"
         }
     ]
 }

@@ -37,7 +37,7 @@ function ProductNine( props ) {
                             { product.discount > 0 ? <span className="product-label label-sale">Sale</span> : '' }
                             { product.stock === 0 ? <span className="product-label label-out">Out</span> : '' }
 
-                            <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                            <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                                 <img
                                     alt="product"
                                     src={ `${process.env.PUBLIC_URL}/${product.pictures[ 0 ]}` }
@@ -68,7 +68,7 @@ function ProductNine( props ) {
                             </div>
 
                             <h3 className="product-title">
-                                <Link to={ `${process.env.PUBLIC_URL}/product/default/27` } >{ product.name }</Link>
+                                <Link to={ `${process.env.PUBLIC_URL}/product/view/27` } >{ product.name }</Link>
                             </h3>
 
                             <div className="product-content">

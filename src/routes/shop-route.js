@@ -15,18 +15,16 @@ export default function ShopRoute() {
     return (
         <Switch>
             <Layout>
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/category/:grid` } component={ ProductCategory } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/sidebar/:grid` } component={ Sidebar } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/:grid` } component={ NoSidebar } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/market` } component={ Market } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/dashboard` } component={ MyAccount } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/wishlist` } component={ Wishlist } />
+                {/* <Route exact path={ `${process.env.PUBLIC_URL}/shop/category/:grid` } component={ ProductCategory } />
+                <Route exact path={ `${process.env.PUBLIC_URL}/shop/sidebar/:grid` } component={ Sidebar } /> */}
+                <Route exact path={ `${process.env.PUBLIC_URL}/shop` } component={ NoSidebar } />
+                {/* <Route exact path={ `${process.env.PUBLIC_URL}/shop/market` } component={ Market } /> */}
+                {/* <Route exact path={ `${process.env.PUBLIC_URL}/shop/dashboard` } component={ MyAccount } /> */}
+                {/* <Route exact path={ `${process.env.PUBLIC_URL}/shop/wishlist` } component={ Wishlist } /> */}
                 <Route exact path={ `${process.env.PUBLIC_URL}/shop/cart` } component={ Cart } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/shop/checkout` } component={ Checkout } />
            
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam` } component={ NoSidebar } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ` } component={ NoSidebar } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex` } component={ NoSidebar } />
+            
 
             </Layout>
         </Switch>

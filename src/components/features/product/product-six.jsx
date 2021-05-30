@@ -57,7 +57,7 @@ function ProductSix(props) {
 				{product.discount ? <span className="product-label label-sale">Sale</span> : ''}
 				{0 === product.stock ? <span className="product-label label-out">Out Of Stock</span> : ''}
 
-				<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`} onClick={toTop}>
+				<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`} onClick={toTop}>
 					<img alt="product" src={`${process.env.PUBLIC_URL}/${product.pictures[0]}`} />
 
 					{product.pictures[1] ? (
@@ -106,7 +106,7 @@ function ProductSix(props) {
 
 			<div className="product-body product-action-inner">
 				<h3 className="product-title">
-					<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>{product.name}</Link>
+					<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`}>{product.name}</Link>
 				</h3>
 
 				{0 === product.stock ? (

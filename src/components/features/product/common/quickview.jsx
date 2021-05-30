@@ -148,7 +148,7 @@ function QuickView(props) {
 						</div>
 
 						<div className="product-real-detail">
-							<Link to={`${process.env.PUBLIC_URL}/product/default/${productDetail.id}`}
+							<Link to={`${process.env.PUBLIC_URL}/product/view/${productDetail.id}`}
 								className="product-title"
 								dangerouslySetInnerHTML={safeContent(productDetail.name)}
 							></Link>

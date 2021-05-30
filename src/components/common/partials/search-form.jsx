@@ -50,7 +50,7 @@ function SearchForm(props) {
 	return (
 		<div className="header-search">
 			<a
-				href={`/shop/nosidebar/boxed?q=` + keyword}
+				href={`/shop?q=` + keyword}
 				className="search-toggle active"
 				role="button"
 				title="Search"
@@ -58,7 +58,7 @@ function SearchForm(props) {
 				<i className="icon-search"></i>
 			</a>
 
-			<form method="get" action="/shop/nosidebar/boxed">
+			<form method="get" action="/shop">
 				<div className="header-search-wrapper show">
 					<label htmlFor="q" className="sr-only">
 						Tìm kiếm...

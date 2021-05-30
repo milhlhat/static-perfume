@@ -11,9 +11,10 @@ import Breadcrumb from '../../common/breadcrumb';
 function NoSideBar(props) {
 	// const type = props.match.params.grid;
 	const type = 'boxed';
-	const title = { boxed: 'Danh sách sản phẩm', fullwidth: 'Fullwidth No Sidebar' };
+	const title = { boxed: 'Hoàn tiền nếu phát hiện hàng giả', fullwidth: 'Fullwidth No Sidebar' };
 	let products = props.products;
 	const [searchList, setSearchList] = useState([]);
+	const [key, setKey] = useState('');
 
 	useEffect(() => {
 		getSearchList();
@@ -32,8 +33,10 @@ function NoSideBar(props) {
 
 		if (filter != '') {
 			listTemp = getVisibleProducts(products, { gender: filter });
+			setKey(filter);
 		} else {
 			listTemp = search(products, keyword);
+			setKey(keyword);
 		}
 
 		setSearchList(listTemp);
@@ -51,10 +54,10 @@ function NoSideBar(props) {
 			</Helmet>
 
 			<div className="main">
-				<PageHeader title={title[type]} subTitle="Hoàn tiền nếu phát hiện hàng giả" />
+				<PageHeader title={title[type]} subTitle={key !== '' ? ' Nước hoa ' + key : ''} />
 				<Breadcrumb
-					title={title[type]}
-					parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
+					title={key !== '' ? ' Nước hoa ' + key : 'Danh sách Sản phẩm'}
+					parent1={['Sản phẩm', 'shop']}
 					adClass="mb-2"
 					container={type === 'boxed' ? 'container' : 'container-fluid'}
 				/>

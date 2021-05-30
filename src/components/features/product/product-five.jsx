@@ -24,7 +24,7 @@ function ProductFive( props ) {
                     { product.top ? <span className="product-label label-circle label-top">Top</span> : '' }
                     { product.discount ? <span className="product-label label-circle label-sale">Sale</span> : '' }
 
-                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                         <img
                             alt="product"
                             src={ `${process.env.PUBLIC_URL}/${product.pictures[ 0 ]}` }
@@ -66,7 +66,7 @@ function ProductFive( props ) {
 
                 <div className="product-body product-action-inner">
                     <h3 className="product-title">
-                        <Link to={ `${process.env.PUBLIC_URL}/product/default/7` } >{ product.name }</Link>
+                        <Link to={ `${process.env.PUBLIC_URL}/product/view/7` } >{ product.name }</Link>
                     </h3>
 
                     {

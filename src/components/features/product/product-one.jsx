@@ -23,7 +23,7 @@ function ProductOne( props ) {
                     { product.discount ? <span className="product-label label-sale">{ product.discount }% off</span> : '' }
                     { ( 0 === product.stock ) ? <span className="product-label label-out">Out of Stock</span> : '' }
 
-                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                         <LazyLoadImage
                             alt="product"
                             src={ `${process.env.PUBLIC_URL}/${product.pictures[ 0 ]}` }
@@ -63,7 +63,7 @@ function ProductOne( props ) {
                     </div>
 
                     <h3 className="product-title">
-                        <Link to={ `${process.env.PUBLIC_URL}/product/default/7` } >{ product.name }</Link>
+                        <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` } >{ product.name }</Link>
                     </h3>
 
                     {

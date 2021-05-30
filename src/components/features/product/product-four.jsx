@@ -41,7 +41,7 @@ function ProductFour( props ) {
                     { product.top ? <span className="product-label">Top</span> : '' }
                     { product.discount ? <span className="product-label">Sale</span> : '' }
 
-                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                         <LazyLoadImage
                             alt="product"
                             src={ `${process.env.PUBLIC_URL}/${product.pictures[ 0 ]}` }
@@ -95,7 +95,7 @@ function ProductFour( props ) {
                     </div>
 
                     <h3 className="product-title">
-                        <Link to={ `${process.env.PUBLIC_URL}/product/default/7` } >{ product.name }</Link>
+                        <Link to={ `${process.env.PUBLIC_URL}/product/view/7` } >{ product.name }</Link>
                     </h3>
 
                     {

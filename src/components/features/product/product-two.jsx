@@ -36,7 +36,7 @@ function ProductTwo(props) {
 				{product.discount ? <span className="product-label label-sale">Giảm {product.discount}%</span> : ''}
 				{0 === product.stock ? <span className="product-label label-out">Hết hàng</span> : ''}
 
-				<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>
+				<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`}>
 					<LazyLoadImage
 						alt="product"
 						src={`${process.env.PUBLIC_URL}/${product.pictures[0]}`}
@@ -82,7 +82,7 @@ function ProductTwo(props) {
 				</div>
 
 				<h3 className="product-title">
-					<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>{product.name}</Link>
+					<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`}>{product.name}</Link>
 				</h3>
 
 				{0 === product.stock ? (

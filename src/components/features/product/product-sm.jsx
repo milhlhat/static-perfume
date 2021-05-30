@@ -9,7 +9,7 @@ function SmallProduct( props ) {
         product ?
             <div className="product product-sm">
                 <figure className="product-media">
-                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                         <div className="lazy-overlay bg-2"></div>
 
                         <LazyLoadImage
@@ -22,7 +22,7 @@ function SmallProduct( props ) {
 
                 <div className="product-body">
                     <h3 className="product-title">
-                        <Link to={ `${process.env.PUBLIC_URL}/product/default/7` } >{ product.name }</Link>
+                        <Link to={ `${process.env.PUBLIC_URL}/product/view/7` } >{ product.name }</Link>
                     </h3>
 
                     {

@@ -31,7 +31,7 @@ function ProductNine(props) {
 				{product.discount ? <span className="product-label label-sale">Sale</span> : ''}
 				{product.stock === 0 ? <span className="product-label label-out">Hết hàng</span> : ''}
 
-				<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>
+				<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`}>
 					<LazyLoadImage
 						alt="product"
 						src={`${process.env.PUBLIC_URL}/${product.pictures[0]}`}
@@ -62,7 +62,7 @@ function ProductNine(props) {
                     </div> */}
 
 				<h3 className="product-title">
-					<Link to={`${process.env.PUBLIC_URL}/product/default/${product.id}`}>{product.name}</Link>
+					<Link to={`${process.env.PUBLIC_URL}/product/view/${product.id}`}>{product.name}</Link>
 				</h3>
 
 				{0 === product.stock ? (

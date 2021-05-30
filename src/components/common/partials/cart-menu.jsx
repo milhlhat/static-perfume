@@ -93,7 +93,7 @@ function CartMenu(props) {
 											<div className="product-cart-details">
 												<h4 className="product-title">
 													<Link
-														to={`${process.env.PUBLIC_URL}/product/default/` + item.id}
+														to={`${process.env.PUBLIC_URL}/product/view/` + item.id}
 														dangerouslySetInnerHTML={safeContent(
 															findProductById(item.id).name
 														)}
@@ -112,7 +112,7 @@ function CartMenu(props) {
 
 											<figure className="product-image-container">
 												<Link
-													to={`${process.env.PUBLIC_URL}/product/default/${item.id}`}
+													to={`${process.env.PUBLIC_URL}/product/view/${item.id}`}
 													className="product-image"
 												>
 													<img

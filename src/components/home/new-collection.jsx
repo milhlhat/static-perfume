@@ -57,7 +57,7 @@ function NewCollection ( props ) {
             </Tabs>
 
             <div className="text-center">
-                <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="btn btn-viewMore">
+                <Link to={ `${process.env.PUBLIC_URL}/shop` } className="btn btn-viewMore">
                     <span>XEM THÊM</span>
 
                     <i className="icon-long-arrow-right"></i>

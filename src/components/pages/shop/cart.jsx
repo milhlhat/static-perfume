@@ -96,7 +96,7 @@ function Cart(props) {
 
 			<div className="main">
 				<PageHeader title="Giỏ hàng" subTitle="Shop" />
-				<Breadcrumb title="Giỏ hàng" parent1={['Shop', 'shop/nosidebar/boxed']} />
+				<Breadcrumb title="Giỏ hàng" parent1={['Shop', 'shop']} />
 
 				<div className="page-content">
 					<div className="cart">
@@ -122,7 +122,7 @@ function Cart(props) {
 													<tr key={index} className="pb-1">
 														<td>
 															<Link
-																to={`${process.env.PUBLIC_URL}/product/default/${item.product.id}`}
+																to={`${process.env.PUBLIC_URL}/product/view/${item.product.id}`}
 																className="product-image"
 															>
 																<img
@@ -139,7 +139,7 @@ function Cart(props) {
 															<div className="product">
 																<h3 className="product-title">
 																	<Link
-																		to={`${process.env.PUBLIC_URL}/product/default/${item.product.id}`}
+																		to={`${process.env.PUBLIC_URL}/product/view/${item.product.id}`}
 																	>
 																		{item.product.name}
 																	</Link>
@@ -323,7 +323,7 @@ function Cart(props) {
 									</div>
 
 									<Link
-										to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`}
+										to={`${process.env.PUBLIC_URL}/shop`}
 										className="btn btn-outline-dark-2 btn-block mb-3"
 									>
 										<span>XEM SẢN PHẨM KHÁC</span>

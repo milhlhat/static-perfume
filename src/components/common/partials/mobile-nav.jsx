@@ -16,7 +16,7 @@ function MobileMainNav(props) {
 				</li>
 
 				{/* <li>
-                    <Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` }>
+                    <Link to={ `${process.env.PUBLIC_URL}/shop` }>
                         Shop
                     </Link>
 
@@ -26,7 +26,7 @@ function MobileMainNav(props) {
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/3cols` }>Shop Grid 3 Columns</Link></li>
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/4cols` }>Shop Grid 4 Columns</Link></li>
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/market` }><span>Shop Market<span className="tip tip-new">New</span></span></Link></li>
-                        <li><Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` }><span>Shop Boxed No Sidebar<span className="tip tip-hot">Hot</span></span></Link></li>
+                        <li><Link to={ `${process.env.PUBLIC_URL}/shop` }><span>Shop Boxed No Sidebar<span className="tip tip-hot">Hot</span></span></Link></li>
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/nosidebar/fullwidth` }>Shop Fullwidth No Sidebar</Link></li>
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/category/boxed` }>Product Category Boxed</Link></li>
                         <li><Link to={ `${process.env.PUBLIC_URL}/shop/category/fullwidth` }><span>Product Category Fullwidth<span className="tip tip-new">New</span></span></Link></li>
@@ -39,25 +39,25 @@ function MobileMainNav(props) {
                 </li> */}
 
 				<li>
-					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+					<Link to={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 						Sản phẩm
 					</Link>
 					<ul>
 						<li>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`}>Tất cả sản phẩm</a>
+							<a href={`${process.env.PUBLIC_URL}/shop`}>Tất cả sản phẩm</a>
 						</li>
 						<li>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`}>
+							<a href={`${process.env.PUBLIC_URL}/shop?filter=nam`}>
 								<span>
 									Nam<span className="tip tip-new">New</span>
 								</span>
 							</a>
 						</li>
 						<li>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>Nữ</a>
+							<a href={`${process.env.PUBLIC_URL}/shop?filter=nữ`}>Nữ</a>
 						</li>
 						<li>
-							<a exact href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`}>
+							<a exact href={`${process.env.PUBLIC_URL}/shop?filter=unisex`}>
 								Unisex
 							</a>
 						</li>

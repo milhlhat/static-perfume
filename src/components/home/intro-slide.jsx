@@ -21,7 +21,7 @@ export default function IntroSlide ( props ) {
                         </div>
 
                         <div className="action">
-                            <a href={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed` } className="btn btn-primary">
+                            <a href={ `${process.env.PUBLIC_URL}/shop` } className="btn btn-primary">
                                 <span>{ btnText }</span>
                             </a>
                         </div>

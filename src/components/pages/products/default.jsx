@@ -44,7 +44,7 @@ function SingleProduct(props) {
 					slug="default"
 					adClass="breadcrumb-nav border-0 mb-0"
 					productId={productId}
-					parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
+					parent1={['Sản phẩm', 'shop']}
 				/>
 
 				<div className="page-content">

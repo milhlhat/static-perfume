@@ -89,12 +89,12 @@ function Wishlist( props ) {
                                             <td className="product-col">
                                                 <div className="product">
                                                     <figure className="product-media">
-                                                        <Link to={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>
+                                                        <Link to={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>
                                                         </Link>
                                                     </figure>
 
                                                     <h3 className="product-title">
-                                                        <Link to={ `${process.env.PUBLIC_URL}/product/default/${item.id}` }>
+                                                        <Link to={ `${process.env.PUBLIC_URL}/product/view/${item.id}` }>
                                                             { item.name }
                                                         </Link>
                                                     </h3>
@@ -131,9 +131,9 @@ function Wishlist( props ) {
                                                                 </button>
 
                                                                 <div className="dropdown-menu">
-                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${item.id}` } className="dropdown-item">First option</Link>
-                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${item.id}` } className="dropdown-item">Another option</Link>
-                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/default/${item.id}` } className="dropdown-item">The best option</Link>
+                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${item.id}` } className="dropdown-item">First option</Link>
+                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${item.id}` } className="dropdown-item">Another option</Link>
+                                                                    <Link to={ `${process.env.PUBLIC_URL}/product/view/${item.id}` } className="dropdown-item">The best option</Link>
                                                                 </div>
                                                             </div> :
 

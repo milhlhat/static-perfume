@@ -15,14 +15,15 @@ export default function ProductsRoute() {
     return (
         <Switch>
             <Layout>
+                <Route exact path={ `${process.env.PUBLIC_URL}/product/view/:id` } component={ Default } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/default/:id` } component={ Default } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/product/centered/:id` } component={ Centered } />
+                {/* <Route exact path={ `${process.env.PUBLIC_URL}/product/centered/:id` } component={ Centered } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/extended/:id` } component={ ExtendedInfo } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/gallery/:id` } component={ Gallery } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/sticky/:id` } component={ StickyInfo } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/sidebar/:id` } component={ Sidebar } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/product/fullwidth/:id` } component={ Fullwidth } />
-                <Route exact path={ `${process.env.PUBLIC_URL}/product/masonry/:id` } component={ Masonry } />
+                <Route exact path={ `${process.env.PUBLIC_URL}/product/masonry/:id` } component={ Masonry } /> */}
             </Layout>
         </Switch>
     );

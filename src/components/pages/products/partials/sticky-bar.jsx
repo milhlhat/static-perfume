@@ -34,11 +34,11 @@ function StickyBar( props ) {
                 <div className="row">
                     <div className="col-6">
                         <figure className="product-media">
-                            <Link onClick={ toTop } to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>
+                            <Link onClick={ toTop } to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>
                                 <img src={ process.env.PUBLIC_URL + '/' + product.pictures[ 0 ] } alt="Product" />
                             </Link>
                         </figure>
-                        <h4 className="product-title"><Link to={ `${process.env.PUBLIC_URL}/product/default/${product.id}` }>{ product.name }</Link></h4>
+                        <h4 className="product-title"><Link to={ `${process.env.PUBLIC_URL}/product/view/${product.id}` }>{ product.name }</Link></h4>
                     </div>
 
                     <div className="col-6 justify-content-end">

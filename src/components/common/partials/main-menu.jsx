@@ -30,36 +30,36 @@ export default function MainMenu(props) {
 				</li>
 
 				<li className={path.indexOf('shop') > -1 ? 'active' : ''}>
-					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+					<Link to={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 						Sản phẩm
 					</Link>
 					<ul>
-						<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+						<li className={path.indexOf('product/view') > -1 ? 'active' : ''}>
+							<a href={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 								Tất cả sản phẩm
 							</a>
 						</li>
 						<li className={path.indexOf('filter=nam') > -1 ? 'active' : ''}>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam`} className="sf-with-ul">
+							<a href={`${process.env.PUBLIC_URL}/shop?filter=nam`} className="sf-with-ul">
 								Nam
 							</a>
 						</li>
 						<li className={path.indexOf('filter=nữ') > -1 ? 'active' : ''}>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ`}>
+							<a href={`${process.env.PUBLIC_URL}/shop?filter=nữ`}>
 								<span>
 									Nữ
 								</span>
 							</a>
 						</li>
 						<li className={path.indexOf('filter=unisex') > -1 ? 'active' : ''}>
-							<a href={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex`} className="sf-with-ul">
+							<a href={`${process.env.PUBLIC_URL}/shop?filter=unisex`} className="sf-with-ul">
 								Unisex
 							</a>
 						</li>
 					</ul>
 				</li>
 				{/* <li className={path.indexOf('product/') > -1 ? 'active' : ''}>
-					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+					<Link to={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 						Thương Hiệu
 					</Link>
 
@@ -69,8 +69,8 @@ export default function MainMenu(props) {
 								<div className="menu-col">
 									<div className="menu-title">Product Details</div>
 									<ul>
-										<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
-											<Link to={`${process.env.PUBLIC_URL}/product/default/1`}>Default</Link>
+										<li className={path.indexOf('product/view') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/view/1`}>Default</Link>
 										</li>
 										<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
 											<Link to={`${process.env.PUBLIC_URL}/product/centered/9`}>Centered</Link>
@@ -130,7 +130,7 @@ export default function MainMenu(props) {
 				</li> */}
 
 				{/* <li className={path.indexOf('product/') > -1 ? 'active' : ''}>
-					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+					<Link to={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 						Bộ sưu tập
 					</Link>
 
@@ -140,8 +140,8 @@ export default function MainMenu(props) {
 								<div className="menu-col">
 									<div className="menu-title">Bộ sưu tập 2021</div>
 									<ul>
-										<li className={path.indexOf('product/default') > -1 ? 'active' : ''}>
-											<Link to={`${process.env.PUBLIC_URL}/product/default/1`}>Mùa hè</Link>
+										<li className={path.indexOf('product/view') > -1 ? 'active' : ''}>
+											<Link to={`${process.env.PUBLIC_URL}/product/view/1`}>Mùa hè</Link>
 										</li>
 										<li className={path.indexOf('product/centered') > -1 ? 'active' : ''}>
 											<Link to={`${process.env.PUBLIC_URL}/product/centered/9`}>Mùa đông</Link>
@@ -195,7 +195,7 @@ export default function MainMenu(props) {
 					</div>
 				</li> */}
 				{/* <li className={path.indexOf('pages') > -1 ? 'active' : ''}>
-					<Link to={`${process.env.PUBLIC_URL}/shop/nosidebar/boxed`} className="sf-with-ul">
+					<Link to={`${process.env.PUBLIC_URL}/shop`} className="sf-with-ul">
 						Nam
 					</Link> */}
 
