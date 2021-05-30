@@ -14,7 +14,8 @@ html, body {
 }
 
 body {
-    font: normal 300 1.4rem/1.86 "Poppins", sans-serif;
+    /* font: normal 300 1.4rem/1.86 "Poppins", sans-serif; */
+    font: normal 300 1.4rem/1.86 'Josefin Sans', sans-serif;
     color: #666;
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -4174,7 +4175,7 @@ blockquote.text-white cite span {
 .footer {
     width: 100%;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #777;
     background-color: #fff
 }
@@ -12814,7 +12815,8 @@ button:focus {
 
 .product-desc-content ul li {
     position: relative;
-    padding-left: 1.3rem
+    padding-left: 1.3rem;
+    font-size: 1.5rem;
 }
 
 .product-desc-content ul li:before {
@@ -12854,6 +12856,14 @@ button:focus {
     font-weight: 300;
     font-size: 1.4rem;
     letter-spacing: 0
+}
+
+.product-desc-content b {
+    font-size: 1.5rem;
+}
+
+.product-desc-content p {
+    font-size: 1.5rem;
 }
 
 .reviews h3 {

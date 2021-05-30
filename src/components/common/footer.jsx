@@ -12,15 +12,18 @@ function Footer(props) {
 				<div className="row">
 					<div className="col-md-4">
 						<div className="widget widget-about">
-							<img
-								src={`${process.env.PUBLIC_URL}${logoFooter}`}
-								className="footer-logo"
-								alt="Footer Logo"
-								width="100"
-								height="25"
-							/>
+							<Link to="/">
+								<img
+									src={`${process.env.PUBLIC_URL}${logoFooter}`}
+									className="footer-logo"
+									alt="Footer Logo"
+									width="100"
+									height="25"
+								/>
+							</Link>
 							<p className="pr-5">
-								22tuoi.com được tạo ra với mục đính đem đến cho người dùng những chai nước hoa chính hãng cùng giá cả phải chăng.{' '}
+								22tuoi.com được tạo ra với mục đính đem đến cho người dùng những chai nước hoa chính
+								hãng cùng giá cả phải chăng.{' '}
 							</p>
 
 							<div className="widget-about-info pl-3">
@@ -49,12 +52,8 @@ function Footer(props) {
 								<li>
 									<Link to={`#`}>Làm sao để mua hàng?</Link>
 								</li>
-								<li>
-									{/* <Link to={`${process.env.PUBLIC_URL}/pages/faq`}>Đặt câu hỏi</Link> */}
-								</li>
-								<li>
-									{/* <Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ</Link> */}
-								</li>
+								<li>{/* <Link to={`${process.env.PUBLIC_URL}/pages/faq`}>Đặt câu hỏi</Link> */}</li>
+								<li>{/* <Link to={`${process.env.PUBLIC_URL}/pages/contact`}>Liên hệ</Link> */}</li>
 							</ul>
 						</div>
 						<div className="  payment">
@@ -75,7 +74,6 @@ function Footer(props) {
 							<h4 className="widget-title">Dịch vụ khách hàng</h4>
 
 							<ul className="widget-list">
-								 
 								<li>
 									<Link to="#">Hoàn tiền khi phát hiện hàng giả</Link>
 								</li>

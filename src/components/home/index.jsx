@@ -101,7 +101,7 @@ export default function HomePage() {
 				{/* <div className="container newsletter">
                     <CTA />
                 </div> */}
-				 
+
 				<ServiceBox iconAdClass="text-dark" adClass="" />
 
 				{/* <Instagram /> */}

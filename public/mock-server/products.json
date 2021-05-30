@@ -34,7 +34,7 @@
                 "size": 100,
                 "price": 6600000,
                 "oldPrice": 7300000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -77,7 +77,7 @@
                 "size": 100,
                 "price": 6600000,
                 "oldPrice": 7300000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -120,7 +120,7 @@
                 "size": 100,
                 "price": 6600000,
                 "oldPrice": 7300000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -163,7 +163,7 @@
                 "size": 100,
                 "price": 1850000,
                 "oldPrice": 1861200,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -205,7 +205,7 @@
                 "size": 100,
                 "price": 1690000,
                 "oldPrice": 2340000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -247,7 +247,7 @@
                 "size": 100,
                 "price": 2800000,
                 "oldPrice": 2840500,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -289,7 +289,7 @@
                 "size": 100,
                 "price": 2800000,
                 "oldPrice": 3173000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -331,7 +331,7 @@
                 "size": 100,
                 "price": 2900000,
                 "oldPrice": 3501000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -374,7 +374,7 @@
                 "size": 100,
                 "price": 2600000,
                 "oldPrice": 3284100,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -417,7 +417,7 @@
                 "size": 125,
                 "price": 3200000,
                 "oldPrice": 3090000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -459,7 +459,7 @@
                 "size": 100,
                 "price": 2500000,
                 "oldPrice": 2755000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -501,7 +501,7 @@
                 "size": 100,
                 "price": 2400000,
                 "oldPrice": 2400000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -543,7 +543,7 @@
                 "size": 50,
                 "price": 7000000,
                 "oldPrice": 7000000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -586,7 +586,7 @@
                 "size": 100,
                 "price": 2690000,
                 "oldPrice": 2690000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -628,7 +628,7 @@
                 "size": 75,
                 "price": 2460000,
                 "oldPrice": 750000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -671,11 +671,11 @@
                 "size": 100,
                 "price": 7490000,
                 "oldPrice": 7690000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Creed Aventus  EDP_1.jpg" 
+            "assets/images/products/elements/Creed Aventus  EDP_1.jpg"
         ]
     },
     {
@@ -713,11 +713,11 @@
                 "size": 100,
                 "price": 3490000,
                 "oldPrice": 3980000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Chanel Allure Homme Sport  EDT_1.jpg" 
+            "assets/images/products/elements/Chanel Allure Homme Sport  EDT_1.jpg"
         ]
     },
     {
@@ -755,7 +755,7 @@
                 "size": 100,
                 "price": 3390000,
                 "oldPrice": 4050000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -797,7 +797,7 @@
                 "size": 100,
                 "price": 3500000,
                 "oldPrice": 3500000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -840,7 +840,7 @@
                 "size": 100,
                 "price": 3490000,
                 "oldPrice": 0,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -883,7 +883,7 @@
                 "size": 100,
                 "price": 3490000,
                 "oldPrice": 3490000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -925,7 +925,7 @@
                 "size": 100,
                 "price": 3690000,
                 "oldPrice": 2900000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -967,7 +967,7 @@
                 "size": 85,
                 "price": 2900000,
                 "oldPrice": 630000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1009,7 +1009,7 @@
                 "size": 80,
                 "price": 3190000,
                 "oldPrice": 3090000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1050,13 +1050,13 @@
             },
             {
                 "size": 80,
-                "price":3590000,
+                "price": 3590000,
                 "oldPrice": 2940000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Carolina Herrera Good Girl  _1.jpg" 
+            "assets/images/products/elements/Carolina Herrera Good Girl  _1.jpg"
         ]
     },
     {
@@ -1094,7 +1094,7 @@
                 "size": 100,
                 "price": 3190000,
                 "oldPrice": 3590000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1137,11 +1137,11 @@
                 "size": 100,
                 "price": 3390000,
                 "oldPrice": 3390000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Tom Ford Black Orchid  EDP_1.jpg" 
+            "assets/images/products/elements/Tom Ford Black Orchid  EDP_1.jpg"
         ]
     },
     {
@@ -1179,11 +1179,11 @@
                 "size": 100,
                 "price": 8000000,
                 "oldPrice": 8000000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Tom Ford Oud Wood  EDP_1.jpg" 
+            "assets/images/products/elements/Tom Ford Oud Wood  EDP_1.jpg"
         ]
     },
     {
@@ -1221,7 +1221,7 @@
                 "size": 100,
                 "price": 2690000,
                 "oldPrice": 2690000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1264,7 +1264,7 @@
                 "size": 100,
                 "price": 425000,
                 "oldPrice": 425000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1306,7 +1306,7 @@
                 "size": 100,
                 "price": 4300000,
                 "oldPrice": 4300000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1349,11 +1349,11 @@
                 "size": 90,
                 "price": 3600000,
                 "oldPrice": 3600000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Yves Saint Laurent Eau Libre  _1.jpg" 
+            "assets/images/products/elements/Yves Saint Laurent Eau Libre  _1.jpg"
         ]
     },
     {
@@ -1391,7 +1391,7 @@
                 "size": 75,
                 "price": 3990000,
                 "oldPrice": 3990000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1434,7 +1434,7 @@
                 "size": 75,
                 "price": 2295000,
                 "oldPrice": 2295000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1477,7 +1477,7 @@
                 "size": 100,
                 "price": 2890000,
                 "oldPrice": 2890000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -1520,527 +1520,11 @@
                 "size": 100,
                 "price": 3390000,
                 "oldPrice": 3390000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
             "assets/images/products/elements/Chanel Chance Eau de Toilette  EDT_0.jpg"
-        ]
-    },
-    {
-        "brand": "Marc Jacobs",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": " Chai n\u01b0\u1edbc hoa c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng v\u00e0 t\u1ecfa h\u01b0\u01a1ng kh\u00e1 t\u1ec7. v\u00e0 h\u01b0\u01a1ng th\u01a1m th\u1ec3 hi\u1ec7n kh\u00f4ng ti\u1ebft \u0111\u1eb7c bi\u1ec7t l\u00e0 v\u00e0o th\u1eddi ti\u1ebft l\u1ea1nh c\u1ee7a m\u00f9a thu v\u00e0 \u0111\u00f4ng.",
-        "diem_tot": " M\u1ed9t m\u00f9i h\u01b0\u01a1ng ng\u1ecdt ng\u00e0o nh\u1eb9 nh\u00e0ng v\u1edbi c\u00e1c n\u1ed1t h\u01b0\u01a1ng hoa c\u1ecf v\u00e0 tr\u00e1i c\u00e2y. Mang l\u1ea1i m\u1ed9t c\u1ea3m gi\u00e1c n\u1eef t\u00ednh thanh tao cho c\u00e1c qu\u00fd c\u00f4 \u1edf m\u1ecdi \u0111\u1ed9 tu\u1ed5i. M\u1eabu chai mang thi\u1ebft k\u1ebf d\u1ec5 th\u01b0\u01a1ng.",
-        "discount": 0,
-        "do_luu_huong": " R\u1ea5t k\u00e9m - D\u01b0\u1edbi 1 gi\u1edd",
-        "do_toa_huong": " R\u1ea5t g\u1ea7n - Thoang tho\u1ea3ng tr\u00ean l\u00e0n da",
-        "gender": "N\u1eef",
-        "id": 1.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u:  Qu\u1ea3 m\u00e2m x\u00f4i \u0111en, Qu\u1ea3 b\u01b0\u1edfi, Qu\u1ea3 l\u00ea\nH\u01b0\u01a1ng gi\u1eefa: Hoa t\u1eed \u0111\u1eb1ng, Hoa nh\u00e0i, Qu\u1ea3 v\u1ea3i\nH\u01b0\u01a1ng cu\u1ed1i: H\u01b0\u01a1ng g\u1ed7, X\u1ea1 h\u01b0\u01a1ng, Qu\u1ea3 d\u1eeba",
-        "nam_ra_mat": " 2014",
-        "name": "Daisy Dream",
-        "nha_pha_che": " Ann Gottlieb",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y",
-        "nong_do": " EDT",
-        "perfumista_review": "\n                                                    \n\nTh\u01b0\u01a1ng hi\u1ec7u Marc Jacobs \u0111\u00e3 tung ra n\u01b0\u1edbc hoa Daisy Dream v\u00e0o m\u00f9a h\u00e8 n\u0103m 2014 v\u1edbi t\u01b0 c\u00e1ch l\u00e0 m\u1ed9t phi\u00ean b\u1ea3n m\u1edbi c\u1ee7a n\u01b0\u1edbc hoa Daisy (2007) truy\u1ec1n th\u1ed1ng. Daisy Dream l\u00e0 m\u1ed9t phi\u00ean b\u1ea3n m\u01a1 m\u1ed9ng v\u00e0 tinh t\u1ebf h\u01a1n so v\u1edbi phi\u00ean b\u1ea3n g\u1ed1c. T\u1ed5 h\u1ee3p c\u1ee7a Daisy Dream \u0111\u01b0\u1ee3c c\u1ea5u t\u1ea1o t\u1eeb c\u00e1c n\u1ed1t h\u01b0\u01a1ng hoa c\u1ecf v\u00e0 tr\u00e1i c\u00e2y\u00a0\u0111\u1ec3 mang l\u1ea1i m\u1ed9t hi\u1ec7u \u1ee9ng \"xanh\". C\u0169ng nh\u01b0 phi\u00ean b\u1ea3n g\u1ed1c,\u00a0Alberto Morillas ch\u00ednh l\u00e0 ng\u01b0\u1eddi \u0111\u00e3 s\u00e1ng t\u1ea1o ra m\u00f9i h\u01b0\u01a1ng n\u00e0y, v\u1edbi s\u1ef1 h\u1ee3p t\u00e1c c\u1ee7a Ann Gottlieb v\u00e0 ch\u00ednh b\u1ea3n th\u00e2n Marc Jacobs.\n\nH\u01b0\u01a1ng th\u01a1m b\u1eaft \u0111\u1ea7u v\u1edbi h\u01b0\u01a1ng qu\u1ea3 m\u1ecdng v\u00e0 l\u00ea \u01b0\u1edbt \u00e1t v\u00e0 h\u01b0\u01a1ng n\u01b0\u1edbc d\u1eeba xu\u1ea5t hi\u1ec7n c\u0169ng kh\u00e1 s\u1edbm, H\u01b0\u01a1ng th\u01a1m kh\u00f4ng qu\u00e1 n\u1ed3ng, v\u00ec m\u00f9i n\u01b0\u1edbc d\u1eeba kh\u00e1 kh\u00e1c bi\u1ec7t so v\u1edbi c\u01a1m d\u1eeba. Khi n\u01b0\u1edbc hoa b\u1eaft \u0111\u1ea7u l\u1eafng \u0111\u1ecdng, h\u01b0\u01a1ng th\u01a1m c\u1ee7a hoa t\u1eed \u0111\u1eb1ng c\u00f9n v\u1edbi h\u01b0\u01a1ng hoa nh\u00e0i thoang tho\u1ea3ng b\u1eaft \u0111\u1ea7u t\u1ecfa h\u01b0\u01a1ng, ngo\u00e0i ra c\u00f2n c\u00f3 s\u1ef1 gi\u00fap s\u1ee9c c\u1ee7a h\u01b0\u01a1ng v\u1ea3i, khi\u1ebfn cho m\u00f9i h\u01b0\u01a1ng kh\u00f4ng nh\u1eefng m\u1ec1m m\u1ea1i, n\u1eef t\u00ednh m\u00e0 c\u00f2n mang c\u1ea3m gi\u00e1c nhi\u1ec7t \u0111\u1edbi. L\u1edbp h\u01b0\u01a1ng cu\u1ed1i kh\u00e1 c\u00e2n b\u1eb1ng nh\u1edd v\u00e0o c\u00e1c h\u01b0\u01a1ng g\u1ed7 tr\u1eafng khi\u1ebfn cho n\u01b0\u1edbc hoa kh\u00f4ng tr\u1edf n\u00ean qu\u00e1 ng\u1ecdt v\u00e0 m\u1ed9t \u00edt x\u1ea1 h\u01b0\u01a1ng \u00e2m \u1ec9 \u1edf ph\u00eda n\u1ec1n l\u00e0m cho n\u01b0\u1edbc hoa to\u00e1t l\u00ean m\u1ed9t s\u1ef1 g\u1ee3i c\u1ea3m.\n\nChai n\u01b0\u1edbc hoa mang m\u1ed9t thi\u1ebft k\u1ebf c\u00e1ch t\u00e2n so v\u1edbi phi\u00ean b\u1ea3n Daisy g\u1ed1c, v\u1edbi th\u00e2n h\u00ecnh \u0111\u00e3 \u0111\u01b0\u1ee3c bo tr\u00f2n v\u00e0 c\u00e1c b\u00f4ng hoa c\u00fac tr\u1eafng to\u00e1t d\u00f9ng \u0111\u1ec3 trang tr\u00ed.\n\nNh\u1eefng ng\u01b0\u1eddi ph\u1ee5 n\u1eef s\u1eed d\u1ee5ng c\u00e1c s\u1ea3n ph\u1ea9m c\u1ee7a Marc Jacobs \u0111\u00e3 bi\u1ebft c\u00e1ch m\u00e0 c\u00e1c nh\u00e0 thi\u1ebft k\u1ebf l\u00e0m cho n\u01b0\u1edbc hoa c\u1ee7a h\u1ecd c\u00f3 m\u1ed9t \u0111\u1ed9 t\u01b0\u01a1i t\u1eafn, phi\u00ean b\u1ea3n Daisy Dream c\u0169ng kh\u00f4ng kh\u00e1c. Tho\u1ea1t \u0111\u1ea7u b\u1ea1n c\u00f3 th\u1ec3 ngh\u0129 \u0111\u00e2y l\u00e0 m\u1ed9t chai n\u01b0\u1edbc hoa ng\u1ecdt, nh\u01b0ng l\u1edbp h\u01b0\u01a1ng cu\u1ed1i n\u1ed3ng n\u00e0n khi\u1ebfn cho h\u01b0\u01a1ng th\u01a1m c\u00e2n b\u1eb1ng v\u00e0 th\u00fa v\u1ecb h\u01a1n.\n\n\n                                            ",
-        "phong_cach": "\n                                                                                    N\u1eef t\u00ednh                                                                                                                , G\u1ee3i c\u1ea3m \n                                                                                                                , Quy\u1ebfn r\u0169 \n                                                                        ",
-        "shortDesc": " Th\u01b0\u01a1ng hi\u1ec7u Marc Jacobs \u0111\u00e3 tung ra n\u01b0\u1edbc hoa Daisy Dream v\u00e0o m\u00f9a h\u00e8 n\u0103m 2014 v\u1edbi t\u01b0 c\u00e1ch l\u00e0 m\u1ed9t phi\u00ean b\u1ea3n m\u1edbi c\u1ee7a n\u01b0\u1edbc hoa Daisy (2007) truy\u1ec1n th\u1ed1ng. Daisy Dream l\u00e0 m\u1ed9t phi\u00ean b\u1ea3n m\u01a1 m\u1ed9ng v\u00e0 tinh t\u1ebf h\u01a1n so v\u1edbi phi\u00ean b\u1ea3n g\u1ed1c. T\u1ed5 h\u1ee3p c\u1ee7a Daisy Dream \u0111\u01b0\u1ee3c c\u1ea5u t\u1ea1o t\u1eeb c\u00e1c n\u1ed1t h\u01b0\u01a1ng hoa c\u1ecf v\u00e0 tr\u00e1i c\u00e2y \u0111\u1ec3 mang l\u1ea1i m\u1ed9t hi\u1ec7u \u1ee9ng \"xanh\". C\u0169ng nh\u01b0 phi\u00ean b\u1ea3n g\u1ed1c, Alberto Morillas ch\u00ednh l\u00e0 ng\u01b0\u1eddi \u0111\u00e3 s\u00e1ng t\u1ea1o ra m\u00f9i h\u01b0\u01a1ng n\u00e0y, v\u1edbi s\u1ef1 h\u1ee3p t\u00e1c c\u1ee7a Ann Gottlieb v\u00e0 ch\u00ednh b\u1ea3n th\u00e2n Marc Jacobs.",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 311000,
-                "oldPrice": 311000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 2412000,
-                "oldPrice": 2412000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Marc Jacobs Daisy Dream  EDT_0.jpg",
-            "assets/images/products/elements/Marc Jacobs Daisy Dream  EDT_1.jpg"
-        ]
-    },
-    {
-        "brand": "Marc Jacobs",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": " \u0110\u1ed9 l\u01b0u h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng trung b\u00ecnh. H\u01b0\u01a1ng th\u01a1m s\u1ebd tr\u1edf n\u00ean qu\u00e1 nh\u1eb9 khi s\u1eed d\u1ee5ng trong m\u00f9a thu ho\u1eb7c \u0111\u00f4ng, \u0111\u1eb7c bi\u1ec7t l\u00e0 v\u00e0o ban \u0111\u00eam.",
-        "diem_tot": " H\u01b0\u01a1ng th\u01a1m t\u01b0\u01a1i m\u00e1t, ng\u1ecdt ng\u00e0o, m\u1ecbn m\u00e0ng t\u1eeb chi\u1ebft xu\u1ea5t hoa c\u00fac d\u00e0nh cho c\u00e1c b\u1ea1n n\u1eef s\u1eed d\u1ee5ng trong nh\u1eefng ng\u00e0y h\u00e8 n\u00f3ng \u1ea9m \u0111\u1ea7u n\u0103m. \u0110\u1ed9 t\u1ecfa h\u01b0\u01a1ng g\u1ea7n, r\u1ea5t tuy\u1ec7t v\u1eddi cho m\u00f4i tr\u01b0\u1eddng l\u00e0m vi\u1ec7c v\u0103n ph\u00f2ng. Thi\u1ebft k\u1ebf m\u1eabu chai \u0111\u1eb9p v\u00e0 thu h\u00fat.",
-        "discount": 0,
-        "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "N\u1eef",
-        "id": 2.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: L\u00e1 hoa t\u00edm, Qu\u1ea3 b\u01b0\u1edfi huy\u1ebft, D\u00e2u d\u1ea1i, Qu\u1ea3 d\u00e2u t\u00e2y\nH\u01b0\u01a1ng gi\u1eefa: Hoa s\u01a1n chi, Hoa t\u00edm, Hoa nh\u00e0i\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, H\u01b0\u01a1ng g\u1ed7 tr\u1eafng, H\u01b0\u01a1ng Va ni",
-        "nam_ra_mat": " 2007",
-        "name": "Daisy",
-        "nha_pha_che": " Alberto Morillas",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf G\u1ed7-X\u1ea1 h\u01b0\u01a1ng",
-        "nong_do": " EDT",
-        "perfumista_review": "\n                                                    \n\nV\u00e0o n\u0103m 2007, d\u01b0\u1edbi \u00fd t\u01b0\u1edfng thi\u1ebft k\u1ebf t\u1eeb Alberto Morillas, th\u01b0\u01a1ng hi\u1ec7u n\u01b0\u1edbc hoa n\u1ed5i ti\u1ebfng Marc Jacobs \u0111\u00e3 cho ra \u0111\u1eddi d\u00f2ng s\u1ea3n ph\u1ea9m m\u1edbi d\u00e0nh cho n\u1eef v\u1edbi t\u00ean g\u1ecdi Daisy nh\u1eb1m mong mu\u1ed1n g\u1eedi \u0111\u1ebfn c\u00e1c b\u1ea1n n\u1eef th\u00f4ng \u0111i\u1ec7p c\u1ee7a s\u1ef1 tr\u1ebb trung, h\u1ea1nh ph\u00fac v\u00e0 tinh t\u1ebf.. T\u1eeb \u0111\u00f3, gi\u00fap t\u00f4n l\u00ean s\u1ef1 quy\u1ebfn r\u0169, r\u1ef1c r\u1ee1, ng\u1ecdt ng\u00e0o \u0111\u1ea7y tinh t\u1ebf m\u00e0 \u0111\u01a1n gi\u1ea3n. V\u1edbi thi\u1ebft k\u1ebf chai th\u1ee7y tinh c\u1ed5 \u0111i\u1ec3n, Daisy \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111i\u1ec3m th\u00eam n\u00e9t tr\u1ebb trung pha l\u1eabn v\u1ebb h\u00e0i h\u01b0\u1edbc, vui t\u01b0\u01a1i qua chi\u1ebfc n\u1eafp chai \u0111\u01b0\u1ee3c \u0111i\u1ec3m xuy\u1ebfn b\u1eb1ng c\u00e1nh hoa c\u00fac \u0111\u1ea7y duy\u00ean d\u00e1ng.\u00a0\n\nM\u1eabu thi\u1ebft k\u1ebf to\u00e1t l\u00ean \u0111\u01b0\u1ee3c v\u1ebb c\u1ed5 \u0111i\u1ec3n sang tr\u1ecdng nh\u1eefng c\u0169ng r\u1ea5t tr\u1ebb trung v\u1edbi nh\u1eefng b\u00f4ng hoa c\u00fac b\u1eb1ng nh\u1ef1a vinyl u\u1ed1n cong \u0111\u01b0\u1ee3c \u0111\u00ednh tr\u00ean n\u1eafp chai m\u00e0u v\u00e0ng.\n\n\n\n\u00a0\n\nDaisy l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa mang s\u1ef1 k\u1ebft h\u1ee3p ho\u00e0n h\u1ea3o c\u1ee7a s\u1ef1 t\u01b0\u01a1i m\u00e1t v\u00e0 n\u1eef t\u00ednh v\u1edbi h\u01b0\u01a1ng th\u01a1m ch\u00ednh t\u1eeb hoa c\u1ecf v\u00e0 g\u1ed7. Ngay t\u1eeb l\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u ti\u00ean, h\u01b0\u01a1ng th\u01a1m tr\u00e1i c\u00e2y t\u1eeb d\u00e2u t\u00e2y v\u00e0 b\u01b0\u1edfi \u0111\u1ecf kh\u00f4ng qu\u00e1 n\u1ed3ng c\u0169ng kh\u00f4ng qu\u00e1 ng\u1ecdt s\u1ebd \u0111\u01b0\u1ee3c h\u00f2a quy\u1ec7n m\u1ed9t c\u00e1ch tinh t\u1ebf c\u00f9ng s\u1ef1 t\u01b0\u01a1i m\u00e1t c\u1ee7a l\u00e1 Violet. Sau \u0111\u00f3 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng t\u1eeb l\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u gi\u1ea3m d\u1ea7n \u0111\u1ec3 nh\u01b0\u1eddng l\u1ea1i cho s\u1ef1 l\u1eafng \u0111\u1ecdng tinh t\u1ebf c\u1ee7a c\u00e1c m\u00f9i h\u01b0\u01a1ng ti\u1ebfp theo trong l\u1edbp h\u01b0\u01a1ng gi\u1eefa. H\u01b0\u01a1ng hoa t\u1eeb violet, hoa nh\u00e0i, hoa d\u00e0nh d\u00e0nh tr\u1ed9n l\u1eabn v\u00e0o nhau c\u00f9ng v\u1edbi h\u01b0\u01a1ng c\u00fac ng\u00e2y th\u01a1 \u0111\u00e3 t\u1ea1o n\u00ean m\u1ed9t h\u1ed7n h\u1ee3p \u0111\u1eb7c s\u1eafc g\u1ee3i n\u00ean h\u01b0\u01a1ng th\u01a1m hoa c\u1ecf nh\u1eb9 nh\u00e0ng v\u00e0 t\u01b0\u01a1i m\u00e1t. \u0110\u1ec3 r\u1ed3i t\u1ea1i l\u1edbp h\u01b0\u01a1ng cu\u1ed1i, x\u1ea1 h\u01b0\u01a1ng c\u00f9ng v\u1edbi h\u01b0\u01a1ng g\u1ed7 d\u1ecbu nh\u1eb9 k\u1ebft h\u1ee3p v\u1edbi m\u1ed9t ch\u00fat h\u01b0\u01a1ng vanilla gi\u00fap h\u01b0\u01a1ng th\u01a1m \u0111\u01b0\u1ee3c gi\u1eef l\u00e2u h\u01a1n.\u00a0\n\nM\u1eb7c d\u00f9 s\u1ea3n ph\u1ea9m n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c mang t\u00ean g\u1ecdi l\u00e0 Daisy ( Hoa c\u00fac ), nh\u01b0ng to\u00e0n b\u1ed9 h\u01b0\u01a1ng hoa c\u00f3 v\u1ebb mang \u00e2m h\u01b0\u1edfng c\u1ee7a hoa Violet nhi\u1ec1u h\u01a1n. Tuy nhi\u00ean \u0111\u00e2y v\u1eabn l\u00e0 d\u00f2ng s\u1ea3n ph\u1ea9m \u0111\u00e1ng ch\u00fa \u00fd cho c\u00e1c b\u1ea1n n\u1eef cho v\u00e0o b\u1ed9 s\u01b0u t\u1eadp c\u1ee7a m\u00ecnh b\u1edfi s\u1ef1 t\u01b0\u01a1i m\u00e1t, ng\u1ecdt ng\u00e0o,v\u1eeba \u00a0tinh t\u1ebf m\u00e0 c\u0169ng kh\u00f4ng k\u00e9m ph\u1ea7n tr\u1ebb trung. S\u1ea3n ph\u1ea9m s\u1ebd ph\u00e1t huy t\u1ed1t m\u00f9i h\u01b0\u01a1ng c\u1ee7a ch\u00fang khi \u0111\u01b0\u1ee3c s\u1eed d\u1ee5ng trong m\u00f9a xu\u00e2n ho\u1eb7c ti\u1ebft \u0111\u1ea7u m\u00f9a h\u1ea1.\n\n\n\n\u00a0\n\n\n\n\u00a0\n                                            ",
-        "phong_cach": "\n                                                                                    Ng\u1ecdt ng\u00e0o                                                                                                                , T\u00ednh t\u1ebf \n                                                                                                                , Tr\u1ebb trung \n                                                                        ",
-        "shortDesc": " V\u00e0o n\u0103m 2007, d\u01b0\u1edbi \u00fd t\u01b0\u1edfng thi\u1ebft k\u1ebf t\u1eeb Alberto Morillas, th\u01b0\u01a1ng hi\u1ec7u n\u01b0\u1edbc hoa n\u1ed5i ti\u1ebfng Marc Jacobs \u0111\u00e3 cho ra \u0111\u1eddi d\u00f2ng s\u1ea3n ph\u1ea9m m\u1edbi d\u00e0nh cho n\u1eef v\u1edbi t\u00ean g\u1ecdi Daisy nh\u1eb1m mong mu\u1ed1n g\u1eedi \u0111\u1ebfn c\u00e1c b\u1ea1n n\u1eef th\u00f4ng \u0111i\u1ec7p c\u1ee7a s\u1ef1 tr\u1ebb trung, h\u1ea1nh ph\u00fac v\u00e0 tinh t\u1ebf. T\u1eeb \u0111\u00f3, gi\u00fap t\u00f4n l\u00ean s\u1ef1 quy\u1ebfn r\u0169, r\u1ef1c r\u1ee1, ng\u1ecdt ng\u00e0o \u0111\u1ea7y tinh t\u1ebf m\u00e0 \u0111\u01a1n gi\u1ea3n. V\u1edbi thi\u1ebft k\u1ebf chai th\u1ee7y tinh c\u1ed5 \u0111i\u1ec3n, Daisy \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111i\u1ec3m th\u00eam n\u00e9t tr\u1ebb trung pha l\u1eabn v\u1ebb h\u00e0i h\u01b0\u1edbc, vui t\u01b0\u01a1i qua chi\u1ebfc n\u1eafp chai \u0111\u01b0\u1ee3c \u0111i\u1ec3m xuy\u1ebfn b\u1eb1ng c\u00e1nh hoa c\u00fac \u0111\u1ea7y duy\u00ean d\u00e1ng.",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
-        "tuoi_khuyen_dung": " ",
-        "variants": [
-            {
-                "size": 10,
-                "price": 285000,
-                "oldPrice": 285000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 2151000,
-                "oldPrice": 2151000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Marc Jacobs Daisy  EDT_0.jpg",
-            "assets/images/products/elements/Marc Jacobs Daisy  EDT_1.jpg"
-        ]
-    },
-    {
-        "brand": "Afnan Perfumes",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "Nam",
-        "id": 3.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)\nH\u01b0\u01a1ng gi\u1eefa: Hoa h\u1ed3ng, G\u1ed7 Bu-l\u00f4, Hoa nh\u00e0i Morocco, C\u00e2y ho\u1eafc h\u01b0\u01a1ng\nH\u01b0\u01a1ng cu\u1ed1i: R\u00eau s\u1ed3i, X\u1ea1 h\u01b0\u01a1ng, Long di\u00ean h\u01b0\u01a1ng, H\u01b0\u01a1ng Va ni",
-        "nam_ra_mat": " 2013",
-        "name": "Supremacy Silver",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng g\u1ed7 hoa c\u1ecf x\u1ea1 h\u01b0\u01a1ng",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa nam Supremacy Silver ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Afnan Perfumes  n\u00e0y c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng l\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd. v\u00e0 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng g\u1ea7n - to\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay. Perfumista.vn khuy\u1ebfn c\u00e1o Supremacy Silver ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong c\u1ea3 ng\u00e0y l\u1eabn \u0111\u00eam v\u00e0o m\u00f9a xu\u00e2n, h\u1ea1, thu.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Afnan Perfumes thu\u1ed9c nh\u00f3m Woody Floral Musk (H\u01b0\u01a1ng g\u1ed7 hoa c\u1ecf x\u1ea1 h\u01b0\u01a1ng). Supremacy Silver \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2013.  B\u00ean c\u1ea1nh \u0111\u00f3, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m) v\u00e0 Qu\u1ea3 l\u00fd chua \u0111en l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 189000,
-                "oldPrice": 189000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 1190000,
-                "oldPrice": 1190000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Afnan Perfumes Supremacy Silver  _0.jpg",
-            "assets/images/products/elements/Afnan Perfumes Supremacy Silver  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Christian Dior",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "Nam",
-        "id": 4.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Ti\u00eau, Cam Bergamot Calabria\nH\u01b0\u01a1ng gi\u1eefa: Hoa phong l\u1eef, Hoa O\u1ea3i H\u01b0\u01a1ng, Xuy\u00ean ti\u00eau, D\u1ea5u tr\u00e1m, H\u1ed3ng ti\u00eau, C\u1ecf h\u01b0\u01a1ng b\u00e0i, C\u00e2y ho\u1eafc h\u01b0\u01a1ng\nH\u01b0\u01a1ng cu\u1ed1i: G\u1ed7 tuy\u1ebft t\u00f9ng, H\u01b0\u01a1ng Labdanum, H\u01b0\u01a1ng Ambroxan",
-        "nam_ra_mat": " 1966",
-        "name": "Sauvage",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng th\u01a1m d\u01b0\u01a1ng x\u1ec9",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                                                                ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Ti\u00eau, Cam Bergamot Calabria",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1, Thu",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 419000,
-                "oldPrice": 419000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 3490000,
-                "oldPrice": 3490000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Christian Dior Sauvage  _0.jpg",
-            "assets/images/products/elements/Christian Dior Sauvage  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Dolce&Gabbana",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
-        "do_toa_huong": " R\u1ea5t xa - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng b\u00e1n k\u00ednh tr\u00ean 2 m\u00e9t",
-        "gender": "Nam",
-        "id": 5.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 b\u01b0\u1edfi\nH\u01b0\u01a1ng gi\u1eefa: N\u01b0\u1edbc bi\u1ec3n, C\u00e2y b\u00e1ch x\u00f9\nH\u01b0\u01a1ng cu\u1ed1i: Amberwood, X\u1ea1 h\u01b0\u01a1ng",
-        "nam_ra_mat": " 2017",
-        "name": "Light Blue Eau Intense Pour Homme",
-        "nha_pha_che": " Alberto Morillas",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng g\u1ed7 bi\u1ec3n",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa nam Light Blue Eau Intense Pour Homme \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2017. \u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Dolce&Gabbana thu\u1ed9c nh\u00f3m Woody Aquatic (H\u01b0\u01a1ng g\u1ed7 bi\u1ec3n) h\u01b0\u1edbng \u0111\u1ebfn \u0111\u1ed9 tu\u1ed5i tr\u00ean 25 tu\u1ed5i. Alberto Morillas ch\u00ednh l\u00e0 nh\u00e0 pha ch\u1ebf ra lo\u1ea1i n\u01b0\u1edbc hoa n\u00e0y.Light Blue Eau Intense Pour Homme c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng l\u00e2u - 6 gi\u1edd \u0111\u1ebfn 12 gi\u1edd v\u00e0 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng r\u1ea5t xa - to\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng b\u00e1n k\u00ednh tr\u00ean 2 m\u00e9t. Perfumista.vn khuy\u1ebfn c\u00e1o Light Blue Eau Intense Pour Homme ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong c\u1ea3 ng\u00e0y l\u1eabn \u0111\u00eam v\u00e0o m\u00f9a h\u1ea1. B\u00ean c\u1ea1nh \u0111\u00f3, N\u01b0\u1edbc bi\u1ec3n v\u00e0 Qu\u1ea3 b\u01b0\u1edfi l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 b\u01b0\u1edfi",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, H\u1ea1",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 325000,
-                "oldPrice": 325000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 2554200,
-                "oldPrice": 2554200,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Dolce&Gabbana Light Blue Eau Intense Pour Homme  _0.jpg",
-            "assets/images/products/elements/Dolce&Gabbana Light Blue Eau Intense Pour Homme  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Armaf",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "Nam",
-        "id": 6.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 chanh v\u00e0ng, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)\nH\u01b0\u01a1ng gi\u1eefa: Hoa h\u1ed3ng, Hoa nh\u00e0i, G\u1ed7 Bu-l\u00f4\nH\u01b0\u01a1ng cu\u1ed1i: H\u01b0\u01a1ng Va ni, Long di\u00ean h\u01b0\u01a1ng, X\u1ea1 h\u01b0\u01a1ng, C\u00e2y ho\u1eafc h\u01b0\u01a1ng",
-        "nam_ra_mat": " 2015",
-        "name": "Club de Nuit Intense Woman",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng g\u1ed7 cay n\u1ed3ng",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa nam Club de Nuit Intense ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf  n\u00e0y c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng l\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd. v\u00e0 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng g\u1ea7n - to\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay. Perfumista.vn khuy\u1ebfn c\u00e1o Club de Nuit Intense ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong c\u1ea3 ng\u00e0y l\u1eabn \u0111\u00eam v\u00e0o m\u00f9a xu\u00e2n, h\u1ea1, thu.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf thu\u1ed9c nh\u00f3m Woody Spicy (H\u01b0\u01a1ng g\u1ed7 cay n\u1ed3ng). Club de Nuit Intense \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2015.  B\u00ean c\u1ea1nh \u0111\u00f3, Qu\u1ea3 chanh v\u00e0ng v\u00e0 G\u1ed7 Bu-l\u00f4 l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 chanh v\u00e0ng, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1, Thu",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 189000,
-                "oldPrice": 189000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 200,
-                "price": 2390000,
-                "oldPrice": 2390000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Armaf Club de Nuit Intense  _0.jpg",
-            "assets/images/products/elements/Armaf Club de Nuit Intense  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Versace",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": " \u0110\u1ed9 l\u01b0u h\u01b0\u01a1ng  ch\u01b0a \u0111\u01b0\u1ee3c t\u1ed1t l\u1eafm, c\u1ea7n ph\u1ea3i s\u1eed d\u1ee5ng th\u01b0\u1eddng xuy\u00ean trong ng\u00e0y \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o t\u00e1c d\u1ee5ng n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c xuy\u00ean su\u1ed1t. C\u00f3 l\u1ebd kh\u00f4ng ph\u00f9 h\u1ee3p l\u1eafm \u0111\u1ec3 s\u1eed d\u1ee5ng v\u00e0o nh\u1eefng m\u00f9a l\u1ea1nh, \u0111\u1eb7c bi\u1ec7t l\u00e0 v\u00e0o ban \u0111\u00eam v\u00ec t\u00ednh t\u01b0\u01a1i m\u00e1t c\u1ee7a h\u01b0\u01a1ng th\u01a1m.",
-        "diem_tot": " M\u00f9i h\u01b0\u01a1ng t\u01b0\u01a1i m\u00e1t, mang ch\u00fat v\u1ebd n\u0103ng \u0111\u1ed9ng v\u00e0 n\u1eef t\u00ednh d\u00e0nh cho ph\u00e1i \u0111\u1eb9p. Thi\u1ebft k\u1ebf m\u1eabu chai tinh x\u1ea3o v\u00e0 r\u1ea5t b\u1eaft m\u1eaft. Ph\u00f9 h\u1ee3p v\u1edbi nhi\u1ec1u \u0111\u1ed9 tu\u1ed5i. \u0110\u1ed9 t\u1ecfa c\u1ee7a h\u01b0\u01a1ng th\u01a1m c\u0169ng \u0111\u01b0\u1ee3c \u0111\u00e1nh gi\u00e1 t\u1ed1t.",
-        "discount": 0,
-        "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "N\u1eef",
-        "id": 7.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 Yuzu, Qu\u1ea3 l\u1ef1u, H\u01b0\u01a1ng n\u01b0\u1edbc\nH\u01b0\u01a1ng gi\u1eefa: Hoa sen, Hoa m\u1ed9c lan, Hoa m\u1eabu \u0111\u01a1n\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, G\u1ed7 g\u1ee5, H\u1ed5 ph\u00e1ch",
-        "nam_ra_mat": " 2006",
-        "name": "Bright Crystal",
-        "nha_pha_che": " Alberto Morillas",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y",
-        "nong_do": " EDT",
-        "perfumista_review": "\n                                                    \n\nL\u1ea5y c\u1ea3m h\u1ee9ng t\u1eeb s\u1ef1 k\u1ebft h\u1ee3p c\u00e1c h\u01b0\u01a1ng hoa y\u00eau th\u00edch c\u1ee7a d\u00f2ng Donatella Versace\u2019s, chai n\u01b0\u1edbc hoa Bright Crystal mang \u0111\u1ebfn m\u1ed9t m\u00f9i h\u01b0\u01a1ng t\u01b0\u01a1i m\u00e1t v\u00e0 s\u1ea3ng kho\u00e1i v\u1edbi s\u1ef1 k\u1ebft h\u1ee3p h\u00e0i h\u00f2a c\u1ee7a c\u00e1c th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng nh\u01b0 h\u01b0\u01a1ng qu\u00fdt nh\u1eadt yuzu, h\u01b0\u01a1ng hoa m\u1ed9c lan, hoa sen v\u00e0 hoa m\u1eabu \u0111\u01a1n, b\u00ean c\u1ea1nh \u0111\u00f3 c\u00f2n c\u00f3 th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng \u1ea5m \u00e1p c\u1ee7a x\u1ea1 h\u01b0\u01a1ng v\u00e0 c\u1ed5 ph\u00e1ch. Chai n\u01b0\u1edbc hoa n\u00e0y \u0111\u01b0\u1ee3c t\u1ea1i ra b\u1edfi Alberto Morillas v\u00e0o n\u0103m 2006.\n\nChai n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf r\u1ea5t thanh l\u1ecbch, g\u1ee3i l\u00ean n\u00e9t g\u1ee3i c\u1ea3m v\u00e0 ng\u1ecdt ng\u00e0o gi\u1ed1ng nh\u01b0 m\u00f9i h\u01b0\u01a1ng c\u1ee7a n\u00f3. V\u1edbi th\u00e2n chai b\u1eb1ng th\u1ee7y tinh trong su\u1ed1t cho ta th\u1ea5y ch\u1ea5t l\u1ecfng b\u00ean trong m\u00e0u h\u1ed3ng nh\u1ea1t, ch\u00ednh \u0111i\u1ec3m n\u00e0y \u0111\u00e3 \u0111\u1ec3 l\u1ed9 ra h\u00ecnh \u1ea3nh c\u1ee7a s\u1ef1 n\u1eef t\u00ednh v\u00e0 tinh t\u1ebf c\u1ee7a chai n\u01b0\u1edbc hoa n\u00e0y.\u00a0\n\n\n\nL\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u l\u00e0 h\u01b0\u01a1ng qu\u1ea3 l\u1ef1u v\u00e0 h\u01b0\u01a1ng yuzu. L\u1edbp h\u01b0\u01a1ng gi\u1eefa l\u00e0 h\u01b0\u01a1ng hoa m\u1eabu \u0111\u01a1n, hoa m\u1ed9c lan \u0111\u01b0\u1ee3c pha tr\u1ed9n v\u1edbi th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng hoa sen l\u00e0m t\u0103ng th\u00eam s\u1ef1 ng\u1ecdt ng\u00e0o v\u00e0 tinh t\u1ebf cho d\u00f2ng n\u01b0\u1edbc hoa n\u00e0y. L\u1edbp h\u01b0\u01a1ng cu\u1ed1i kh\u00e1 sang tr\u1ecdng khi \u0111\u01b0\u1ee3c k\u1ebft h\u1ee3p c\u00e1c th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng chi\u1ebft xu\u1ea5t t\u1eeb x\u1ea1 h\u01b0\u01a1ng, th\u1ef1c v\u1eadt, g\u1ed7 \u0111\u1ecf v\u00e0 h\u1ed5 ph\u00e1ch.\n\nChai n\u01b0\u1edbc hoa n\u00e0y th\u00edch h\u1ee3p khi s\u1eed d\u1ee5ng v\u00e0o ban ng\u00e0y. N\u00f3 t\u1ea1o s\u1ef1 m\u1edbi m\u1ebb cho m\u1ed9t ng\u00e0y m\u1edbi b\u1eaft \u0111\u1ea7u nh\u01b0ng c\u0169ng kh\u00f4ng qu\u00e1 ng\u1ecdt cho m\u1ed9t ng\u00e0y d\u00e0i. Chai n\u01b0\u1edbc hoa n\u00e0y n\u00e0y s\u1ebd l\u00e0 m\u1ed9t m\u00f3n qu\u00e0 tuy\u1ec7t v\u1eddi v\u00e0 tinh t\u1ebf v\u00ec h\u01b0\u01a1ng th\u01a1m t\u01b0\u01a1i m\u00e1t, s\u1ea3ng kho\u00e1i, c\u00f3 ch\u00fat c\u1ed5 \u0111i\u1ec3n pha l\u1eabn b\u00ed \u1ea9n m\u00e0 ch\u00ednh b\u1ea1n c\u00f3 th\u1ec3 \u201ct\u1ef1 th\u01b0\u1edfng\u201d cho b\u1ea3n th\u00e2n m\u00ecnh.\u00a0\n\n\n                                            ",
-        "phong_cach": "\n                                                                                    N\u1eef t\u00ednh                                                                                                                , G\u1ea7n g\u0169i \n                                                                                                                , N\u0103ng \u0111\u1ed9ng \n                                                                        ",
-        "shortDesc": " L\u1ea5y c\u1ea3m h\u1ee9ng t\u1eeb s\u1ef1 k\u1ebft h\u1ee3p c\u00e1c h\u01b0\u01a1ng hoa y\u00eau th\u00edch c\u1ee7a d\u00f2ng Donatella Versace\u2019s, chai n\u01b0\u1edbc hoa Bright Crystal mang \u0111\u1ebfn m\u1ed9t m\u00f9i h\u01b0\u01a1ng t\u01b0\u01a1i m\u00e1t v\u00e0 s\u1ea3ng kho\u00e1i v\u1edbi s\u1ef1 k\u1ebft h\u1ee3p h\u00e0i h\u00f2a c\u1ee7a c\u00e1c th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng nh\u01b0 h\u01b0\u01a1ng qu\u00fdt nh\u1eadt yuzu, h\u01b0\u01a1ng hoa m\u1ed9c lan, hoa sen v\u00e0 hoa m\u1eabu \u0111\u01a1n, b\u00ean c\u1ea1nh \u0111\u00f3 c\u00f2n c\u00f3 th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng \u1ea5m \u00e1p c\u1ee7a x\u1ea1 h\u01b0\u01a1ng v\u00e0 c\u1ed5 ph\u00e1ch. Chai n\u01b0\u1edbc hoa n\u00e0y \u0111\u01b0\u1ee3c t\u1ea1i ra b\u1edfi Alberto Morillas v\u00e0o n\u0103m 2006.",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
-        "tuoi_khuyen_dung": " ",
-        "variants": [
-            {
-                "size": 10,
-                "price": 314000,
-                "oldPrice": 314000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 90,
-                "price": 2197800,
-                "oldPrice": 2197800,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Versace Bright Crystal  EDT_0.jpg",
-            "assets/images/products/elements/Versace Bright Crystal  EDT_1.jpg"
-        ]
-    },
-    {
-        "brand": "Armaf",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " R\u1ea5t l\u00e2u - Tr\u00ean 12 gi\u1edd",
-        "do_toa_huong": " Xa - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng b\u00e1n k\u00ednh 2 m\u00e9t",
-        "gender": "N\u1eef",
-        "id": 8.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Cam Bergamot, Qu\u1ea3 b\u01b0\u1edfi, Qu\u1ea3 \u0111\u00e0o, Qu\u1ea3 cam\nH\u01b0\u01a1ng gi\u1eefa: Hoa phong l\u1eef, Hoa nh\u00e0i, Qu\u1ea3 v\u1ea3i, Hoa h\u1ed3ng\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, C\u00e2y ho\u1eafc h\u01b0\u01a1ng, H\u01b0\u01a1ng Va ni, C\u1ecf h\u01b0\u01a1ng b\u00e0i",
-        "nam_ra_mat": " Ch\u01b0a x\u00e1c \u0111\u1ecbnh",
-        "name": "Club De Nuit",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa n\u1eef Club De Nuit ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i. Perfumista.vn khuy\u1ebfn c\u00e1o Club De Nuit ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong b\u1ea5t c\u1ee9 th\u1eddi gian n\u00e0o.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf thu\u1ed9c nh\u00f3m Floral Fruity (H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y).  B\u00ean c\u1ea1nh \u0111\u00f3, Hoa h\u1ed3ng v\u00e0 C\u00e2y ho\u1eafc h\u01b0\u01a1ng l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Cam Bergamot, Qu\u1ea3 b\u01b0\u1edfi, Qu\u1ea3 \u0111\u00e0o, Qu\u1ea3 cam",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1, Thu, \u0110\u00f4ng",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 183000,
-                "oldPrice": 183000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 105,
-                "price": 1190000,
-                "oldPrice": 1190000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Armaf Club De Nuit  _0.jpg",
-            "assets/images/products/elements/Armaf Club De Nuit  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Moschino",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
-        "do_toa_huong": " R\u1ea5t xa - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng b\u00e1n k\u00ednh tr\u00ean 2 m\u00e9t",
-        "gender": "N\u1eef",
-        "id": 9.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 t\u00e1o xanh, Hoa m\u1ed9c lan\nH\u01b0\u01a1ng gi\u1eefa: Hoa m\u1eabu \u0111\u01a1n, Qu\u1ea3 l\u00fd chua tr\u1eafng, Hoa nh\u00e0i\nH\u01b0\u01a1ng cu\u1ed1i: G\u1ed7 \u0111\u00e0n h\u01b0\u01a1ng, Amberwood, X\u1ea1 h\u01b0\u01a1ng",
-        "nam_ra_mat": " 2018",
-        "name": "Toy 2",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf G\u1ed7-X\u1ea1 h\u01b0\u01a1ng",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa n\u1eef Toy 2 ch\u01b0a x\u00e1c \u0111\u1ecbnh \u0111\u1ed9 tu\u1ed5i ng\u01b0\u1eddi d\u00f9ng ph\u00f9 h\u1ee3p. Perfumista.vn khuy\u1ebfn c\u00e1o Toy 2 ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong ng\u00e0y v\u00e0o m\u00f9a thu.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Moschino thu\u1ed9c nh\u00f3m Floral Woody Musk (H\u01b0\u01a1ng hoa c\u1ecf G\u1ed7-X\u1ea1 h\u01b0\u01a1ng). Toy 2 \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2018.  B\u00ean c\u1ea1nh \u0111\u00f3, Qu\u1ea3 t\u00e1o xanh v\u00e0 Hoa m\u1eabu \u0111\u01a1n l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 t\u00e1o xanh, Hoa m\u1ed9c lan",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, Thu",
-        "tuoi_khuyen_dung": " ",
-        "variants": [
-            {
-                "size": 10,
-                "price": 6820000,
-                "oldPrice": 6820000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 2,
-                "price": 1350000,
-                "oldPrice": 1350000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Moschino Toy 2  _0.jpg",
-            "assets/images/products/elements/Moschino Toy 2  _1.jpg"
-        ]
-    },
-    {
-        "brand": "Salvatore Ferragamo",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": " \u0110\u1ed9 l\u01b0u h\u01b0\u01a1ng ch\u1ec9 thu\u1ed9c m\u1ee9c \u0111\u1ed9 trung b\u00ecnh, c\u1ea7n ph\u1ea3i s\u1eed d\u1ee5ng th\u01b0\u1eddng xuy\u00ean trong ng\u00e0y \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o t\u00e1c d\u1ee5ng c\u1ee7a n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c xuy\u00ean su\u1ed1t. M\u00f9i h\u01b0\u01a1ng bi\u1ebfn \u0111\u1ed5i kh\u00e1 ph\u1ee9c t\u1ea1p, c\u1ea7n c\u00f3 th\u1eddi gian \u0111\u1ec3 l\u00e0m quen. H\u01a1i k\u00e9n th\u1eddi ti\u1ebft s\u1eed d\u1ee5ng.",
-        "diem_tot": " M\u00f9i h\u01b0\u01a1ng c\u00e1 t\u00ednh v\u00e0 c\u0103ng tr\u00e0n nh\u1ef1a s\u1ed1ng, v\u1edbi phong c\u00e1ch r\u1ea5t ri\u00eang v\u00e0 t\u00e1o b\u1ea1o d\u00e0nh cho c\u00e1c b\u1ea1n n\u1eef. M\u1eabu thi\u1ebft k\u1ebf chai \u01b0a nh\u00ecn v\u00e0 r\u1ea5t n\u1eef t\u00ednh. \u0110\u1ed9 l\u01b0u h\u01b0\u01a1ng v\u1eeba ph\u1ea3i c\u0169ng l\u00e0 \u0111i\u1ec3m m\u1ea1nh c\u1ee7a chai n\u01b0\u1edbc hoa n\u00e0y. Ph\u00f9 h\u1ee3p v\u1edbi nhi\u1ec1u \u0111\u1ed9 tu\u1ed5i.",
-        "discount": 0,
-        "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "N\u1eef",
-        "id": 10.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: H\u1ed3ng ti\u00eau, Qu\u1ea3 l\u00fd chua \u0111\u1ecf\nH\u01b0\u01a1ng gi\u1eefa: Hoa nh\u00e0i, Hoa h\u1ed3ng, Hoa m\u1eabu \u0111\u01a1n\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, C\u00e2y ho\u1eafc h\u01b0\u01a1ng, B\u00e1nh Panacotta",
-        "nam_ra_mat": " 2011",
-        "name": "Signorina",
-        "nha_pha_che": " Sophie Labbe",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y",
-        "nong_do": " EDT v\u00e0 EDP",
-        "perfumista_review": "\n                                                    \n\nSignorina \u0111\u01b0\u1ee3c l\u1ea5y c\u1ea3m h\u1ee9ng t\u1eeb nh\u1eefng c\u00f4 g\u00e1i n\u0103ng \u0111\u1ed9ng v\u1edbi h\u01b0\u01a1ng th\u01a1m \u0111\u1eb7c ch\u01b0ng tinh t\u1ebf, g\u1ecdi m\u1eddi v\u00e0 t\u01b0\u01a1i t\u1eafn. N\u00f3 l\u00e0 m\u1ed9t h\u01b0\u01a1ng n\u01b0\u1edbc hoa m\u1edbi \u0111\u01b0\u1ee3c x\u00e2y d\u1ef1ng d\u1ef1a tr\u00ean phong c\u00e1ch trang nh\u00e3 c\u1ee7a n\u01b0\u1edbc \u00dd b\u1edfi hai nh\u00e0 \u0111i\u1ec1u ch\u1ebf n\u01b0\u1edbc hoa Sophie Labbe, Juliette Karagueuzoglou v\u00e0o n\u0103m 2011, v\u00e0 s\u1ef1 li\u00ean k\u1ebft m\u1ea1nh m\u1ebd gi\u1eefa h\u1ecd v\u00e0 nh\u1eefng qu\u00fd c\u00f4 n\u1eef t\u00ednh v\u1edbi phong c\u00e1ch th\u1eddi trang th\u1eddi th\u01b0\u1ee3ng, s\u00e1ng t\u1ea1o \u0111\u00e3 gi\u00fap cho ra \u0111\u1eddi h\u01b0\u01a1ng th\u01a1m n\u00e0y. Signorina, l\u00e0 m\u1ed9t c\u00e1i t\u00ean ti\u1ebfng \u00dd r\u1ea5t d\u1ec5 th\u01b0\u01a1ng v\u00e0 t\u00e1o b\u1ea1o v\u1edbi \u00fd ngh\u0129a di\u1ec5n t\u1ea3 nh\u1eefng ng\u01b0\u1eddi ph\u1ee5 n\u1eef tr\u1ebb, v\u00e0 h\u01b0\u01a1ng th\u01a1m m\u00e0 n\u00f3 mang l\u1ea1i r\u1ea5t c\u00e1 t\u00ednh, t\u01b0\u01a1i s\u00e1ng v\u00e0 c\u0103ng \u0111\u1ea7y s\u1ee9c s\u1ed1ng, theo m\u1ed9t phong c\u00e1ch r\u1ea5t Italia.\n\nChai n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf kh\u00e1 sang tr\u1ecdng v\u00e0 tinh t\u1ebf v\u1edbi t\u00f4ng m\u00e0u h\u1ed3ng nh\u1ea1t. Chai n\u01b0\u1edbc hoa tr\u00f4ng gi\u1ed1ng nh\u01b0 m\u1ed9t h\u1ed9p n\u1eef trang qu\u00fd gi\u00e1. N\u1eafp chai h\u00ecnh tr\u00f2n, \u0111i\u1ec3m xuy\u1ebfn th\u00eam c\u00e1i n\u01a1 h\u1ed3ng \u2013 bi\u1ec3u t\u01b0\u1ee3ng c\u1ee7a Salvatore. H\u1ed9p \u0111\u1ef1ng b\u00ean ngo\u00e0i \u0111\u01b0\u1ee3c trang tr\u00ed v\u1edbi khung m\u00e0u h\u1ed3ng v\u00e0 v\u00e0ng kim, mang l\u1ea1i v\u1ebd t\u01b0\u01a1i s\u00e1ng cho t\u1ed5ng th\u1ec3 thi\u1ebft k\u1ebf.\n\n\n\nSignorina m\u1edf \u0111\u1ea7u v\u1edbi s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a h\u01b0\u01a1ng tr\u00e1i c\u00e2y,m\u1ed9t ch\u00fat h\u01b0\u01a1ng v\u1ecb cay n\u1ed3ng v\u00e0 h\u01b0\u01a1ng c\u1ee7a c\u1ecf c\u00e2y xanh t\u01b0\u01a1i. L\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u l\u00e0 m\u1ed9t s\u1ef1 t\u01b0\u01a1i s\u00e1ng, ngon l\u00e0nh c\u1ee7a qu\u1ea3 l\u00fd chua \u0111en \u0111\u01b0\u1ee3c t\u1ea9m \u01b0\u1edbp th\u00eam gia v\u1ecb c\u1ee7a h\u01b0\u01a1ng ti\u00eau h\u1ed3ng, mang \u0111\u1ebfn m\u1ed9t c\u1ea3m gi\u00e1c vui t\u01b0\u01a1i, ph\u1ea5n kh\u1edfi cho l\u1edbp h\u01b0\u01a1ng c\u1ee7a c\u1ecf c\u00e2y \u0111ang phang ph\u1ea5t nh\u1eb9 nh\u00e0ng. L\u1edbp h\u01b0\u01a1ng hoa c\u1ecf \u1edf gi\u1eefa t\u1ecfa h\u01b0\u01a1ng th\u01a1m thanh l\u1ecbch v\u1edbi s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a hoa nh\u00e0i trang nh\u00e3, hoa m\u1eabu \u0111\u01a1n v\u00e0 hoa h\u1ed3ng. V\u1ecb ng\u1ecdt t\u1ef1 nhi\u00ean v\u00e0 m\u1ec1m m\u1ea1i c\u1ee7a b\u00e1nh pannacotta c\u00f9ng v\u1edbi x\u1ea1 h\u01b0\u01a1ng m\u1ecbn m\u00e0ng k\u1ebft h\u1ee3p v\u1edbi h\u01b0\u01a1ng th\u01a1m mang phong v\u1ecb g\u1ed7 c\u1ee7a ho\u1eafc h\u01b0\u01a1ng t\u1ea1o n\u00ean m\u1ed9t t\u1ed5ng th\u1ec3 h\u01b0\u01a1ng v\u00f4 c\u00f9ng h\u00f2a quy\u1ec7n v\u1edbi m\u1ed9t phong c\u00e1ch c\u1ee7a n\u01b0\u1edbc \u00dd r\u1ea5t tinh t\u1ebf v\u00e0 l\u00f4i cu\u1ed1n.\n\nH\u00e3y s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa Signorina khi b\u1ea1n mu\u1ed1n c\u01a1 th\u1ec3 t\u1ecfa ra m\u1ed9t h\u01b0\u01a1ng th\u01a1m cay n\u1ed3ng \u0111\u1ea7y s\u00f4i n\u1ed5i, m\u00f9i h\u01b0\u01a1ng n\u01b0\u1edbc hoa n\u1eef t\u00ednh t\u1ebf n\u00e0y nh\u01b0 \u0111\u00e1nh th\u1ee9c m\u1ecdi gi\u00e1c quan c\u1ee7a b\u1ea1n th\u00f4ng qua nh\u1eefng l\u1edbp h\u01b0\u01a1ng \u0111\u01b0\u1ee3c bi\u1ebfn \u0111\u1ed5i v\u00f4 c\u00f9ng \u1ea5n t\u01b0\u1ee3ng, m\u1ed9t s\u1ef1 pha tr\u1ed9n r\u1ea5t c\u00e1 t\u00ednh v\u00e0 t\u01b0\u01a1i s\u00e1ng, c\u0169ng nh\u01b0 b\u1ed9c l\u1ed9 m\u1ed9t t\u00ednh c\u00e1ch m\u1ea1nh m\u1ebd \u0111\u01b0\u1ee3c gi\u1ea5u trong m\u1ed9t c\u00f4 g\u00e1i n\u1eef t\u00ednh. Signorina nh\u01b0 m\u1ed9t l\u1eddi gi\u1ea3i th\u00edch \u0111\u1ea7y tinh vi, t\u00e1o b\u1ea1o v\u00e0 l\u00e3ng m\u1ea1n t\u1eeb nh\u1eefng c\u00f4 g\u00e1i tr\u1ebb c\u1ee7a Salvatore Ferragamo.\n\n\n\n\n                                            ",
-        "phong_cach": "\n                                                                                    N\u1eef t\u00ednh                                                                                                                , T\u01b0\u01a1i t\u1eafn \n                                                                                                                , G\u1ee3i c\u1ea3m \n                                                                        ",
-        "shortDesc": " Signorina \u0111\u01b0\u1ee3c l\u1ea5y c\u1ea3m h\u1ee9ng t\u1eeb nh\u1eefng c\u00f4 g\u00e1i n\u0103ng \u0111\u1ed9ng v\u1edbi h\u01b0\u01a1ng th\u01a1m \u0111\u1eb7c ch\u01b0ng tinh t\u1ebf, g\u1ecdi m\u1eddi v\u00e0 t\u01b0\u01a1i t\u1eafn. N\u00f3 l\u00e0 m\u1ed9t h\u01b0\u01a1ng n\u01b0\u1edbc hoa m\u1edbi \u0111\u01b0\u1ee3c x\u00e2y d\u1ef1ng d\u1ef1a tr\u00ean phong c\u00e1ch trang nh\u00e3 c\u1ee7a n\u01b0\u1edbc \u00dd b\u1edfi hai nh\u00e0 \u0111i\u1ec1u ch\u1ebf n\u01b0\u1edbc hoa Sophie Labbe, Juliette Karagueuzoglou v\u00e0o n\u0103m 2011, v\u00e0 s\u1ef1 li\u00ean k\u1ebft m\u1ea1nh m\u1ebd gi\u1eefa h\u1ecd v\u00e0 nh\u1eefng qu\u00fd c\u00f4 n\u1eef t\u00ednh v\u1edbi phong c\u00e1ch th\u1eddi trang th\u1eddi th\u01b0\u1ee3ng, s\u00e1ng t\u1ea1o \u0111\u00e3 gi\u00fap cho ra \u0111\u1eddi h\u01b0\u01a1ng th\u01a1m n\u00e0y. ",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 321000,
-                "oldPrice": 321000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 2514600,
-                "oldPrice": 2514600,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Salvatore Ferragamo Signorina  EDT v\u00e0 EDP_0.jpg",
-            "assets/images/products/elements/Salvatore Ferragamo Signorina  EDT v\u00e0 EDP_1.jpg"
-        ]
-    },
-    {
-        "brand": "Davidoff",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": " \u0110\u1ed9 l\u01b0u h\u01b0\u01a1ng ch\u1ec9 thu\u1ed9c d\u1ea1ng trung b\u00ecnh, n\u00ean c\u1ea7n ph\u1ea3i s\u1eed d\u1ee5ng th\u01b0\u1eddng xuy\u00ean trong ng\u00e0y \u0111\u1ec3 \u0111\u1ea3m b\u1ea3o t\u00e1c d\u1ee5ng c\u1ee7a n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c xuy\u00ean su\u1ed1t. Do t\u00ednh ch\u1ea5t m\u00e1t l\u1ea1nh c\u1ee7a h\u01b0\u01a1ng \u0111\u1ea1i d\u01b0\u01a1ng ch\u01b0a trong n\u01b0\u1edbc hoa, n\u00ean c\u00f3 l\u1ebd n\u00f3 kh\u00f4ng ph\u00f9 h\u1ee3p l\u1eafm \u0111\u1ec3 s\u1eed d\u1ee5ng v\u00e0o m\u00f9a l\u1ea1nh, \u0111\u1eb7c bi\u1ec7t v\u00e0o ban \u0111\u00eam.",
-        "diem_tot": " M\u00f9i h\u01b0\u01a1ng t\u01b0\u01a1i m\u00e1t, \u0111\u1ea7y n\u0103ng l\u01b0\u1ee3ng v\u00e0 s\u1ea3ng kho\u00e1 v\u1edbi phong v\u1ecb c\u1ee7a mi\u1ec1n bi\u1ec3n \u0111\u1ea7y n\u1eafng gi\u00f3 d\u00e0nh cho c\u00e1c b\u1ea1n n\u1eef. M\u1eabu chai n\u1eef t\u00ednh v\u00e0 b\u1eaft m\u1eaft. \u0110\u1ed9 t\u1ecfa h\u01b0\u01a1ng v\u1eeba ph\u1ea3i, c\u00f3 th\u1ec3 s\u1eed d\u1ee5ng \u0111\u01b0\u1ee3c \u1edf m\u00f4i tr\u01b0\u1eddng v\u0103n ph\u00f2ng m\u00e0 kh\u00f4ng h\u1ec1 g\u00e2y kh\u00f3 ch\u1ecbu cho nh\u1eefng ng\u01b0\u1eddi xung quanh.",
-        "discount": 0,
-        "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "N\u1eef",
-        "id": 11.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m), Qu\u1ea3 m\u1ed9c qua, Qu\u1ea3 l\u00fd chua \u0111en, Hoa hu\u1ec7, D\u01b0a gang, Qu\u1ea3 chanh v\u00e0ng, Hoa sen, H\u01b0\u01a1ng Calone\nH\u01b0\u01a1ng gi\u1eefa: M\u1eadt ong, Hoa s\u01a1n tr\u00e0, Hoa nh\u00e0i, Hoa s\u00fang, Hoa linh lan thung l\u0169ng, Hoa sen, Hoa h\u1ed3ng\nH\u01b0\u01a1ng cu\u1ed1i:  Qu\u1ea3 m\u00e2m x\u00f4i \u0111en, Hoa t\u00edm, G\u1ed7 \u0111\u00e0n h\u01b0\u01a1ng, X\u1ea1 h\u01b0\u01a1ng, Qu\u1ea3 m\u00e2m x\u00f4i, H\u01b0\u01a1ng Va ni, Qu\u1ea3 \u0111\u00e0o, C\u1ecf h\u01b0\u01a1ng b\u00e0i",
-        "nam_ra_mat": " 1996",
-        "name": "Cool Water",
-        "nha_pha_che": " Pierre Bourdon",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf bi\u1ec3n",
-        "nong_do": " EDT",
-        "perfumista_review": "\n                                                    \n\nSau m\u01b0\u1eddi n\u0103m th\u00e0nh c\u00f4ng r\u1ef1c r\u1ee1 cho ra m\u1eaft d\u00f2ng n\u01b0\u1edbc hoa Cool Water d\u00e0nh cho ph\u00e1i m\u1ea1nh, Davidoff l\u1ea1i ti\u1ebfp t\u1ee5c cho ra m\u1eaft d\u00f2ng Cool Water d\u00e0nh cho ph\u00e1i n\u1eef. H\u01b0\u01a1ng th\u01a1m r\u1ea5t \u0111\u00e1ng nh\u1edb v\u1edbi nh\u1eefng th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng li\u00ean quan \u0111\u1ebfn h\u01b0\u01a1ng \u0111\u1ea1i d\u01b0\u01a1ng m\u00e1t l\u1ea1nh , n\u01b0\u1edbc bi\u1ec3n , c\u00e1c lo\u1ea1i tr\u00e1i c\u00e2y v\u00e0 h\u01b0\u01a1ng g\u1ed7. Cool Water \u0111\u01b0\u1ee3c s\u00e1ng t\u1ea1o b\u1edfi \u00f4ng Pierre Bourdon v\u00e0o n\u0103m 1996.\n\nL\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u l\u00e0 h\u01b0\u01a1ng tr\u00e1i d\u1ee9a, tr\u00e1i d\u01b0a h\u1ea5u ngon ng\u1ecdt v\u1edbi h\u01b0\u01a1ng hoa sen thanh khi\u1ebft. C\u00f3 s\u1ef1 xu\u1ea5t hi\u1ec7n c\u1ee7a th\u00e0nh ph\u1ea7n nh\u00f3m c\u00e2y cam chanh \u1edf l\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u nh\u01b0ng n\u00f3 r\u1ea5t m\u1edd nh\u1ea1t, n\u00f3 ch\u1ec9 th\u00eam \u0111\u01b0\u1ee3c v\u00e0o m\u1ed9t ch\u00fat \u0111\u1ec3 t\u1ea1o c\u1ea3m gi\u00e1c h\u1eafc nh\u1eb9, tinh khi\u1ebft v\u00e0 t\u01b0\u01a1i m\u00e1t cho l\u1edbp h\u01b0\u01a1ng \u0111\u1ea7u ti\u00ean. \u00a0L\u1edbp h\u01b0\u01a1ng gi\u1eefa th\u1eadt s\u1ef1 n\u1ed5i b\u1eadt v\u1edbi s\u1ef1 pha tr\u1ed9n c\u1ee7a hoa h\u1ed3ng, hoa l\u00e0i, hoa hu\u1ec7 v\u00e0 hoa sen \u0111\u1ec3 mang l\u1ea1i m\u1ed9t s\u1ef1 n\u1eef t\u00ednh r\u1ea5t ri\u00eang v\u00e0 n\u1ed3ng n\u00e0n phong v\u1ecb c\u1ee7a hoa c\u1ecf. L\u1edbp h\u01b0\u01a1ng cu\u1ed1i c\u00f9ng l\u00e0 h\u01b0\u01a1ng vani ng\u1ecdt ng\u00e0o h\u00f2a tr\u1ed9n v\u1edbi x\u1ea1 h\u01b0\u01a1ng \u00f4m s\u00e1t l\u00e0m da. M\u00f9i h\u01b0\u01a1ng t\u1eeb s\u1ef1 k\u1ebft h\u1ee3p c\u1ee7a c\u00e1c lo\u1ea1i tr\u00e1i c\u00e2y t\u01b0\u01a1i m\u00e1t v\u00e0 hoa nhi\u1ec7t \u0111\u1edbi v\u1eabn c\u00f2n nguy\u00ean, nh\u01b0ng n\u00f3 s\u1ebd \u1ea5m \u00e1p h\u01a1n v\u00e0 \u0111em l\u1ea1i c\u1ea3m gi\u00e1c g\u1ee3i m\u1eddi h\u01a1n.\n\n\n\nChai n\u01b0\u1edbc hoa \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf m\u00e0u xanh m\u1edd, trang nh\u00e3 v\u1edbi h\u00ecnh d\u00e1ng gi\u1ecdt n\u01b0\u1edbc. T\u1ed5ng th\u1ec3 chai l\u00e0 s\u1ef1 h\u00e0i h\u00f2a, m\u00e1t d\u1ecbu v\u00e0 n\u1eef t\u00ednh. M\u1ed9t ki\u1ec3u d\u00e1ng s\u1ebd c\u00f3 th\u1ec3 l\u00e0m t\u0103ng l\u00ean v\u1ebd \u0111\u1eb9p b\u1ed9 s\u01b0u t\u1ea7m n\u01b0\u1edbc hoa c\u1ee7a b\u1ea1n.\n\n\u0110\u01b0\u1ee3c ra m\u1eaft v\u00e0o n\u0103m 1996 sau th\u00e0nh c\u00f4ng vang d\u1ed9i c\u1ee7a Cool Water d\u00e0nh cho ph\u00e1i m\u1ea1nh, d\u00f2ng n\u01b0\u1edbc hoa d\u00e0nh cho ph\u00e1i n\u1eef c\u0169ng \u0111\u00e3 \u0111em \u0111\u1ebfn s\u1ef1 th\u00e0nh c\u00f4ng kh\u00f4ng k\u00e9m. N\u00f3 t\u1ea1o ra hi\u1ec7u \u1ee9ng d\u1ecbu nh\u1eb9 v\u1edbi nh\u01b0ng th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng t\u01b0\u01a1i m\u00e1t g\u1ee3i cho ch\u00fang ta nh\u1edb \u0111\u1ebfn nh\u1eefng c\u01a1n gi\u00f3 \u0111\u1ea1i d\u01b0\u01a1ng m\u00e1t l\u1ea1nh, n\u01b0\u1edbc bi\u1ec3n, c\u00e1c lo\u1ea1i tr\u00e1i c\u00e2y v\u00e0 h\u01b0\u01a1ng g\u1ed7. D\u00f2ng n\u01b0\u1edbc hoa n\u00e0y th\u00edch h\u1ee3p d\u00f9ng h\u1eb1ng ng\u00e0y \u0111\u1ec3 t\u1ea1o c\u1ea3m gi\u00e1c t\u01b0\u01a1i m\u00e1t v\u00e0 s\u1ea3ng kho\u00e1i.\n\n\n\n\n                                            ",
-        "phong_cach": "\n                                                                                    Gi\u1ea3n d\u1ecb                                                                                                                , N\u0103ng \u0111\u1ed9ng \n                                                                                                                , G\u1ea7n g\u0169i \n                                                                        ",
-        "shortDesc": " Sau m\u01b0\u1eddi n\u0103m th\u00e0nh c\u00f4ng r\u1ef1c r\u1ee1 cho ra m\u1eaft d\u00f2ng n\u01b0\u1edbc hoa Cool Water d\u00e0nh cho ph\u00e1i m\u1ea1nh, Davidoff l\u1ea1i ti\u1ebfp t\u1ee5c cho ra m\u1eaft d\u00f2ng Cool Water d\u00e0nh cho ph\u00e1i n\u1eef. H\u01b0\u01a1ng th\u01a1m r\u1ea5t \u0111\u00e1ng nh\u1edb v\u1edbi nh\u1eefng th\u00e0nh ph\u1ea7n h\u01b0\u01a1ng li\u00ean quan \u0111\u1ebfn h\u01b0\u01a1ng \u0111\u1ea1i d\u01b0\u01a1ng m\u00e1t l\u1ea1nh , n\u01b0\u1edbc bi\u1ec3n , c\u00e1c lo\u1ea1i tr\u00e1i c\u00e2y v\u00e0 h\u01b0\u01a1ng g\u1ed7. Cool Water \u0111\u01b0\u1ee3c s\u00e1ng t\u1ea1o b\u1edfi \u00f4ng Pierre Bourdon v\u00e0o n\u0103m 1996.",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, H\u1ea1",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 203000,
-                "oldPrice": 203000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 125,
-                "price": 1672000,
-                "oldPrice": 1672000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Davidoff Cool Water  EDT_0.jpg",
-            "assets/images/products/elements/Davidoff Cool Water  EDT_1.jpg"
-        ]
-    },
-    {
-        "brand": "Nautica",
-        "category": [
-            "22tuoi.com"
-        ],
-        "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
-        "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
-        "do_luu_huong": " T\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd",
-        "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
-        "gender": "Nam",
-        "id": 12.0,
-        "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: H\u01b0\u01a1ng n\u01b0\u1edbc bi\u1ec3n, C\u00e2y b\u1ea1c h\u00e0 cay, Tinh d\u1ea7u l\u00e1 cam\nH\u01b0\u01a1ng gi\u1eefa: B\u1ea1ch \u0111\u1eadu kh\u1ea5u, Nh\u1ee5c \u0111\u1eadu kh\u1ea5u, Hoa O\u1ea3i H\u01b0\u01a1ng\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, G\u1ed7 \u0111\u00e0n h\u01b0\u01a1ng, G\u1ed7 tuy\u1ebft t\u00f9ng",
-        "nam_ra_mat": " 2013",
-        "name": "Nautica Voyage N-83",
-        "nha_pha_che": " ",
-        "nhom_nuoc_hoa": " H\u01b0\u01a1ng th\u01a1m bi\u1ec3n",
-        "nong_do": " ",
-        "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa nam Nautica Voyage N-83 ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Nautica  n\u00e0y c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng t\u1ea1m \u1ed5n - 3 gi\u1edd \u0111\u1ebfn 6 gi\u1edd. v\u00e0 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng g\u1ea7n - to\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay. Perfumista.vn khuy\u1ebfn c\u00e1o Nautica Voyage N-83 ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong c\u1ea3 ng\u00e0y l\u1eabn \u0111\u00eam v\u00e0o m\u00f9a xu\u00e2n, h\u1ea1.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Nautica thu\u1ed9c nh\u00f3m Aromatic Aquatic (H\u01b0\u01a1ng th\u01a1m bi\u1ec3n). Nautica Voyage N-83 \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2013.  B\u00ean c\u1ea1nh \u0111\u00f3, H\u01b0\u01a1ng n\u01b0\u1edbc bi\u1ec3n v\u00e0 X\u1ea1 h\u01b0\u01a1ng l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
-        "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: H\u01b0\u01a1ng n\u01b0\u1edbc bi\u1ec3n, C\u00e2y b\u1ea1c h\u00e0 cay, Tinh d\u1ea7u l\u00e1 cam",
-        "shortDesc": "\u0110\u00e1nh gi\u00e1",
-        "stock": 10.0,
-        "thoi_diem_khuyen_dung": " Ng\u00e0y, \u0110\u00eam, Xu\u00e2n, H\u1ea1",
-        "tuoi_khuyen_dung": " Tr\u00ean 25",
-        "variants": [
-            {
-                "size": 10,
-                "price": 170000,
-                "oldPrice": 170000,
-                "name": "Chi\u1ebft"
-            },
-            {
-                "size": 100,
-                "price": 1000000,
-                "oldPrice": 1000000,
-                "name": "Full seal"
-            }
-        ],
-        "pictures": [
-            "assets/images/products/elements/Nautica Nautica Voyage N-83  _0.jpg",
-            "assets/images/products/elements/Nautica Nautica Voyage N-83  _1.jpg"
         ]
     },
     {
@@ -2078,7 +1562,7 @@
                 "size": 100,
                 "price": 2412000,
                 "oldPrice": 2412000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2121,7 +1605,7 @@
                 "size": 100,
                 "price": 2151000,
                 "oldPrice": 2151000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2164,7 +1648,7 @@
                 "size": 100,
                 "price": 1190000,
                 "oldPrice": 1190000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2199,20 +1683,19 @@
         "variants": [
             {
                 "size": 10,
-                "price": 419000,
+                "price": 399000,
                 "oldPrice": 419000,
                 "name": "Chi\u1ebft"
             },
             {
                 "size": 100,
-                "price": 3490000,
+                "price": 3190000,
                 "oldPrice": 3490000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
-            "assets/images/products/elements/Christian Dior Sauvage   Nam_0.jpg",
-            "assets/images/products/elements/Christian Dior Sauvage   Nam_1.jpg"
+            "assets/images/products/elements/Christian Dior Sauvage   Nam_0.jpg"
         ]
     },
     {
@@ -2250,7 +1733,7 @@
                 "size": 100,
                 "price": 2554200,
                 "oldPrice": 2554200,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2293,7 +1776,7 @@
                 "size": 100,
                 "price": 2724300,
                 "oldPrice": 2724300,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2315,10 +1798,10 @@
         "id": 46.0,
         "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 chanh v\u00e0ng, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)\nH\u01b0\u01a1ng gi\u1eefa: Hoa h\u1ed3ng, Hoa nh\u00e0i, G\u1ed7 Bu-l\u00f4\nH\u01b0\u01a1ng cu\u1ed1i: H\u01b0\u01a1ng Va ni, Long di\u00ean h\u01b0\u01a1ng, X\u1ea1 h\u01b0\u01a1ng, C\u00e2y ho\u1eafc h\u01b0\u01a1ng",
         "nam_ra_mat": " 2015",
-        "name": "Club de Nuit Intense",
+        "name": "Club de Nuit Intense For Man",
         "nha_pha_che": " ",
         "nhom_nuoc_hoa": " H\u01b0\u01a1ng g\u1ed7 cay n\u1ed3ng",
-        "nong_do": " ",
+        "nong_do": "EDT",
         "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa nam Club de Nuit Intense ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf  n\u00e0y c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng l\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd. v\u00e0 \u0111\u1ed9 t\u1ecfa h\u01b0\u01a1ng thu\u1ed9c d\u1ea1ng g\u1ea7n - to\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay. Perfumista.vn khuy\u1ebfn c\u00e1o Club de Nuit Intense ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong c\u1ea3 ng\u00e0y l\u1eabn \u0111\u00eam v\u00e0o m\u00f9a xu\u00e2n, h\u1ea1, thu.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf thu\u1ed9c nh\u00f3m Woody Spicy (H\u01b0\u01a1ng g\u1ed7 cay n\u1ed3ng). Club de Nuit Intense \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2015.  B\u00ean c\u1ea1nh \u0111\u00f3, Qu\u1ea3 chanh v\u00e0ng v\u00e0 G\u1ed7 Bu-l\u00f4 l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
         "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 chanh v\u00e0ng, Qu\u1ea3 l\u00fd chua \u0111en, Qu\u1ea3 t\u00e1o xanh, Cam Bergamot, Qu\u1ea3 d\u1ee9a (qu\u1ea3 th\u01a1m)",
         "shortDesc": "\u0110\u00e1nh gi\u00e1",
@@ -2333,10 +1816,10 @@
                 "name": "Chi\u1ebft"
             },
             {
-                "size": 200,
-                "price": 2390000,
+                "size": 105,
+                "price": 1400000,
                 "oldPrice": 2390000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2377,9 +1860,9 @@
             },
             {
                 "size": 90,
-                "price": 2197800,
+                "price": 2190000,
                 "oldPrice": 2197800,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2401,10 +1884,10 @@
         "id": 48.0,
         "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Cam Bergamot, Qu\u1ea3 b\u01b0\u1edfi, Qu\u1ea3 \u0111\u00e0o, Qu\u1ea3 cam\nH\u01b0\u01a1ng gi\u1eefa: Hoa phong l\u1eef, Hoa nh\u00e0i, Qu\u1ea3 v\u1ea3i, Hoa h\u1ed3ng\nH\u01b0\u01a1ng cu\u1ed1i: X\u1ea1 h\u01b0\u01a1ng, C\u00e2y ho\u1eafc h\u01b0\u01a1ng, H\u01b0\u01a1ng Va ni, C\u1ecf h\u01b0\u01a1ng b\u00e0i",
         "nam_ra_mat": " Ch\u01b0a x\u00e1c \u0111\u1ecbnh",
-        "name": "Club De Nuit",
+        "name": "Club De Nuit Women EDP",
         "nha_pha_che": " ",
         "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y",
-        "nong_do": " ",
+        "nong_do": " EDP",
         "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa n\u1eef Club De Nuit ph\u00f9 h\u1ee3p v\u1edbi ng\u01b0\u1eddi tr\u00ean 25 tu\u1ed5i. Perfumista.vn khuy\u1ebfn c\u00e1o Club De Nuit ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong b\u1ea5t c\u1ee9 th\u1eddi gian n\u00e0o.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Armaf thu\u1ed9c nh\u00f3m Floral Fruity (H\u01b0\u01a1ng hoa c\u1ecf tr\u00e1i c\u00e2y).  B\u00ean c\u1ea1nh \u0111\u00f3, Hoa h\u1ed3ng v\u00e0 C\u00e2y ho\u1eafc h\u01b0\u01a1ng l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
         "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Cam Bergamot, Qu\u1ea3 b\u01b0\u1edfi, Qu\u1ea3 \u0111\u00e0o, Qu\u1ea3 cam",
         "shortDesc": "\u0110\u00e1nh gi\u00e1",
@@ -2422,7 +1905,7 @@
                 "size": 105,
                 "price": 1190000,
                 "oldPrice": 1190000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2444,10 +1927,10 @@
         "id": 49.0,
         "mui_huong": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 t\u00e1o xanh, Hoa m\u1ed9c lan\nH\u01b0\u01a1ng gi\u1eefa: Hoa m\u1eabu \u0111\u01a1n, Qu\u1ea3 l\u00fd chua tr\u1eafng, Hoa nh\u00e0i\nH\u01b0\u01a1ng cu\u1ed1i: G\u1ed7 \u0111\u00e0n h\u01b0\u01a1ng, Amberwood, X\u1ea1 h\u01b0\u01a1ng",
         "nam_ra_mat": " 2018",
-        "name": "Toy 2",
+        "name": "Toy 2 For Woman",
         "nha_pha_che": " ",
         "nhom_nuoc_hoa": " H\u01b0\u01a1ng hoa c\u1ecf G\u1ed7-X\u1ea1 h\u01b0\u01a1ng",
-        "nong_do": " ",
+        "nong_do": "Eau de Parfum",
         "perfumista_review": "\n                                                    N\u01b0\u1edbc hoa n\u1eef Toy 2 ch\u01b0a x\u00e1c \u0111\u1ecbnh \u0111\u1ed9 tu\u1ed5i ng\u01b0\u1eddi d\u00f9ng ph\u00f9 h\u1ee3p. Perfumista.vn khuy\u1ebfn c\u00e1o Toy 2 ph\u00f9 h\u1ee3p \u0111\u1ec3 s\u1eed d\u1ee5ng trong ng\u00e0y v\u00e0o m\u00f9a thu.\u0110\u00e2y l\u00e0 d\u00f2ng n\u01b0\u1edbc hoa Moschino thu\u1ed9c nh\u00f3m Floral Woody Musk (H\u01b0\u01a1ng hoa c\u1ecf G\u1ed7-X\u1ea1 h\u01b0\u01a1ng). Toy 2 \u0111\u01b0\u1ee3c cho ra m\u1eaft v\u00e0o n\u0103m 2018.  B\u00ean c\u1ea1nh \u0111\u00f3, Qu\u1ea3 t\u00e1o xanh v\u00e0 Hoa m\u1eabu \u0111\u01a1n l\u00e0 hai h\u01b0\u01a1ng b\u1ea1n c\u00f3 th\u1ec3 d\u1ec5 d\u00e0ng c\u1ea3m nh\u1eadn \u0111\u01b0\u1ee3c nh\u1ea5t khi s\u1eed d\u1ee5ng n\u01b0\u1edbc hoa n\u00e0y.                                            ",
         "phong_cach": "H\u01b0\u01a1ng \u0110\u1ea7u: Qu\u1ea3 qu\u00fdt h\u1ed3ng, Qu\u1ea3 t\u00e1o xanh, Hoa m\u1ed9c lan",
         "shortDesc": "\u0110\u00e1nh gi\u00e1",
@@ -2457,15 +1940,15 @@
         "variants": [
             {
                 "size": 10,
-                "price": 6820000,
+                "price": 270000,
                 "oldPrice": 6820000,
                 "name": "Chi\u1ebft"
             },
             {
-                "size": 2,
-                "price": 1350000,
+                "size": 100,
+                "price": 1700000,
                 "oldPrice": 1350000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2508,7 +1991,7 @@
                 "size": 100,
                 "price": 2514600,
                 "oldPrice": 2514600,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2551,7 +2034,7 @@
                 "size": 125,
                 "price": 1672000,
                 "oldPrice": 1672000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [
@@ -2594,7 +2077,7 @@
                 "size": 100,
                 "price": 1000000,
                 "oldPrice": 1000000,
-                "name": "Full seal"
+                "name": "Full box"
             }
         ],
         "pictures": [

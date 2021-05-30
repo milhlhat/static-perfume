@@ -20,19 +20,20 @@ function Header(props) {
 
 	function hideNotificationHandler(e) {
 		document.querySelector('.notification').style.display = 'none';
+		 
 		e.preventDefault();
 	}
 
 	return (
 		<>
 			<div
-				className="notification"
+				className="notification justify-content-center align-items-center"
 				style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/home/notification-back.jpg)` }}
 			>
-				<div className="notify-content d-flex justify-content-center align-items-center">
-					<h3 className="ml-1">Mẹo nhỏ: Chat ngay qua Messenger nếu có thắc mắc về sản phẩm.</h3>
-					<i className="icon-close text-white ml-1 mr-2" onClick={hideNotificationHandler}></i>
+				<div className="notify-content m-auto">
+					<h3 className="">Mẹo nhỏ: Chat ngay qua Messenger nếu có thắc mắc về sản phẩm.</h3>
 				</div>
+				<i className="icon-close text-white" onClick={hideNotificationHandler}></i>
 				 
 			</div>
 			<header className="header">

@@ -23,6 +23,11 @@ export default function ShopRoute() {
                 <Route exact path={ `${process.env.PUBLIC_URL}/shop/wishlist` } component={ Wishlist } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/shop/cart` } component={ Cart } />
                 <Route exact path={ `${process.env.PUBLIC_URL}/shop/checkout` } component={ Checkout } />
+           
+                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nam` } component={ NoSidebar } />
+                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=nữ` } component={ NoSidebar } />
+                <Route exact path={ `${process.env.PUBLIC_URL}/shop/nosidebar/boxed?filter=unisex` } component={ NoSidebar } />
+
             </Layout>
         </Switch>
     );

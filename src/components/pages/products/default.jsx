@@ -11,85 +11,87 @@ import RelatedProducts from './partials/related-products';
 import Breadcrumb from '../../common/breadcrumb';
 import QuickView from '../../features/product/common/quickview';
 
-import { getProductById, productGallery } from '../../../utils';
+import { getProductById, productGallery, scrollTop } from '../../../utils';
 import { connect } from 'react-redux';
 
 function SingleProduct(props) {
-    let productId = props.match.params.id;
-    const { product } = props;
-    useEffect(() => {
-        productGallery();
+	let productId = props.match.params.id;
+	const { product } = props;
+	useEffect(() => {
+        window.scrollTo(0, 0);
 
-        document.querySelector('.skel-pro-single').classList.remove('loaded');
+		productGallery();
 
-        let imgLoad = imagesLoaded(".product-main-image", { background: true });
+		document.querySelector('.skel-pro-single').classList.remove('loaded');
 
-        imgLoad.on('done', function (instance, image) {
-            document.querySelector('.skel-pro-single').classList.add('loaded');
-        });
-    }, [productId])
+		let imgLoad = imagesLoaded('.product-main-image', { background: true });
 
-    return (
-        <>
-            <Helmet>
-                <title>{product ? product.name : 'Sản Phẩm'} | 22 Store</title>
-            </Helmet>
-            <div className="main">
-                <Breadcrumb
-                    title="Chi tiết "
-                    type="product"
-                    slug="default"
-                    adClass="breadcrumb-nav border-0 mb-0"
-                    productId={productId}
-                    parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
-                />
+		imgLoad.on('done', function(instance, image) {
+			document.querySelector('.skel-pro-single').classList.add('loaded');
+		});
+		 
+	}, [productId]);
 
-                <div className="page-content">
-                    <div className="container">
-                        <div className="product-details-top skeleton-body">
-                            <div className="row skel-pro-single">
-                                <div className="col-md-6">
-                                    <div className="skel-product-gallery">
-                                    </div>
+	return (
+		<>
+			<Helmet>
+				<title>{product ? product.name : 'Sản Phẩm'} | 22 Store</title>
+			</Helmet>
+			<div className="main">
+				<Breadcrumb
+					title="Chi tiết "
+					type="product"
+					slug="default"
+					adClass="breadcrumb-nav border-0 mb-0"
+					productId={productId}
+					parent1={['Sản phẩm', 'shop/nosidebar/boxed']}
+				/>
 
-                                    <MediaOne id={productId} />
-                                </div>
+				<div className="page-content">
+					<div className="container">
+						<div className="product-details-top skeleton-body">
+							<div className="row skel-pro-single">
+								<div className="col-md-6">
+									<div className="skel-product-gallery"></div>
 
-                                <div className="col-md-6">
-                                    <div className="entry-summary row">
-                                        <div className="col-md-12">
-                                            <div className="entry-summary1"></div>
-                                        </div>
+									<MediaOne id={productId} />
+								</div>
 
-                                        <div className="col-md-12">
-                                            <div className="entry-summary2"></div>
-                                        </div>
-                                    </div>
+								<div className="col-md-6">
+									<div className="entry-summary row">
+										<div className="col-md-12">
+											<div className="entry-summary1"></div>
+										</div>
 
-                                    <ProductDetailOne id={productId} />
-                                </div>
-                            </div>
-                        </div>
+										<div className="col-md-12">
+											<div className="entry-summary2"></div>
+										</div>
+									</div>
 
-                        <DescOne id={productId} />
+									<ProductDetailOne id={productId} />
+								</div>
+							</div>
+						</div>
 
-                        <h2 className="title text-center mb-4">Bạn có thể thích</h2>
+						<DescOne id={productId} />
 
-                        <RelatedProducts />
-                    </div>
-                </div>
+						<h2 className="title text-center mb-4">Bạn có thể thích</h2>
 
-                {/* <StickyBar id={ productId } /> */}
+						<RelatedProducts />
+					</div>
+				</div>
 
-                <QuickView />
-            </div>
-        </>
-    )
+				{/* <StickyBar id={ productId } /> */}
+
+				<QuickView />
+			</div>
+		</>
+	);
 }
 function mapStateToProps(state, props) {
-    return {
-        product: getProductById(state.data.products, props.match.params.id)
-    };
+	return {
+		product: getProductById(state.data.products, props.match.params.id),
+	};
 }
 
 export default connect(mapStateToProps)(SingleProduct);

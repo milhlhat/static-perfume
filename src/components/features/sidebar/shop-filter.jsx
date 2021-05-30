@@ -8,53 +8,60 @@ import 'react-input-range/lib/css/index.css';
 import _data from '../../../mock_data/data';
 
 import { getCountByCategory } from '../../../services';
-import { toggleCategoryFilter, resetFilter, toggleSizeFilter, toggleBrandFilter, toggleColorFilter, filterPrice } from '../../../actions';
+import {
+	toggleCategoryFilter,
+	resetFilter,
+	toggleSizeFilter,
+	toggleBrandFilter,
+	toggleColorFilter,
+	filterPrice,
+} from '../../../actions';
 import { findIndex } from '../../../utils';
 
-function ShopFilter( props ) {
-    const [ value, setValue ] = useState( { max: 1000, min: 0 } );
+function ShopFilter(props) {
+	const [value, setValue] = useState({ max: 1000, min: 0 });
 
-    const sizes = [ "XS", "S", "M", "L", "XL", "XXL" ];
-    const brands = [ "Next", "River Island", "Geox", "New Balance", "UGG", "F&F", "Nike" ];
-    const colors = [ "#b87145", "#f0c04a", "#333333", "#cc3333", "#3399cc", "#669933", "#f2719c", "#ebebeb" ];
+	const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+	const brands = ['Next', 'River Island', 'Geox', 'New Balance', 'UGG', 'F&F', 'Nike'];
+	const colors = ['#b87145', '#f0c04a', '#333333', '#cc3333', '#3399cc', '#669933', '#f2719c', '#ebebeb'];
 
-    let categoryCountsArr = [];
-    _data.categories.wears.map( ( item, index ) => {
-        categoryCountsArr.push( getCountByCategory( props.products.slice( 0, props.numbers ), item.name ) );
-        return null;
-    } );
+	let categoryCountsArr = [];
+	_data.categories.wears.map((item, index) => {
+		categoryCountsArr.push(getCountByCategory(props.products.slice(0, props.numbers), item.name));
+		return null;
+	});
 
-    function changeIcon( e ) {
-        if ( e.target.classList.contains( 'collapsed' ) )
-            e.target.classList.remove( 'collapsed' );
-        else
-            e.target.classList.add( 'collapsed' );
-    }
+	function changeIcon(e) {
+		if (e.target.classList.contains('collapsed')) e.target.classList.remove('collapsed');
+		else e.target.classList.add('collapsed');
+	}
 
-    function clearAll( e ) {
-        let items = document.querySelector( '.sidebar-shop' ).querySelectorAll( 'input' );
-        for ( let i = 0; i < items.length; i++ ) {
-            items[ i ].checked = false;
-        }
-        items = document.querySelector( '.sidebar-shop' ).querySelectorAll( '.selected' );
-        for ( let i = 0; i < items.length; i++ ) {
-            items[ i ].classList.remove( 'selected' );
-        }
+	function clearAll(e) {
+		let items = document.querySelector('.sidebar-shop').querySelectorAll('input');
+		for (let i = 0; i < items.length; i++) {
+			items[i].checked = false;
+		}
+		items = document.querySelector('.sidebar-shop').querySelectorAll('.selected');
+		for (let i = 0; i < items.length; i++) {
+			items[i].classList.remove('selected');
+		}
 
-        setValue( { max: 1000, min: 0 } );
-        props.resetFilter();
-        e.preventDefault();
-    }
+		setValue({ max: 1000, min: 0 });
+		props.resetFilter();
+		e.preventDefault();
+	}
 
-    return (
-        <aside className="sidebar-shop sidebar-filter">
-            <div className="sidebar-filter-wrapper">
-                <div className="widget widget-clean">
-                    <label>Filters:</label>
-                    <a href="#a" className="sidebar-filter-clear" onClick={ clearAll }>Clean All</a>
-                </div>
+	return (
+		<aside className="sidebar-shop sidebar-filter">
+			<div className="sidebar-filter-wrapper">
+				<div className="widget widget-clean">
+					<label>Filters:</label>
+					<a href="/shop/nosidebar/boxed" className="sidebar-filter-clear" onClick={clearAll}>
+						Clean All
+					</a>
+				</div>
 
-                <SlideToggle collapsed={ false }>
+				{/* <SlideToggle collapsed={ false }>
                     { ( { onToggle, setCollapsibleElement } ) => (
                         <div className="widget widget-collapsible">
                             <h3 className="widget-title">
@@ -205,17 +212,35 @@ function ShopFilter( props ) {
                             </div>
                         </div>
                     ) }
-                </SlideToggle>
-            </div>
-        </aside>
-    );
+                </SlideToggle> */}
+				<ul>
+					<li>
+						<Link to="/shop/nosidebar/boxed?filter=nam">Nước hoa nam</Link>
+					</li>
+					<li>
+						<Link to="/shop/nosidebar/boxed?filter=nữ">Nước hoa nữ</Link>
+					</li>
+					<li>
+						<Link to="/shop/nosidebar/boxed?filter=unisex">Nước hoa unisex</Link>
+					</li>
+				</ul>
+			</div>
+		</aside>
+	);
 }
 
-export const mapStateToProps = ( state, props ) => {
-    return {
-        filters: state.filters,
-        products: state.data.products ? state.data.products : []
-    }
-}
+export const mapStateToProps = (state, props) => {
+	return {
+		filters: state.filters,
+		products: state.data.products ? state.data.products : [],
+	};
+};
 
-export default connect( mapStateToProps, { toggleCategoryFilter, toggleSizeFilter, toggleBrandFilter, toggleColorFilter, filterPrice, resetFilter } )( ShopFilter );
+export default connect(mapStateToProps, {
+	toggleCategoryFilter,
+	toggleSizeFilter,
+	toggleBrandFilter,
+	toggleColorFilter,
+	filterPrice,
+	resetFilter,
+})(ShopFilter);

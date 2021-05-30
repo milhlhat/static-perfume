@@ -9,7 +9,8 @@ import PageHeader from '../../common/page-header';
 import Breadcrumb from '../../common/breadcrumb';
 
 function NoSideBar(props) {
-	const type = props.match.params.grid;
+	// const type = props.match.params.grid;
+	const type = 'boxed';
 	const title = { boxed: 'Danh sách sản phẩm', fullwidth: 'Fullwidth No Sidebar' };
 	let products = props.products;
 	const [searchList, setSearchList] = useState([]);
@@ -17,9 +18,9 @@ function NoSideBar(props) {
 	useEffect(() => {
 		getSearchList();
 
-		if (type !== 'boxed' && type !== 'fullwidth') {
-			window.location = process.env.PUBLIC_URL + '/pages/404';
-		}
+		// if (type !== 'boxed' && type !== 'fullwidth') {
+		// 	window.location = process.env.PUBLIC_URL + '/pages/404';
+		// }
 	}, [type]);
 
 	function getSearchList() {
