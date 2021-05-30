@@ -96,7 +96,7 @@ export const addToCartFromWishlist = (product, qty) => (dispatch) => {
 
 // remove item from cart
 export const removeFromCart = (productId, size) => (dispatch) => {
-	toast.error('Đã xóa sản phẩm khỏi rõ hàng.');
+	toast.error('Đã xóa sản phẩm khỏi giỏ hàng.');
 
 	dispatch({
 		type: types.REMOVE_FROM_CART,
