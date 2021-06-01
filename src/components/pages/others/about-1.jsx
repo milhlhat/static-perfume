@@ -46,8 +46,8 @@ function AboutOne() {
 							<h2 className="title">Tầm nhìn</h2>
 							<p>
 								Nước hoa không còn là sản phẩm xa xỉ nữa, đó là thứ mà mọi người có thể tiếp cận. 22
-								Store là 1 dự án nhỏ được lập bởi 2 sinh viên nghèo trường ĐH FPT với mong muốn đưa nước
-								hoa đến với mọi người, giúp mọi người tiếp cận đến nước hoa một cách dễ dàng.{' '}
+								Store là 1 dự án nhỏ được lập bởi 2 sinh viên ĐH FPT với mong muốn đưa nước
+								hoa đến với mọi người, giúp mọi người tiếp cận đến nước hoa một cách dễ dàng.
 							</p>
 						</div>
 

@@ -58,10 +58,10 @@ function ProductDetailOne(props) {
 				.includes('hương chính')
 		) {
 			return (
-				<>
+				<span>
 					<b>Hương chính: </b>
 					{str.trim().substr(12, str.length)}
-				</>
+				</span>
 			);
 		} else if (
 			str
@@ -82,12 +82,21 @@ function ProductDetailOne(props) {
 			let last_scent = str.trim().substring(Number(start_last_scent) + 11, str.length);
 			return (
 				<>
-					<b>Hương đầu: </b>
-					{first_scent} <br />
-					<b>Hương giữa: </b>
-					{middle_scent} <br />
-					<b>Hương cuối: </b>
-					{last_scent}
+					<span>
+						<b>Hương đầu: </b>
+						{first_scent}
+					</span>
+					<br />
+					<span>
+						<b>Hương giữa: </b>
+						{middle_scent}
+					</span>
+					<br />
+
+					<span>
+						<b>Hương cuối: </b>
+						{last_scent}
+					</span>
 				</>
 			);
 		} else {
@@ -179,46 +188,49 @@ function ProductDetailOne(props) {
 			)}
 
 			<div className="product-content">
-				<p className="p-0 m-0">
+				<span className="p-0 m-0">
 					{' '}
 					<b>Nhóm nước hoa:</b>
 					{product.nhom_nuoc_hoa}
-				</p>
-				<p className="p-0 m-0">
+				</span>
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Giới tính: </b>
 					{product.gender}
-				</p>
-				<p className="p-0 m-0">
+				</span>
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Nồng độ:</b>
 					{product.nong_do}
-				</p>
-				<p className="p-0 m-0">
+				</span>
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Nhà pha chế:</b>
 					{product.nha_pha_che}
-				</p>
-				<p className="p-0 m-0">
+				</span>{' '}
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Độ lưu hương:</b>
 					{product.do_luu_huong}
-				</p>
-				<p className="p-0 m-0">
+				</span>{' '}
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Độ tỏa hương:</b>
 					{product.do_toa_huong}
-				</p>
-				<p className="p-0 m-0">
+				</span>{' '}
+				<br />
+				<span className="p-0 m-0">
 					{' '}
 					<b>Thời điểm khuyên dùng:</b>
 					{product.thoi_diem_khuyen_dung}
-				</p>
-
-				<p className="p-0 m-0">
-					{splitScent(product.mui_huong)}
-					{/* <pre className="">{product.mui_huong}</pre> */}
-				</p>
+				</span>
+				<br />
+				<div className="p-0 m-0">{splitScent(product.mui_huong)}</div>
 			</div>
 
 			<div className="details-filter-row details-row-size">

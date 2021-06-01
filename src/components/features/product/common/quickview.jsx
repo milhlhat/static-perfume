@@ -88,6 +88,59 @@ function QuickView(props) {
 	let images = productDetail.lgPictures ? productDetail.lgPictures : productDetail.pictures;
 	let smallPictures = productDetail.smPictures ? productDetail.smPictures : productDetail.pictures;
 
+	function splitScent(str) {
+		if (
+			str
+				.trim()
+				.toLowerCase()
+				.includes('hương chính')
+		) {
+			return (
+				<span>
+					<b>Hương chính: </b>
+					{str.trim().substr(12, str.length)}
+				</span>
+			);
+		} else if (
+			str
+				.trim()
+				.toLowerCase()
+				.includes('hương đầu')
+		) {
+			let start_middle_scent = str
+				.trim()
+				.toLowerCase()
+				.indexOf('hương giữa');
+			let start_last_scent = str
+				.trim()
+				.toLowerCase()
+				.indexOf('hương cuối');
+			let first_scent = str.trim().substring(11, start_middle_scent);
+			let middle_scent = str.trim().substring(Number(start_middle_scent) + 11, start_last_scent);
+			let last_scent = str.trim().substring(Number(start_last_scent) + 11, str.length);
+			return (
+				<>
+					<span>
+						<b>Hương đầu: </b>
+						{first_scent}
+					</span>
+					<br />
+					<span>
+						<b>Hương giữa: </b>
+						{middle_scent}
+					</span>
+					<br />
+
+					<span>
+						<b>Hương cuối: </b>
+						{last_scent}
+					</span>
+				</>
+			);
+		} else {
+			return <>{str}</>;
+		}
+	}
 	return (
 		<Modal
 			isOpen={showModal}
@@ -148,10 +201,14 @@ function QuickView(props) {
 						</div>
 
 						<div className="product-real-detail">
-							<Link to={`${process.env.PUBLIC_URL}/product/view/${productDetail.id}`}
+							<Link
+								to={`${process.env.PUBLIC_URL}/product/view/${productDetail.id}`}
 								className="product-title"
 								dangerouslySetInnerHTML={safeContent(productDetail.name)}
 							></Link>
+							<div className="product-cat mb-1">
+										<span>{productDetail.brand}</span>
+									</div>
 							{/* <div className="ratings-container">
                                 <div className="ratings">
                                     <div className="ratings-val" style={ { width: ratings + '%' } }></div>
@@ -182,11 +239,12 @@ function QuickView(props) {
 											price.minPrice.toLocaleString(undefined, {
 												minimumFractionDigits: 0,
 												maximumFractionDigits: 2,
-											})} 
+											})}
 									</span>
 									<span className="new-price">
 										{price.maxPrice
-											? '- ' + price.maxPrice.toLocaleString(undefined, {
+											? '- ' +
+											  price.maxPrice.toLocaleString(undefined, {
 													minimumFractionDigits: 0,
 													maximumFractionDigits: 2,
 											  })
@@ -213,16 +271,17 @@ function QuickView(props) {
 								</div>
 							) : (
 								<div className="product-price">
-										<span className="new-price">
+									<span className="new-price">
 										{price.minPrice &&
 											price.minPrice.toLocaleString(undefined, {
 												minimumFractionDigits: 0,
 												maximumFractionDigits: 2,
-											})} 
+											})}
 									</span>
 									<span className="new-price">
 										{price.maxPrice
-											? '- ' + price.maxPrice.toLocaleString(undefined, {
+											? '- ' +
+											  price.maxPrice.toLocaleString(undefined, {
 													minimumFractionDigits: 0,
 													maximumFractionDigits: 2,
 											  })
@@ -232,7 +291,51 @@ function QuickView(props) {
 								</div>
 							)}
 
-							<p className="product-txt">{productDetail.shortDesc}</p>
+							<div className="product-content">
+								<span className="p-0 m-0">
+									{' '}
+									<b>Nhóm nước hoa:</b>
+									{productDetail.nhom_nuoc_hoa}
+								</span>
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Giới tính: </b>
+									{productDetail.gender}
+								</span>
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Nồng độ:</b>
+									{productDetail.nong_do}
+								</span>
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Nhà pha chế:</b>
+									{productDetail.nha_pha_che}
+								</span>{' '}
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Độ lưu hương:</b>
+									{productDetail.do_luu_huong}
+								</span>{' '}
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Độ tỏa hương:</b>
+									{productDetail.do_toa_huong}
+								</span>{' '}
+								<br />
+								<span className="p-0 m-0">
+									{' '}
+									<b>Thời điểm khuyên dùng:</b>
+									{productDetail.thoi_diem_khuyen_dung}
+								</span>
+								<br />
+								<div className="p-0 m-0">{splitScent(productDetail.mui_huong)}</div>
+							</div>
 
 							{/* { productDetail.variants ?
                                 ( productDetail.variants[ 0 ].image || productDetail.variants[ 0 ].model ) ?
@@ -312,7 +415,7 @@ function QuickView(props) {
 											onClick={addToCartHandler}
 											style={{ minHeight: isIEBrowser() ? '44px' : 'auto' }}
 										>
-											<span>Thêm vào giỏ hàng</span>
+											<span>Giỏ hàng</span>
 										</button>
 									</div>
 
@@ -350,7 +453,7 @@ function QuickView(props) {
 										))}
 									</div>
 
-                                        {/* <div className="social-icons social-icons-sm">
+									{/* <div className="social-icons social-icons-sm">
                                             <span className="social-label">Share:</span>
                                             <Link to="#" className="social-icon" title="Facebook" target="_blank">
                                                 <i className="icon-facebook-f"></i>
