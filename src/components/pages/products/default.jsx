@@ -36,6 +36,12 @@ function SingleProduct(props) {
 		<>
 			<Helmet>
 				<title>{product ? product.name : 'Sản Phẩm'} | 22 Store</title>
+				<meta property="og:keywords" content={product.brand,product.name, '22 Store', '22tuoi', '22store'}/>
+				<meta name="description" content={product.name + ' ' +product.brand +' '+ product.shortDesc}/>
+				<meta property="og:description" content={product.shortDesc}/>
+				<meta property="og:author" content={'22 Store'}/>
+				<meta property="og:image" content={`${process.env.PUBLIC_URL}/${product.pictures[0]}`}/>
+
 			</Helmet>
 			<div className="main">
 				<Breadcrumb
