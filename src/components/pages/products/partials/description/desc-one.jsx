@@ -43,10 +43,10 @@ function DescOne(props) {
 									{product.diem_tot}
 								</p>
 							)}
-							<p>
+							{/* <p>
 								<b>Điểm chưa tốt: </b>
 								{product.diem_chua_tot}
-							</p>
+							</p> */}
 						</div>
 					</TabPanel>
 
