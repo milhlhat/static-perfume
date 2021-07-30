@@ -812,7 +812,7 @@
         ],
         "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
         "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 10.0,
+        "discount": 0,
         "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
         "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
         "gender": "Nam",
@@ -1262,7 +1262,7 @@
             },
             {
                 "size": 100,
-                "price": 425000,
+                "price": 4250000,
                 "oldPrice": 425000,
                 "name": "Full box"
             }
@@ -1535,7 +1535,7 @@
         "diem_chua_tot": " Chai n\u01b0\u1edbc hoa c\u00f3 \u0111\u1ed9 l\u01b0u h\u01b0\u01a1ng v\u00e0 t\u1ecfa h\u01b0\u01a1ng kh\u00e1 t\u1ec7. v\u00e0 h\u01b0\u01a1ng th\u01a1m th\u1ec3 hi\u1ec7n kh\u00f4ng ti\u1ebft \u0111\u1eb7c bi\u1ec7t l\u00e0 v\u00e0o th\u1eddi ti\u1ebft l\u1ea1nh c\u1ee7a m\u00f9a thu v\u00e0 \u0111\u00f4ng.",
         "diem_tot": " M\u1ed9t m\u00f9i h\u01b0\u01a1ng ng\u1ecdt ng\u00e0o nh\u1eb9 nh\u00e0ng v\u1edbi c\u00e1c n\u1ed1t h\u01b0\u01a1ng hoa c\u1ecf v\u00e0 tr\u00e1i c\u00e2y. Mang l\u1ea1i m\u1ed9t c\u1ea3m gi\u00e1c n\u1eef t\u00ednh thanh tao cho c\u00e1c qu\u00fd c\u00f4 \u1edf m\u1ecdi \u0111\u1ed9 tu\u1ed5i. M\u1eabu chai mang thi\u1ebft k\u1ebf d\u1ec5 th\u01b0\u01a1ng.",
         "discount": 0,
-        "do_luu_huong": " R\u1ea5t k\u00e9m - D\u01b0\u1edbi 1 gi\u1edd",
+        "do_luu_huong": "",
         "do_toa_huong": " R\u1ea5t g\u1ea7n - Thoang tho\u1ea3ng tr\u00ean l\u00e0n da",
         "gender": "N\u1eef",
         "id": 39.0,
@@ -1640,13 +1640,13 @@
         "variants": [
             {
                 "size": 10,
-                "price": 189000,
+                "price": 250000,
                 "oldPrice": 189000,
                 "name": "Chi\u1ebft"
             },
             {
                 "size": 100,
-                "price": 1190000,
+                "price": 1400000,
                 "oldPrice": 1190000,
                 "name": "Full box"
             }
@@ -1791,7 +1791,7 @@
         ],
         "diem_chua_tot": "\u0110\u00e1nh gi\u00e1",
         "diem_tot": "\u0110\u00e1nh gi\u00e1",
-        "discount": 0,
+        "discount": 10,
         "do_luu_huong": " L\u00e2u - 7 gi\u1edd \u0111\u1ebfn 12 gi\u1edd",
         "do_toa_huong": " G\u1ea7n - To\u1ea3 h\u01b0\u01a1ng trong v\u00f2ng m\u1ed9t c\u00e1nh tay",
         "gender": "Nam",
@@ -1811,14 +1811,14 @@
         "variants": [
             {
                 "size": 10,
-                "price": 189000,
-                "oldPrice": 189000,
-                "name": "Chi\u1ebft"
+                "price": 235000,
+                "oldPrice": 250000,
+                "name": "Chiết"
             },
             {
                 "size": 105,
                 "price": 1400000,
-                "oldPrice": 2390000,
+                "oldPrice": 1600000,
                 "name": "Full box"
             }
         ],

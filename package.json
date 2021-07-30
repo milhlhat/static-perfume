@@ -2,7 +2,7 @@
   "name": "22store",
   "version": "0.1.2",
   "private": true,
-  "homepage": "https://nhat1199.github.io",
+  "homepage": "http://22tuoi.com",
   "basename": "/",
   "dependencies": {
     "@babel/core": "^7.1.0",

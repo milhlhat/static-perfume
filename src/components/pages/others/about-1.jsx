@@ -5,12 +5,6 @@ import { Helmet } from 'react-helmet';
 // import Custom Components
 import Breadcrumb from '../../common/breadcrumb';
 import ProfileOne from '../../features/profile/profile-one';
-import OwlCarousels from '../../features/owl-carousel';
-import Testimonial from '../../features/testimonial';
-
-// import Utils
-import { mainSlider5 } from '../../settings';
-
 import _data from '../../../mock_data/data.json';
 
 function AboutOne() {
@@ -47,7 +41,7 @@ function AboutOne() {
 							<p>
 								Nước hoa không còn là sản phẩm xa xỉ nữa, đó là thứ mà mọi người có thể tiếp cận. 22
 								Store là 1 dự án nhỏ được lập bởi 2 sinh viên ĐH FPT với mong muốn đưa nước
-								hoa đến với mọi người, giúp mọi người tiếp cận đến nước hoa một cách dễ dàng.
+								hoa chính hãng đến với mọi người, giúp mọi người tiếp cận đến nước hoa một cách dễ dàng.
 							</p>
 						</div>
 
@@ -74,29 +68,7 @@ function AboutOne() {
 					<div className="mb-5"></div>
 				</div>
 
-				{/* <div className="bg-light-2 pt-6 pb-5 mb-6 mb-lg-8">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-5 mb-3 mb-lg-0">
-                                <h2 className="title">Who We Are</h2>
-                                <p className="lead text-primary mb-3">Pellentesque odio nisi, euismod pharetra a ultricies <br />in diam. Sed arcu. Cras consequat</p>
-                                <p className="mb-2">Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus metus libero eu augue. </p>
-
-                                <Link to={ `${process.env.PUBLIC_URL}/blog/classic` } className="btn btn-sm btn-minwidth btn-outline-primary-2">
-                                    <span>VIEW OUR NEWS</span>
-                                    <i className="icon-long-arrow-right"></i>
-                                </Link>
-                            </div>
-
-                            <div className="col-lg-6 offset-lg-1">
-                                <div className="about-images">
-                                    <img src={ `${process.env.PUBLIC_URL}/assets/images/about/img-1.jpg` } alt="" className="about-img-front" />
-                                    <img src={ `${process.env.PUBLIC_URL}/assets/images/about/img-2.jpg` } alt="" className="about-img-back" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+			
 
 				<div className="container">
 					<div className="row">
@@ -129,61 +101,34 @@ function AboutOne() {
 
 					<hr className="mt-4 mb-6" />
 
-					<h2 className="title text-center mb-4">Meet Our Team</h2>
+					{/* <h2 className="title text-center mb-4">Meet Our Team</h2>
 
 					<div className="row">
 						<div className="col-md-6">
 							<ProfileOne
-								image={`https://scontent.fhph1-2.fna.fbcdn.net/v/t1.6435-9/173736615_3564534123770685_4974400378565027938_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=PLX05w26KCUAX_H9BQZ&_nc_ht=scontent.fhph1-2.fna&oh=c0d1ffd80a32dffbb43bb8729124381d&oe=60BEB1C6`}
+								image={``}
 								name="Nguyễn Minh Nhật"
-								title="Founder & CEO"
+								title="Founder"
 								content=""
 								facebook="https://www.facebook.com/milhlhat"
 							/>
 						</div>
 						<div className="col-md-6">
 							<ProfileOne
-								image={`https://scontent.fhph1-1.fna.fbcdn.net/v/t1.6435-9/127264464_229200945290609_8484432226153336988_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ZRMUzFK4JUAAX_45cU4&_nc_ht=scontent.fhph1-1.fna&oh=d817562a11143445ca457c68c9ccf5fd&oe=60BC12EE`}
-								name="Ngô Minh Thắng"
-								title="Co-Founder & Product Manager"
+								image={``}
+								name="Ngọc Yến"
+								title="Co-Founder"
 								content=""
-								facebook="https://www.facebook.com/thangnm99"
+								facebook=""
 							/>
 						</div>
-						{/* <div className="col-md-4">
-							<ProfileOne
-								image={`assets/images/team/member-2.jpg`}
-								name="Bruce Sutton"
-								title="Sales & Marketing Manager"
-								content="Sed pretium, ligula sollicitudin viverra, tortor libero sodales leo, eget blandit nunc."
-							/>
-						</div> */}
-					</div>
+					
+					</div> */}
 				</div>
 
 				<div className="mb-2"></div>
 
-				{/* <div className="about-testimonials bg-light-2 pt-6 pb-6">
-					<div className="container">
-						<h2 className="title text-center mb-3">What Customer Say About Us</h2>
-
-						<OwlCarousels adClass="owl-simple owl-testimonials-photo" carouselOptions={mainSlider5}>
-							<Testimonial
-								image={`assets/images/testimonials/user-1.jpg`}
-								content="“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque aliquet nibh nec urna. <br/>In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. ”"
-								name="Jenson Gregory"
-								job="Customer"
-							/>
-
-							<Testimonial
-								image={`assets/images/testimonials/user-2.jpg`}
-								content="“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.Velit quos ipsa exercitationem, vel unde obcaecati impedit eveniet non. ”"
-								name="Victoria Ventura"
-								job="Customer"
-							/>
-						</OwlCarousels>
-					</div>
-				</div> */}
+			
 			</div>
 		</div>
 	);
